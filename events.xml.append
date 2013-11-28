@@ -7807,7 +7807,7 @@
 	<event>
 		<text>While you search the field, you suddenly stumble upon what appears to be a secret outlaw base, hidden within a hollowed out asteroid. They power up the defense turrets as soon as you scan them.</text>
 		<environment type="asteroid"/>
-		<ship load="BS_PIRATE_ASTEROID" hostile="false"/>
+		<ship load="BS_PIRATE_ASTEROID" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
