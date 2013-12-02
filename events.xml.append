@@ -689,7 +689,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -799,7 +799,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -907,7 +907,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1016,7 +1016,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1121,7 +1121,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1223,7 +1223,7 @@
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
 		<choice hidden="true">
-			<text>Begin the engagement with he current augment configuration.</text>
+			<text>Begin the engagement with the current augment configuration.</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
