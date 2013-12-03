@@ -13197,7 +13197,7 @@
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 	</event>
 	<event>
-		<text>"Wow, that worked really well. Guess we have a chance to get home in one piece now. You should take some of our cargo, we just want to get out of this sector as quickly as possible. These consumer goods sell really well in far off sectors, like nebulae and pirate territories. Try to make them worthwhile."</text>
+		<text>"Wow, that worked really well. Guess we have a chance to get home in one piece now. You should take some of our cargo. We just want to get out of this sector as quickly as possible. These consumer goods sell really well in far off sectors, like nebulae and pirate territories. Try to make them worthwhile."</text>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 	</event>
 	<event>
