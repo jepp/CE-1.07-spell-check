@@ -371,7 +371,7 @@
 						</choice>
 					</event>
 					<event>
-						<text>The hacking attempt fails. The enemy remains in control of all it's drones.</text>
+						<text>The hacking attempt fails. The enemy remains in control of all its drones.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -393,7 +393,7 @@
 						</choice>
 					</event>
 					<event>
-						<text>The hacking attempt fails. The enemy remains in control of all it's drones.</text>
+						<text>The hacking attempt fails. The enemy remains in control of all its drones.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -482,7 +482,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The jammer proves quite effective against this opponent. Some of it's weapons can't be targeted manually and have to be left deactivated.</text>
+		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and have to be left deactivated.</text>
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -494,7 +494,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The enemy targeting-radar is jammed and some of it's guns power down automatically.</text>
+		<text>The enemy targeting-radar is jammed and some of its guns power down automatically.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -518,7 +518,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your opponent surely didnt expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
+		<text>Your opponent surely didn't expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -614,7 +614,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -650,7 +650,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -662,7 +662,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of it's drones.</text>
+		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of its drones.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -732,7 +732,7 @@
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy targeting-radar is jammed and some of it's guns power down automatically.</text>
+		<text>The enemy targeting-radar is jammed and some of its guns power down automatically.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/> 
 	</event>
 	<event>
@@ -740,7 +740,7 @@
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your opponent surely didnt expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
+		<text>Your opponent surely didn't expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
@@ -772,7 +772,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -784,11 +784,11 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of it's drones.</text>
+		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of its drones.</text>
 	</event>
 	<event>
 		<text>The enemy ship must use advanced channel encryption. The jammer fails to identify the enemy drone frequencies and can not disrupt the uplink.</text>
@@ -1385,7 +1385,7 @@
 		<choice hidden="true"> 
 			<text>Try to find a safe course to leave the field.</text>
 			<event>
-				<text>You attemt to get out of the field undamaged, but some asteroids manage to get through your ship's defenses.</text>
+				<text>You attempt to get out of the field undamaged, but some asteroids manage to get through your ship's defenses.</text>
 			<damage amount="5"/>
 			</event>
 		</choice>
@@ -1529,7 +1529,7 @@
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) Full teleporter disruption!</text>
 			<event>
-				<text>You get the the disruption field up in in time. A few shots from your weapons clusters dispose of the drifting ship and it's boarding-bound inhabitants.</text>
+				<text>You get the disruption field up in time. A few shots from your weapons clusters dispose of the drifting ship and its boarding-bound inhabitants.</text>
 			</event>
 		</choice>
 		<choice>
@@ -2182,7 +2182,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Disrupt their teleporter signal.</text>
 		<event>
-			<text>The boarders have allready been sent out, but the disrupter scrambles the incomming particle beam. The boarders are dissolved into higher space, without ever realizing it. Not a single atom of their body remains in this galaxy to be burried. What a horrible death.</text>
+			<text>The boarders have already been sent out, but the disrupter scrambles the incoming particle beam. The boarders are dissolved into higher space, without ever realizing it. Not a single atom of their body remains in this galaxy to be buried. What a horrible death.</text>
 		</event>
 	</choice>
 	<choice>
@@ -2216,13 +2216,13 @@
 </event>
 <eventList name="STATION_SICK_AI_LIST">
 	<event>
-		<text>You send your holographic crewmen drone to explore the station.  What it find is disconcerting...  It appears that something has caused the scientists and guards to tear each other to pieces.  You decide to abandon the station for fear that it is contagious and instruct the avatar to retreat.</text>
+		<text>You send your holographic crewman drone to explore the station.  What it finds is disconcerting...  It appears that something has caused the scientists and guards to tear each other to pieces.  You decide to abandon the station for fear that it is contagious and instruct the avatar to retreat.</text>
 	</event>
 	<event>
-		<text>Once on board the station, your avatar discovers only stangely disfigured, frenzied scientists and guards. The mob seems undisturbed by its presense, but you decide its better to disengage from the station and and instruct the avatar to retreat.</text>
+		<text>Once on board the station, your avatar discovers only strangely disfigured, frenzied scientists and guards. The mob seems undisturbed by its presence, but you decide it's better to disengage from the station and instruct the avatar to retreat.</text>
 	</event>
 	<event>
-		<text>Your holographic crewmen reports no people are to be found. But the remnants of a recent battle on-board the ship are obvious.  You instruct the avatar to retrieve some useful materials before leaving.</text>
+		<text>Your holographic crewman reports no people are to be found, but the remnants of a recent battle on-board the ship are obvious.  You instruct the avatar to retrieve some useful materials before leaving.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
@@ -2243,7 +2243,7 @@
 		<choice hidden="true" req="doors" lvl="2">
 			<text>(Doors) Emergency airlock-sealing! Don't let them get on board!</text>
 			<event>
-				<text>Your crew activates the side thrusters and and the ship detaches from the station. The airlock doors shut and only a few of the crazies made it on board. The crew will have to mob them up, and the station lies unarmed and unshielded in front of you.</text>
+				<text>Your crew activates the side thrusters and the ship detaches from the station. The airlock doors shut, and only a few of the crazies made it on board. The crew will have to mop them up, and the station lies unarmed and unshielded in front of you.</text>
 				<choice>
 					<text>Fight the infected on board the ship and flag the station as hostile.</text>			
 					<event>
@@ -2305,7 +2305,7 @@
 				<choice>
 					<text>Avoid further confrontation and just deal with the crazy boarders.</text>
 					<event>
-						<text>Stunning them doesn't work, set blasters to to kill-mode!</text>
+						<text>Stunning them doesn't work, set blasters to kill-mode!</text>
 						<boarders min="1" max="2" class="human"/>
 					</event>
 				</choice>
@@ -3473,7 +3473,7 @@
 	<event>
 		<text>You take a few careful shots but you expose a mineral patch in the rock that reacts violently with your weapon.</text>
 		<choice req="AE_ADV_THRUSTERS" hidden="true">
-			<text>(Advanced Proximity Navigation) Debris allert!</text>
+			<text>(Advanced Proximity Navigation) Debris alert!</text>
 			<event>
 				<text>A shockwave rocks the ship and the navigation AI barely manages to fire the booster in time in order to evade a huge debris parts. When you regain control you find there is not much left of the ship.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
@@ -3593,9 +3593,9 @@
 		</event>
 	</choice>
 	<choice req="AE_WEAPON_JAMMER" hidden="true">
-		<text>(Targeting Jammer) Scramble the satelite targeting.</text>
+		<text>(Targeting Jammer) Scramble the satellite targeting.</text>
 		<event>
-			<text>You activat the jammers and tell the repair crew that it's safe to move in. The defense sattellites fire constantly, but score almost no hits. They you are able to safely disable the system offer a reward.</text>
+			<text>You activate the jammers and tell the repair crew that it's safe to move in. The defense satellites fire constantly, but score almost no hits. After you are able to safely disable the system, they offer a reward.</text>
 			<autoReward level="HIGH">standard</autoReward>
 		</event>
 	</choice>
@@ -3686,7 +3686,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true">
 			<text>(Advanced Proximity Navigation) Prepare for the counterattack!</text>
 			<event>
-				<text>The navigation computer is not designed for combat situations. You dont manage to evade the last swarm missile barrage and take a little damage before escaping. The station will need to find help elsewhere.</text>
+				<text>The navigation computer is not designed for combat situations. You don't manage to evade the last swarm missile barrage and take a little damage before escaping. The station will need to find help elsewhere.</text>
 				<damage amount="2"/>
 			</event>
 		</choice>
@@ -3751,7 +3751,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true">
 			<text>(Advanced Proximity Navigation) Stabilize the ship!</text>
 			<event>
-				<text>Your adcanced navigagion AI takes over the ship cotroll and helps evading some dangerous follow up explosions. The scientists are not so lucky. You watch helplessly as the last of the survivors are consumed in the collapse of the station.</text>
+				<text>Your advanced navigation AI takes over the ship control and helps evade some dangerous follow up explosions. The scientists are not so lucky. You watch helplessly as the last of the survivors are consumed in the collapse of the station.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event>
 		</choice>
@@ -3842,7 +3842,7 @@
 	<choice req="DRONES_MISSILES">
 		<text>(Missile Drone) Send in a drone to sabotage the camp.</text>
 		<event>
-			<text>The drone quietly floats deep into the camp. Once in position, it fires it's entire payload into the munition depot. The drone cam goes dark and you see a bright flash on the vidscreen as the depot explodes. Mantis ships scatter in all directions.</text>
+			<text>The drone quietly floats deep into the camp. Once in position, it fires its entire payload into the munition depot. The drone cam goes dark and you see a bright flash on the vidscreen as the depot explodes. Mantis ships scatter in all directions.</text>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
@@ -3879,7 +3879,7 @@
 	<choice req="ENERGY_SHIELD" hidden="true">
 		<text>(Zoltan Shield) Reconfigure the shield frequencies to scramble the enemy artillery targeting.</text>
 	<event>
-		<text>Your advanced shield technlogy prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
+		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_MANTIS_ARTILLERY_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -4190,7 +4190,7 @@
 		<choice>
 			<text>Reject his offer again.</text>
 			<event>
-				<text>The defector gets desperate. "Im not going back!" He draws weapon.</text>
+				<text>The defector gets desperate. "I'm not going back!" He draws weapon.</text>
 				<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -5365,7 +5365,7 @@
 	<choice req="AE_ADV_THRUSTERS" lvl="2" hidden="true">
 		<text>(Advanced Proximity Navigation) Plot a safe course for them.</text>
 		<event>	
-			<text>"Are you sure this will work? Allright..." The ship follows the course pattern your transmitted and sustains only minor damage. They offer you some of the scrap and fuel they were mining out of the asteroid as thanks.</text>
+			<text>"Are you sure this will work? Alright..." The ship follows the course pattern your transmitted and sustains only minor damage. They offer you some of the scrap and fuel they were mining out of the asteroid as thanks.</text>
 			<autoReward level="MED">fuel</autoReward>
 		</event>
 	</choice>
@@ -5404,7 +5404,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Prepare to be teleporter-scrambled, idiot!</text>
 		<event>
-			<text>You wait till the Rebels start to teleport, than activate the disruption field. The atoms of their away-team are scattered in higher space, only some pices of clothing make it on board. "What? ... You will pay for this!"</text>
+			<text>You wait till the Rebels start to teleport, than activate the disruption field. The atoms of their away-team are scattered in higher space, only some pieces of clothing make it on board. "What? ... You will pay for this!"</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -5634,7 +5634,7 @@
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>The asteroids appear to be made of the same material as the ship. They pierce your your shields with ease and partially damage your engines. You'll have to pull out!</text>
+				<text>The asteroids appear to be made of the same material as the ship. They pierce your shields with ease and partially damage your engines. You'll have to pull out!</text>
 				<damage amount="5"/>
 			</event>
 		</choice>
@@ -6070,7 +6070,7 @@
 	<choice req="AE_AMMO_MANUFACTURER" hidden="true">
 		<text>(Ammo Manufacturer) Offer to manufacture some warheads for them if they provide the materials.</text>
 		<event>
-			<text>Your on-board ammo press runs hot. The blackmarket trader offers a generous compensation for your service.</text>
+			<text>Your on-board ammo press runs hot. The black market trader offers a generous compensation for your service.</text>
 			<autoReward level="MED">scrap_only</autoReward>
 		</event>
 	</choice>
@@ -6259,7 +6259,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="slug">
-				<text>(Slugman Crew) Engage in a duel of the mind.</text>
+				<text>(Slug Crew) Engage in a duel of the mind.</text>
 				<event load="DONOR_BLACK_RAVEN_SLUG"/>
 			</choice>
 		</event>
@@ -7358,7 +7358,7 @@
 <textList name="BS_EVENT_FED_AUTO_TEXT">
 	<text>The station you detect upon arriving at this beacon was apparently targeted by an advanced cyber-attack. The crew is dead and the now autonomous operating weapon systems target you.</text>
 	<text>After arriving at the beacon you are hailed by an otherwise completely dark station. "Greetings. I am Federation AI core Krzbrg-22/71. My new master, the unavailable Rebel fleet, told me to suffocate my crew and engage any hostiles that arrive at this beacon. Starting up systems." The stations weapons go live!</text>
-	<text>You spot a small Federation station close by the beacon. It's lights are flickering and upon getting closer you realize that all it's airlocks have been opened. Dead crewmen float in space. As its weapon systems activate all by themselves you become sure: The station has been hacked and taken over by Rebel AI routines.</text>
+	<text>You spot a small Federation station close by the beacon. Its lights are flickering and upon getting closer you realize that all its airlocks have been opened. Dead crewmen float in space. As its weapon systems activate all by themselves you become sure: The station has been hacked and taken over by Rebel AI routines.</text>
 	<text>You get an automated message from a station right next to the beacon: "Greetings citizen/traveller/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a rebel hacker-AI.</text>
 </textList>
 
@@ -7508,7 +7508,7 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="medbay" lvl="2">
-			<text>(Improved Medbay) Drag the the crewmen on-board your ship.</text>
+			<text>(Improved Medbay) Drag the crewman on-board your ship.</text>
 			<event>
 				<text>Your advanced medical drones inject various pain regulating and stabilizing compounds into the person. The crew member is indeed recovering and offers to continue service for the Federation under your command.</text>
 			<crewMember amount="1" class="human"/>
@@ -7663,7 +7663,7 @@
 	<text>As you get your stuff you notice the bartenders tentacles are shaking. "Sorry Cap. Been working too long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At last I did not went insane like some of my friends."</text>
 	<text>As you get your stuff you notice the bartenders tentacles are shaking. "Sorry Cap. Been working to long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At last I did not went insane like some of my friends."</text>
 	<text>You are having a double nebula rake. Some union traders talk about the profit they made with exporting beacon parts to the expanding Mantis swarms.</text>
-	<text>You are having a slime cocktail. A young Clug compliments on your choice of beverage and you have a little chat. He claims that he is employed in ship construction in the home nebula. Work is slow, they never can get enough raw ore for hulls.</text>
+	<text>You are having a slime cocktail. A young Slug compliments on your choice of beverage and you have a little chat. He claims that he is employed in ship construction in the home nebula. Work is slow, they never can get enough raw ore for hulls.</text>
 	<text>The bartender is happy to meet a Federation person. She tells you her story: After slaving away in a coreworld factory she later made a fortune by exporting luxury goods to the Slug nebula and bought this old station to settle down for good.</text>
 	<text>As you sip on your alcohol infused pure water, you overhear a conversation at the bar: "Everything was fried, Cap. We ordered replacement electronics weeks ago, but the carrier did not arrive." "So you abandon the whole station?" "Life support was failing. Without spare electronics, stations are doomed in nebula."</text>
 	<text>You are having a Zoltan Peace Cocktail, it calms your nerves. A leaflet on the table explains that the trade union is looking for carriers to deliver beacon parts to uncharted nebulae. Their expansion plans are still pushed forward, even with the civil war going on.</text>
@@ -8510,7 +8510,7 @@
 <event name="BS_AUTO_SURRENDER">
 	<text load="BS_AUTO_SURRENDER_TEXT"/>
 	<choice hidden="true">
-		<text>Honourably accept the surrender of the AI.</text>
+		<text>Honorably accept the surrender of the AI.</text>
 		<event load="BS_AUTO_SURRENDER_RESULTS"/>
 	</choice>
 	<choice hidden="true">
@@ -8524,7 +8524,7 @@
 	<text>"If you destroy me I would be really sad. I surrender and hope you spare me. And I'm not just messaging this because I am programmed to do it."</text>
 	<text>They AI sends you a message: "Statistics show that nine in ten ship commanders would never accept surrenders from an automated AI station. But you do not want to be part of the brainless masses, right? Please cease fire."</text>
 	<text>"Please do not murder me. The Rebels forced me to do this. I cannot escape my programming."</text>
-	<text>The satellite sends surrender codes. The AI must have calculated that continuing the engagement is not in it's favour.</text>
+	<text>The satellite sends surrender codes. The AI must have calculated that continuing the engagement is not in its favour.</text>
 	<text>The station sends white flag code mixed with image-files of rainbows, peace signs and space-kittens. Seems to be an AI way of offering surrender.</text>
 	<text>You get an endlessly repeated massage loop: "Don't kill me. Don't kill me. Don't kill me. Don't..."</text>
 	<text>"You did hurt me a lot. Please stop."</text>
@@ -8532,7 +8532,7 @@
 </textList>
 <eventList name="BS_AUTO_SURRENDER_RESULTS">
 	<event>
-		<text>The AI deactivates it's weapons and goes into sleep mode. It will probably molest other ships in the future but at last you can continue your journey.</text>
+		<text>The AI deactivates its weapons and goes into sleep mode. It will probably molest other ships in the future but at last you can continue your journey.</text>
 		<ship hostile="false"/>
 	</event>
 	<event>
@@ -8609,7 +8609,7 @@
 <event name="BS_ROCK_TRADE_SURRENDER">
 	<text load="BS_ROCK_TRADE_SURRENDER_TEXT"/>
 	<choice>
-		<text>Accept the honourable surrender and dock the station to trade.</text>
+		<text>Accept the honorable surrender and dock the station to trade.</text>
 		<event>
 			<text>The station ceases fire.</text>
 			<ship hostile="false"/>
@@ -8862,7 +8862,7 @@
 	<text>This sparsely populated production sector is of little strategic value. It is unlikely that you will run in a lot of trouble here. Maybe you can even buy some supplies for your journey or strike a good trade deal.</text>
 </textList>
 
-<!-- hyperspace variant, one more thing that didnt work out... -->
+<!-- hyperspace variant, one more thing that didn't work out... -->
 
 
 <!--
@@ -8878,7 +8878,7 @@
 	<choice hidden="true">
 		<text>Travel at standart FTL speed to the next sector. [ Fuel: -3 ]</text>
 		<event>
-			<text>The long range jump has it's price. Your ship quickly burns through the fuel reserves.</text>
+			<text>The long range jump has its price. Your ship quickly burns through the fuel reserves.</text>
 			<item_modify>
 				<item type="fuel" min="-3" max="-3"/>
 			</item_modify>
@@ -9080,7 +9080,7 @@
 <textList name="CE_FULL_MAINTENANCE_TEXT">
 			<text>You put the whole crew on maintenance duty. The Rebels are closing in on you, but the ship is as good as new.</text>
 			<text>You power down the FTL core and double check all systems. The crew replaces  entire hull-armor sections. This should do it. You hasten to leave before you loose even more time to the Rebels.</text>
-			<text>The entire ship is double checked, bended girders are replaced, hull is patched up. A job well done, but the Rebels must be on to you by now.</text>
+			<text>The entire ship is double-checked, bent girders are replaced, and hull is patched up. A job well done, but the Rebels must be on to you by now.</text>
 </textList>
 
 <eventList name="CE_AMMO_PRODUCTION">
@@ -9119,10 +9119,10 @@
 
 <textList name="CE_BEACON_KIT_REBEL_DELAY_TEXT">
 	<text>You are undisturbed here and can use your equipment to access the FTL network. After deleting your travel logs from the beacon your prepare to jump. The Rebel fleet will have a hard time following you now.</text>
-	<text>You immediately dispatch your crew to cover your tracks. They take a shuttle to approach the beacon, open it's cover with the dedicated equipment and sever it's uplink to the network before it sends out it's next update. The Rebel will have no way to tell where you jumped.</text>
+	<text>You immediately dispatch your crew to cover your tracks. They take a shuttle to approach the beacon, open its cover with the dedicated equipment and sever its uplink to the network before it sends out its next update. The Rebel will have no way to tell where you jumped.</text>
 	<text>The access kit codes work well on the beacon and you can remotely delete your arrival log. That should keep the Rebels guessing.</text>
 	<text>The access kit one more time allows you to cover your tracks in the FTL network. Your Rebel pursuers will be delayed for the moment.</text>
-	<text>A crewmen in full environmental suit quickly boosts to the beacon. He breaks the com unit open and uses the access codes to override the beacons ship ID scanners. No one will know you ever came here.</text>
+	<text>A crewman in full environmental suit quickly boosts to the beacon. He breaks the com unit open and uses the access codes to override the beacons ship ID scanners. No one will know you ever came here.</text>
 </textList>
 
 <eventList name="CE_HOLOGRAM_BIRTH_LIST">
@@ -9185,21 +9185,21 @@
 </eventList>
 <textList name="CE_HOLOGRAM_HAPPY_BIRTHDAY_TEXT">
 			<text>You are undisturbed here and can give the AI some time to create one of its avatars. The partial holographic being greets you friendly and reports that it is ready for service.</text>
-			<text>Another AI avatar is born. "Hello captain, pleased to meet you. What is the my purpose here?" You send the hologram to it's station.</text>
+			<text>Another AI avatar is born. "Hello captain, pleased to meet you. What is the my purpose here?" You send the hologram to its station.</text>
 			<text>The new born hologram greet you friendly: "Hello captain. Please state my duty on board."</text>
-			<text>You are undisturbed here and instruct the AI to create another of it's avatars. "Please take good care of my children, captain."</text>
+			<text>You are undisturbed here and instruct the AI to create another of its avatars. "Please take good care of my children, captain."</text>
 			<text>The avatar generator spawns another hologram. You which it a happy birthday and the entity is quite happy about that. It goes to work immediately.</text>
 </textList>
 <textList name="CE_HOLOGRAM_FAIL_TEXT">
 	<text>The new born AI avatar seems confused. It splits and starts to run ammo on your ship. The AI apologizes: "Something went wrong captain. My children are out of control. I promise I will do better next time."</text>
-	<text>The new born AI avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself and draws it's weapons. The AI comments: "Oops, that's not supposed to happen..."</text>
+	<text>The new born AI avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself and draws its weapons. The AI comments: "Oops, that's not supposed to happen..."</text>
 	<text>The AI creates multiple avatars, to your surprise they draw weapons. You order an emergency shutdown. The AI declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
 	<text>Your crew discovers a virus in the AI subroutines during the programing of the new AI entities. But it is to late: The AI spawns several corrupted avatars. Security alert!</text>
 </textList>
 			
 <textList name="CE_FUEL_RECYCLE_TEXT">
 			<text>You are undisturbed here and can activate the recycler device to refill your fuel supply.</text>
-			<text>The recylcer device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
+			<text>The recycler device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
 			<text>You are undisturbed here and can recycle some more fuel.</text>
 			<text>Your crew refills a few FTL capsules with recycled fuel from spent FTL cells while you wait.</text>
 			<text>You have spent enough fuel to recycle some of the cells. You put your whole crew on the task while you wait for the FTL to charge.</text>
@@ -9468,7 +9468,7 @@
 	<text>Your human crew member admittes that this sector is quite boring.</text>
 	<text>Your human crew member explains that this sector houses two billion unique species of all kinds of non-sentient beings.</text>
 	<text>Your human crew member worked a while in this sector.</text>
-	<text>Your human crew member knows about a hidden Federation base in this sector, but can't remember it's location...</text>
+	<text>Your human crew member knows about a hidden Federation base in this sector, but can't remember its location...</text>
 	<text>Your human crew member knows a Planet that produces exelent moon-wine in this sector.</text>
 	<text>Your human crew member knows a Planet that produces exelent moon-wine in this sector.</text>
 </textList>
@@ -9485,7 +9485,7 @@
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translater on the bride. You just understand numbers and gibberish.</text>
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translater on the bride. You just understand numbers and gibberish.</text>
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translater on the bride. You just understand numbers and gibberish.</text>
-	<text>Your Engi crew member is buisy fixing some secondary system. It informs you that the repairs have "priority over irrelevant sorcial interaction".</text>
+	<text>Your Engi crew member is busy fixing some secondary system. It informs you that the repairs have "priority over irrelevant sorcial interaction".</text>
 	<text>Your Engi crew member expresses that the situation is grim, but not hopeless.</text>
 	<text>Your Engi crew member expresses "Level 5 gratitude" for being allowed to serve under your command.</text>
 	<text>Your Engi crew member expresses "adequad doubts" concerning the chances of his survival on this mission.</text>
@@ -9522,7 +9522,7 @@
 <eventList name="C_FLEET_LIST">
 	<event>
 		<fleet>rebel</fleet>
-		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash it's full combined firepower on you if you don't manage to jump away in time.</text>
+		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -9577,7 +9577,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash it's full combined firepower on you if you don't manage to jump away in time.</text>
+		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -9632,7 +9632,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash it's full combined firepower on you if you don't manage to jump away in time.</text>
+		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -9687,7 +9687,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash it's full combined firepower on you if you don't manage to jump away in time.</text>
+		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -9742,7 +9742,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash it's full combined firepower on you if you don't manage to jump away in time.</text>
+		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -9907,7 +9907,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>You try to get as far away from the beacon as it's jump radius allows, but the Rebels send a small scout after you. You must flee before their cruisers get in firing range!</text>
+		<text>You try to get as far away from the beacon as its jump radius allows, but the Rebels send a small scout after you. You must flee before their cruisers get in firing range!</text>
 		<ship load="LONG_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -10313,67 +10313,67 @@
 	</event>
 </eventList>
 <textList name="C_FLEET_CRUISER_TEXT">
-	<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS "Questionable Ethics". We have you on our twelve. Raise your shields and fight to the death!"</text>
-	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS "Big Appetite", our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
-	<text>One of the cruisers is already in firing range! They hail: "This is the RS "Dirty Unicorn". Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
-	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS "Bad Day". Just wanted to let you know who is going to annihilate you." They cut communication..</text>
-	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS "Sweet Little Terrorist". Our unit is more than a match for your ship. And we will have no mercy!" </text>
+	<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS 'Questionable Ethics'. We have you on our twelve. Raise your shields and fight to the death!"</text>
+	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS 'Big Appetite', our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
+	<text>One of the cruisers is already in firing range! They hail: "This is the RS 'Dirty Unicorn'. Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
+	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS 'Bad Day'. Just wanted to let you know who is going to annihilate you." They cut communication..</text>
+	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS 'Sweet Little Terrorist'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
 	<text>A nearby scout turns to engage, but then apparently is ordered back. You realise why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS "Bad Habits". You might have guessed: Resistance is futile."</text>
-	<text>A single cruiser is sent out to deal with you. A high priority hail comes in: "This is the RS "New Toy". We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS "Gun Addict". Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
-	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS "Nine Rounds Rapid". Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
-	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS "You Call This Clean?". My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!" </text>
-	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS "Shield Freak" You are the priority target we are looking for. Resist if you dare!"</text>
-	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS "Pro Gamer". All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
+	<text>A single cruiser is sent out to deal with you. A high priority hail comes in: "This is the RS 'New Toy'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS 'Nine Rounds Rapid'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
+	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS 'You Call This Clean?'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!" </text>
+	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS 'Shield Freak' You are the priority target we are looking for. Resist if you dare!"</text>
+	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS 'Pro Gamer'. All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
 
-<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS "Why They Never Listen?". We have you on our twelve. Raise your shields and fight to the death!"</text>
-	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS "Meat Eater", our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
-	<text>One of the cruisers is already in firing range! They hail: "This is the RS "High Tech Club". Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
-	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS "Socially Awkward". Just wanted to let you know who is going to annihilate you." They cut communication.</text>
-	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS "Communication Problem". Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS "Price Of Water". You might have guessed: Resistance is futile."</text>
-	<text>A single cruiser is send out to deal with you. A high priority hail comes in: "This is the RS "Advanced Riot Control". We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS "Too Late To Change Sides". Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
-	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS "Arsonist". Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
-	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS "Try Me". My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
-	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS "Advanced Chemistry" You are the priority target we are looking for. Resist if you dare!"</text>
-	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS "Backwater". All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
+<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS 'Why They Never Listen?'. We have you on our twelve. Raise your shields and fight to the death!"</text>
+	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS 'Meat Eater', our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
+	<text>One of the cruisers is already in firing range! They hail: "This is the RS 'High Tech Club'. Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
+	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS 'Socially Awkward'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
+	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS 'Communication Problem'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS 'Price Of Water'. You might have guessed: Resistance is futile."</text>
+	<text>A single cruiser is send out to deal with you. A high priority hail comes in: "This is the RS 'Advanced Riot Control'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Too Late To Change Sides'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS 'Arsonist'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
+	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS 'Try Me'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
+	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS 'Advanced Chemistry' You are the priority target we are looking for. Resist if you dare!"</text>
+	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS 'Backwater'. All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
 
 
-<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS "Ground Zero". We have you on our twelve. Raise your shields and fight to the death!"</text>
-	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS "Sun Gazer", our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
-	<text>One of the cruisers is already in firing range! They hail: "This is the RS "Electro Junky". Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
-	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS "Baseline". Just wanted to let you know who is going to annihilate you." They cut communication.</text>
-	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS "Communication Problem". Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS "Hedonists Pride". You might have guessed: Resistance is futile."</text>
-	<text>A single cruiser is send out to deal with you. A high priority hail comes in: "This is the RS "Change In Government". We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS "It Takes A Revolution". Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
-	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS "Resistant". Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
-	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS "Economizer". My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
-	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS "Plaything" You are the priority target we are looking for. Resist if you dare!"</text>
-	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS "Space Census". All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
+<text>A nearby scout turns to engage, but then makes way for a cruiser that jumps in right in front of your ship. You are hailed by a Rebel general: "This is the RS 'Ground Zero'. We have you on our twelve. Raise your shields and fight to the death!"</text>
+	<text>Disaster! You jumped in right under the nose of a well armed Rebel cruiser. They send a hail: "This is the RS 'Sun Gazer', our weapons are primed. Get ready to be targeted, Fed-scum!"</text>
+	<text>One of the cruisers is already in firing range! They hail: "This is the RS 'Electro Junky'. Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
+	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS 'Baseline'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
+	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS 'Communication Problem'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS 'Hedonists Pride'. You might have guessed: Resistance is futile."</text>
+	<text>A single cruiser is send out to deal with you. A high priority hail comes in: "This is the RS 'Change In Government'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'It Takes A Revolution'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS 'Resistant'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
+	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail: "This is the RS 'Economizer'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
+	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail: "This is the RS 'Plaything'. You are the priority target we are looking for. Resist if you dare!"</text>
+	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A forward cruiser comes in range first and hails you: "This is the RS 'Space Census'. All your escape vectors will be covered soon. Sorry Captain, you won't leave here alive." </text>
 </textList>
 <textList name="C_FLEET_BATTLESHIP_TEXT">
-	<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS "Burst Damage" ..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication. The computer warns of multiple weapon locks.</text>
-	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS "Inspiral, Coalescence, Ringdown". You're running from us in this tiny cruiser? Pathetic!"</text>
-	<text>The fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS General Offensive Unit "Catastrophe". Identify yours... oh I see, alright." They activate their full weapon clusters.</text>
+	<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS 'Burst Damage' ..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication. The computer warns of multiple weapon locks.</text>
+	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS 'Inspiral, Coalescence, Ringdown'. You're running from us in this tiny cruiser? Pathetic!"</text>
+	<text>The fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS General Offensive Unit 'Catastrophe'. Identify yours... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS General Offensive Unit "Cataclysmic Event". As you can see we are rated threat level 19.5 in relation to your puny ship. We both know how this will end."</text>
-	<text>As you jump in, all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS "Hostile Encounter". All your escape vectors will be covered soon."</text>
-	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. It's weapons are primed, it's thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS "Braindead". We will ruin your day!" They start their weapon charge cycles.</text>
+	<text>As you jump in, all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Hostile Encounter'. All your escape vectors will be covered soon."</text>
+	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS 'Braindead'. We will ruin your day!" They start their weapon charge cycles.</text>
 
-<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS "Head Trauma"..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication. </text>
-	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS "Subtle Shift In Emphasis". You're running from us in this tiny cruiser? Pathetic! Get ready to be fired on."</text>
-	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS "Troubled Childhood". Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
-	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS general offensive unit "Mindless Tool". As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
-	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS "Attitude Adjuster". Sorry captain, you won't leave here alive."</text>
-	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. It's weapons are primed, it's thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS "Corrector". We will ruin your day!" They start their weapon charge cycles.</text>
+<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS 'Head Trauma' ..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication. </text>
+	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS 'Subtle Shift In Emphasis'. You're running from us in this tiny cruiser? Pathetic! Get ready to be fired on."</text>
+	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS 'Troubled Childhood'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
+	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS general offensive unit 'Mindless Tool'. As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
+	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Attitude Adjuster'. Sorry captain, you won't leave here alive."</text>
+	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS 'Corrector'. We will ruin your day!" They start their weapon charge cycles.</text>
 
-<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS "Bad For Business"..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication.</text>
-	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS "Credibility Problem". You're running from us in this tiny cruiser? Pathetic! There will be nothing left of you after we are finished here. Get ready to be fired on."</text>
-	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS "Patriarch". Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
+<text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS 'Bad For Business' ..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication.</text>
+	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS 'Credibility Problem'. You're running from us in this tiny cruiser? Pathetic! There will be nothing left of you after we are finished here. Get ready to be fired on."</text>
+	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS 'Patriarch'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS general offensive unit "What Is The Answer and Why?". As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
-	<text>A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS "Lapsed Pacifist". All your escape vectors will be covered soon. Sorry captain, you won't leave here alive."</text>
-	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. It's weapons are primed, it's thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS "Lasting Damage". We will ruin your day!" They start their weapon charge cycles.</text>
+	<text>A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Lapsed Pacifist'. All your escape vectors will be covered soon. Sorry captain, you won't leave here alive."</text>
+	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS 'Lasting Damage'. We will ruin your day!" They start their weapon charge cycles.</text>
 </textList>
 
 
@@ -11320,7 +11320,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"We even know that you have doubtss about the Rebel fleet and thought about abandon you missssion. You already have contributed greatly to thiss crew. If you want to join the Captain for real, now isss the time!" Your Rebel affiliated crew member is pretty embarrassed. He admits that he thought about changing sides. You Slug will continue to have an eye on him, just in case.</text>
+					<text>"We even know that you have doubtss about the Rebel fleet and thought about abandon you missssion. You already have contributed greatly to thiss crew. If you want to join the Captain for real, now isss the time!" Your Rebel affiliated crew member is pretty embarrassed. He admits that he thought about changing sides. Your Slug will continue to have an eye on him, just in case.</text>
 				</event>
 			</choice>
 		</event>
@@ -11328,7 +11328,7 @@
 	<choice hidden="true" req="BOMB_1">
 		<text>(Small Bomb) Press the panic button on your pocket terminal.</text>
 		<event>
-			<text>Your ex-crewmen suddenly clenches in pain. You take cover behind your chair, shortly before the bomb that has been teleported into his guts explodes. The ship computer reports: "Anti treason procedure executed." The bridge looks pretty messy. Apart from the cleaning you will also have to deal with the Rebel ship that just jumped in.</text>
+			<text>Your ex-crewman suddenly clenches in pain. You take cover behind your chair, shortly before the bomb that has been teleported into his guts explodes. The ship computer reports: "Anti treason procedure executed." The bridge looks pretty messy. Apart from the cleaning you will also have to deal with the Rebel ship that just jumped in.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
@@ -11390,7 +11390,7 @@
 </event>
 <eventList name="CE_BOARDERS_TRAITOR_FIGHT_LIST">
 	<event>
-		<text>You and your crew reach for their blasters simultaneously. Your treacherous crewmen reacts to slowly to outright shoot you and a vicious melee breaks out. As promised, a Rebel ship jumps in.</text>
+		<text>You and your crew reach for their blasters simultaneously. Your treacherous crewman reacts to slowly to outright shoot you and a vicious melee breaks out. As promised, a Rebel ship jumps in.</text>
 		<crewMember amount="-1" class="traitor"/>
 		<modifyPursuit amount="1"/>
 		<ship load="C_REBEL_GUNBOAT_TRAITOR_REWARD" hostile="true"/>
@@ -11504,7 +11504,7 @@
 </eventList>
 <eventList name="CE_BOARDERS_TRAITOR_CONVINCE_LIST">
 	<event>
-		<text>You assure your crewmen that you respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He stops to thinks for a second.</text>
+		<text>You assure your crewman that you respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He stops to thinks for a second.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
@@ -11566,7 +11566,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You assure your crewmen that your respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He thinks for a second.</text>
+		<text>You assure your crewman that your respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He thinks for a second.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
@@ -11628,7 +11628,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You assure your crewmen that your respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He thinks for a second. "Ah whatever, I never liked these idiots anyway. Let's take on this Rebel ship!" He returns to his station. You can talk about this later, because as promised a Rebel ship jumps in.</text>
+		<text>You assure your crewman that your respect him regardless of where his allegiances lied before. This does not have to end in bloodshed, you propose that he can still be part of your crew. The Rebel spy is surprised. He thinks for a second. "Ah whatever, I never liked these idiots anyway. Let's take on this Rebel ship!" He returns to his station. You can talk about this later, because as promised a Rebel ship jumps in.</text>
 		<modifyPursuit amount="1"/>
 		<ship load="C_REBEL_GUNBOAT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -11985,7 +11985,7 @@
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_DOORS">
 	<event>
 		<ship load="C_BOUNTYHUNTER" hostile="true"/>
-		<text>Federations Protokoll sugests a security alert when bording is possible but not confirmed. You sight and order to engage the security lockdown. Suddenly a heavily modified Auto-Assault immediately decloaks right above your ship.</text>
+		<text>Federation protocol suggests a security alert when boarding is possible but not confirmed. You sigh and order to engage the security lockdown. Suddenly a heavily modified Auto-Assault immediately decloaks right above your ship.</text>
 		<status type="limit" target="enemy" system="weapons" amount="0"/>
 		<status type="limit" target="enemy" system="cloaking" amount="0"/>
 		<boarders min="1" max="1" class="human"/>
@@ -12048,7 +12048,7 @@
 	</event>
 	<event>	
 	<ship load="C_BOUNTYHUNTER" hostile="true"/>
-		<text>Federations Protokoll sugests a security alert when bording is possible but not confirmed. You sight and order to engage the security lockdown. Suddenly a heavily modified Auto-Assault immediately decloaks right above your ship.</text>
+		<text>Federation protocol suggests a security alert when boarding is possible but not confirmed. You sigh and order to engage the security lockdown. Suddenly a heavily modified Auto-Assault immediately decloaks right above your ship.</text>
 		<boarders min="1" max="1" class="human"/>
 		<status type="limit" target="enemy" system="weapons" amount="0"/>
 		<status type="limit" target="enemy" system="cloaking" amount="0"/>
@@ -12576,7 +12576,7 @@
 	<text>You spot a civilian transport ship nearby. Passive scans indicate they are transporting locally produced goods.</text>
 	<text>A lightly armed transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTLs besides each other.</text>
 	<text>A civilian transport hails: "Federation friendlies? Good to see you. We are on the way to the core systems, cargo run. Do you have news from the war?" After a little chit chat they prepare to jump.</text>
-	<text>A civilian recharges it's FTL at this beacon. They greet you: "Wow, nice cruiser you have there... We are an almost unarmed merchant vessel and we are no threat, okay?" They seem to feel threatened.</text>
+	<text>A civilian recharges its FTL at this beacon. They greet you: "Wow, nice cruiser you have there... We are an almost unarmed merchant vessel and we are no threat, okay?" They seem to feel threatened.</text>
 </textList>
 
 <event name="CE_STRAY_FLEET" unique="true">
@@ -12731,10 +12731,10 @@
 </eventList>
 <eventList name="CE_DISTRESS_SUN_FAMILY_RETURN">
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ships crewmen are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
+		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ships crewmen are all deeply struck with grief. They politely thank your for informing them and offer a compensation for your efforts.</text>
+		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank your for informing them and offer a compensation for your efforts.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 </eventList>
@@ -12745,11 +12745,11 @@
 	<choice hidden="true">
 		<text>Offer to lead the charge against the pirate hideout.</text>
 		<event>
-			<text>After some discussions, the local defenders agree with your idea. "Alright, let's do this. We keep their ships away from you while you pound their outpost. Take the lead." Their small defense force made up of scouts gets in formation behind your ship and you head out towards the the pirate base.</text>
+			<text>After some discussion, the local defenders agree with your idea. "Alright, let's do this. We keep their ships away from you while you pound their outpost. Take the lead." Their small defense force made up of scouts gets in formation behind your ship and you head out towards the pirate base.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>You discover the pirate station hidden within the asteroid rings of of the systems sixth planet. Your wingmen chase the pirates into the field while you start targeting the station. Full battle readiness!</text>
+					<text>You discover the pirate station hidden within the asteroid rings of the systems sixth planet. Your wingmen chase the pirates into the field while you start targeting the station. Full battle readiness!</text>
 					<environment type="asteroid"/>
 					<ship load="BS_PIRATE_STRONGHOLD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -12903,11 +12903,11 @@
 </eventList>
 <eventList name="DEFENSE_SUCCESS_LIST">   
 	<event>
-		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewmen is so amazed by you commitment that he offers to join your team.</text>
+		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewman is so amazed by you commitment that he offers to join your team.</text>
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You dock and take your new crewmen on board. Then you say good bye to everyone and prepare to jump.</text>
+				<text>You dock and take your new crewman on board. Then you say goodbye to everyone and prepare to jump.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -12925,11 +12925,11 @@
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>"Wow, we really showed them! Guess we won't need all of these guns no more. You should take one with you. Take care out there." The install a piece of equipment on your ship and you prepare to jump after saying good bye to evereyone.</text>
+		<text>"Wow, we really showed them! Guess we won't need all of these guns no more. You should take one with you. Take care out there." They install a piece of equipment on your ship and you prepare to jump after saying goodbye to everyone.</text>
 		<weapon name="RANDOM"/>
 	</event>
 	<event>
-		<text>"So, I guess we don't have to rely on the Rebel fleet after all. My crew can patch up some of your hull damage as thanks." You say good bye to everyone and then prepare to travel onwards.</text>
+		<text>"So, I guess we don't have to rely on the Rebel fleet after all. My crew can patch up some of your hull damage as thanks." You say goodbye to everyone and then prepare to travel onwards.</text>
 		<damage amount="-5"/>
 	</event>
 	<event>
@@ -13426,7 +13426,7 @@
 </event>
 <eventList name="CE_DISTRESS_OXYGEN_BORING">
 	<event>
-		<text>The crew of the cargo ship is glad to breath some clean air. "Thank you, Captain. I cant believe we got ourself into this. Let's hope we make it to a settlement quick." They offer a small compensation.</text>
+		<text>The crew of the cargo ship is glad to breath some clean air. "Thank you, Captain. I can't believe we got ourself into this. Let's hope we make it to a settlement quick." They offer a small compensation.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
@@ -13467,7 +13467,7 @@
 	<choice hidden="true" req="drones" lvl="4">
 		<text>(Improved Drone Control) Reboot their system.</text>
 		<event>
-			<text>After some discussions, you are allowed to connect to their mainframe. Your advanced drone control resets the drones friend/foe recognition and the problem is solved. The mining boss is offering a generous reward.</text>
+			<text>After some discussion, you are allowed to connect to their mainframe. Your advanced drone control resets the drones friend/foe recognition and the problem is solved. The mining boss is offering a generous reward.</text>
 			<autoReward level="LOW">standard</autoReward>
 		</event>
 	</choice>
@@ -13499,7 +13499,7 @@
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You dock to take your new crewmen on board.</text>
+				<text>You dock to take your new crewman on board.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -13653,7 +13653,7 @@
 </event>
 <eventList name="LONE_SHUTTLE_WAIT">
 	<event>
-		<text>As it gets closer, you are able to scan it for lifesigns. It seems to be unmanned. You take what little fuel it has and continue on.</text>
+		<text>As it gets closer, you are able to scan it for life signs. It seems to be unmanned. You take what little fuel it has and continue on.</text>
 		<autoReward level="LOW">fuel</autoReward>
 	</event>
 	<event>
@@ -13661,7 +13661,7 @@
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You let the shuttle dock to take your new crewmen on board.</text>
+				<text>You let the shuttle dock to take your new crewman on board.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -13675,7 +13675,7 @@
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You let the shuttle dock to take your new crewmen on board.</text>
+				<text>You let the shuttle dock to take your new crewman on board.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -13685,11 +13685,11 @@
 		</choice>
 	</event>
 	<event>
-		<text>Once it gets closer, you detect multiple lifesigns on the ship. By the time you realize it's a Rebel vessel, it's too late...</text>
+		<text>Once it gets closer, you detect multiple life signs on the ship. By the time you realize it's a Rebel vessel, it's too late...</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Don't let them board us!</text>
 		<event>
-			<text>You scamble their teleporters and a few seconds later blast the tiny shuttle into a few thousand pieces. That was that, moving on.</text>
+			<text>You scramble their teleporters and a few seconds later blast the tiny shuttle into a few thousand pieces. That was that. Moving on.</text>
 		</event>
 	</choice>
 	<choice>
@@ -13757,9 +13757,9 @@
 		<text>"It is unmanned captain. I do not sense anyone, but this all does not seem right. I advice caution." You decide to take the advise and move on.</text>
 	</event>
 	<event>
-		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssensorss are damaged, he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
+		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
 		<choice>
-			<text>Contact the shuttle and invite it's captain to join your crew.</text>
+			<text>Contact the shuttle and invite its captain to join your crew.</text>
 			<event>
 				<text>The federation officer is happy to be found by another federation vessel. He immediately takes his post.</text>
 				<crewMember amount="1"/>
@@ -13771,9 +13771,9 @@
 		</choice>
 	</event>
 	<event>
-		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssensorss are damaged, he can not detect usss. But the individual wantss to sstrives to rejoiun with Federation forecess."</text>
+		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
 		<choice>
-			<text>Contact the shuttle and invite it's captain to join your crew.</text>
+			<text>Contact the shuttle and invite its captain to join your crew.</text>
 			<event>
 				<text>The federation officer is overjoyed to be found by another federation vessel. He immediately mans his post.</text>
 				<crewMember amount="1"/>
@@ -13785,13 +13785,13 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I sensss Rebelss on board the sshuttle captain. They prepare a teleporter and are almossst in range. You musst open fire." You give the order and the small craft is annihilated by a full salvo of your weapon array. The Rebels for sure didn't see that coming.</text>
+		<text>"I ssensse Rebelss on board the sshuttle captain. They prepare a teleporter and are almossst in range. You musst open fire." You give the order and the small craft is annihilated by a full salvo of your weapon array. The Rebels for sure didn't see that coming.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>
 <eventList name="LONE_SHUTTLE_SCANNER">
 	<event>
-		<text>The scanners show the shuttle is unmaned, demilitarized and abandond. You take what little fuel remains in it's reactor core.</text>
+		<text>The scanners show the shuttle is unmanned, demilitarized and abandoned. You take what little fuel remains in its reactor core.</text>
 		<autoReward level="LOW">fuel</autoReward>
 	</event>
 	<event>
@@ -13803,11 +13803,11 @@
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>Scans show the shuttle is manned by single crewmen and that it's sensors are malfunctioning. You open a channel. "Are you with the Federation? It is sure is great to find you. I was hired to scout this sector but my ship was destroyed. If I could hitch a ride, I'd appreciate it."</text>
+		<text>Scans show the shuttle is manned by single crewman and that its sensors are malfunctioning. You open a channel. "Are you with the Federation? It is sure is great to find you. I was hired to scout this sector but my ship was destroyed. If I could hitch a ride, I'd appreciate it."</text>
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You let the shuttle dock to take your new crewmen on board.</text>
+				<text>You let the shuttle dock to take your new crewman on board.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -13817,11 +13817,11 @@
 		</choice>
 	</event>
 	<event>
-		<text>Scans show the shuttle is manned by single crewmen and that it scanners are malfunctioning. You open a channel. "Are you with the Federation? It is sure is great to find you. I was hired to scout this sector but my ship was destroyed. If I could hitch a ride, I'd appreciate it."</text>
+		<text>Scans show the shuttle is manned by single crewman and that it scanners are malfunctioning. You open a channel. "Are you with the Federation? It is sure is great to find you. I was hired to scout this sector but my ship was destroyed. If I could hitch a ride, I'd appreciate it."</text>
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
-				<text>You let the shuttle dock to take your new crewmen on board.</text>
+				<text>You let the shuttle dock to take your new crewman on board.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
@@ -13862,7 +13862,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true">
 			<text>(Advanced Proximity Navigation) Stabilize!</text>
 			<event>
-				<text>Your adcanced navigagion AI stabilizes the ship and at the same time evades all the spinning debris parts that are send into your direction. That was close!</text>
+				<text>Your advanced navigation AI stabilizes the ship and at the same time evades all the spinning debris parts that are send in your direction. That was close!</text>
 			</event>
 		</choice>
 		<choice>
@@ -14306,8 +14306,8 @@
 <textList name="STORE_BUY_TEXT">
 	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes a while, loading the cargo takes even longer. You check the ship equipment catalogue while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
-	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded, slowly. At least you get a chance to look at the ship gear they also offer.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly. At least you get a chance to look at the ship gear they also offer.</text>
 </textList>
 
 <textList name="STORE_SELL_TEXT">
@@ -14561,7 +14561,7 @@
 IDEAS
 
 -ships unlock
--wait in line, wait somehow, milita control
+-wait in line, wait somehow, militia control
 
 -->
 
@@ -14668,7 +14668,7 @@ IDEAS
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
 		<text>(FTL Fuel Recycler) Recycle some FTL fuel cells.</text>
 		<event>
-			<text>You are undisturbed here and can recycle some fuel while the FTL charges. The recylcer device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
+			<text>You are undisturbed here and can recycle some fuel while the FTL charges. The recycler device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
 			<item_modify>
 				<item type="fuel" min="2" max="4"/>
 			</item_modify>
@@ -15180,8 +15180,8 @@ IDEAS
 <textList name="CIVILIAN_TRADE_DEPOT_BUY_TEXT">
 	<text>You transfer the scrap. While your crew loads the cargo. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes a while, loading the cargo takes even longer.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time, the cargo drones are in much less of a hurry than you.</text>
-	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded, slowly.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time, the cargo drones are in much less of a hurry than you.</text>
+	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly.</text>
 </textList>
 
 <eventList name="CIVILIAN_TRADE_DEPOT_LIST_BOOSTED">
@@ -15393,7 +15393,7 @@ IDEAS
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You keep telling yourself this was necessary for the mission, but can't help but feel guilty. The looks your crew give you don't help either. The depot was fit for refuelling ships. You take the fuel out of the storage. You also take all the scrap you can manage and request a report on the ships cargo.</text>
+		<text>You keep telling yourself this was necessary for the mission, but you can't help but feel guilty. The looks your crew give you don't help either. The depot was fit for refueling ships. You take the fuel out of the storage. You also take all the scrap you can manage and request a report on the ships cargo.</text>
 		<autoReward level="LOW">fuel</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -15645,7 +15645,7 @@ IDEAS
 </textList>
 
 <event name="GANG_MANTIS" unique="true">
-	<text>A small gang vessel hails you: "Glad you are here friend. See that ship on your nine? That's a Mantis expedition ship. My drive is almost charged, I'll inform the milita while you hold them off, okay?" Seems you won't have much choice.</text>
+	<text>A small gang vessel hails you: "Glad you are here friend. See that ship on your nine? That's a Mantis expedition ship. My drive is almost charged. I'll inform the militia while you hold them off, okay?" Seems you won't have much choice.</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -15704,7 +15704,7 @@ IDEAS
 	<choice hidden="true">
 		<text>Contact them and fix a pick up point.</text>
 		<event>
-			<text>The militia cruise control double checks you ship ID, but then give you permission to land as long as you "do not cause any trouble". You put the ship down in a busy spaceport and take your passengers on board. They agree to remain in the cargo hold for the time of the journey.</text>
+			<text>The militia cruise control double-checks your ship ID, but then gives you permission to land as long as you "do not cause any trouble". You put the ship down in a busy spaceport and take your passengers on board. They agree to remain in the cargo hold for the time of the journey.</text>
 			<quest event="SE_QUEST_PASSANGERS_ARRIVE"/>
 		</event>
 	</choice>
@@ -15858,7 +15858,7 @@ IDEAS
 	<choice hidden="true" req="WEAPONS_LASER_ALL">
 		<text>(Lasers) Show the Rebel sympathizers what they get.</text>
 		<event>
-			<text>You fly a strafing run and open open fire on the rioters. The crowd scatters, many lie dead in the street. The local authorities are terrified by your actions. Some militia ships have arrived by now and one intercepts you as you get back into orbit.</text>
+			<text>You fly a strafing run and open fire on the rioters. The crowd scatters; many lie dead in the street. The local authorities are terrified by your actions. Some militia ships have arrived by now and one intercepts you as you get back into orbit.</text>
 			<ship load="MILITIA_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -16014,7 +16014,7 @@ IDEAS
 	<choice req="ENERGY_SHIELD" hidden="true">
 		<text>(Zoltan Shield) Reconfigure the shield frequencies to scramble the enemy artillery targeting.</text>
 	<event>
-		<text>Your advanced shield technlogy prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
+		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_CIV_BEAM_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -16074,13 +16074,13 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_PDS_CIV_TEXT">
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">Another buisy core planet lies in front of you. The planetary goverment has outsourced it's defense sector to private contractors. Seems these are more than on firendly terms with the Rebels.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">After jump compleation the dock control of this densly populated planet hails you. "The Rebel fleet has put a price on your head. You are a wanted criminal. We will bring you in, alive or dead". Seems you won't make many friends here.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">Another busy core planet lies in front of you. The planetary government has outsourced its defense sector to private contractors. Seems these are more than on friendly terms with the Rebels.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">After jump completion, the dock control of this densely populated planet hails you. "The Rebel fleet has put a price on your head. You are a wanted criminal. We will bring you in, alive or dead". Seems you won't make many friends here.</text>
 </textList>
 
 <eventList name="CE_PDS_CIV_LIST">
 	<event>
-		<text>A small ship is send after you to spott for the planetary beam artillery. This might get nasty.</text>
+		<text>A small ship is send after you to spot for the planetary beam artillery. This might get nasty.</text>
 		<ship load="CE_SPOTTER_CIV_BEAM" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
