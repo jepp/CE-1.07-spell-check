@@ -887,8 +887,8 @@
 	<type>BEAM</type>
 	<title>Bio Focus Beam</title>
 	<short>Bio Focus</short>
-	<desc>This horrifiying focus beam does no physical damage but incinerates organic material, dealing heavy damage to a single crew members.</desc>
-	<tooltip>2 power beam weapon that can greatly damages an enemy crew member. Pierces 3 shield.</tooltip>
+	<desc>This horrifying focus beam does no physical damage but incinerates organic material, dealing heavy damage to a single crew member.</desc>
+	<tooltip>2 power beam weapon that can greatly damage an enemy crew member. Pierces 3 shield.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>4</persDamage>
@@ -2709,7 +2709,7 @@
 	<short>Fire B. III</short>
 	<locked>1</locked>
 	<desc>Slightly slower than normal fire bomb-launchers, but does more damage to crew and also deals initial damage to systems. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; deals 1 damage to systems and subsystems and lights fires. 3 seconds fuse. Can target your own ship.</tooltip>
+	<tooltip>Bomb weapon; requires a missile; deals 1 damage to systems and subsystems and lights fires. 3 second fuse. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>3</persDamage>
@@ -2739,8 +2739,8 @@
 	<title>Big Bomb</title>
 	<short>Big B.</short>
 	<locked>1</locked>
-	<desc>Reloads and deployes slower than small bomb-launchers, but does more damage. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems. 3 seconds fuse. Can target your own ship.</tooltip>
+	<desc>Reloads and deploys slower than small bomb-launchers, but does more damage. Can target your own ship.</desc>
+	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems. 3 second fuse. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
 	<persDamage>3</persDamage>
@@ -3317,8 +3317,8 @@
 	<title>Planetary Artillery Guns Mark I</title>
 	<short>Planetary Artillery Guns Mark I</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3348,8 +3348,8 @@
 	<title>Planetary Artillery Guns Mark II</title>
 	<short>Planetary Artillery Guns Mark II</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3379,8 +3379,8 @@
 	<title>Planetary Artillery Guns Mark III</title>
 	<short>Planetary Artillery Guns Mark III</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3410,8 +3410,8 @@
 	<title>Planetary Artillery Guns Mark IV</title>
 	<short>Planetary Artillery Guns Mark IV</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3441,8 +3441,8 @@
 	<title>Planetary Artillery Beam Mark I</title>
 	<short>Planetary Artillery Beam Mark I</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>4</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -3474,8 +3474,8 @@
 	<title>Planetary Artillery Beam Mark I</title>
 	<short>Planetary Artillery Beam Mark I</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>4</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -3507,8 +3507,8 @@
 	<title>Planetary Artillery Beam Mark III</title>
 	<short>Planetary Artillery Beam Mark III</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>4</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -3541,8 +3541,8 @@
 	<title>Fleet Artillery Guns Mark I</title>
 	<short>Fleet Artillery Guns Mark I</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3573,8 +3573,8 @@
 	<title>Fleet Artillery Guns Mark II</title>
 	<short>Fleet Artillery Guns Mark II</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3604,8 +3604,8 @@
 	<title>Fleet Artillery Guns Mark III</title>
 	<short>Fleet Artillery Guns Mark III</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3636,8 +3636,8 @@
 	<title>Boss Artillery Support Mark I</title>
 	<short>Boss Artillery Support Mark I</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3667,8 +3667,8 @@
 	<title>Boss Artillery Support Mark II</title>
 	<short>Boss Artillery Support Mark II</short>
 	<locked>1</locked>
-	<desc>Hazard Dummy Weapon - You shouldnt see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You shouldnt see this description</tooltip>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
 	<damage>3</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3702,8 +3702,8 @@
 	<type>LASER</type>
 	<title>Light Laser Mark I</title>
 	<short>L. Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>2</shots>
@@ -3742,8 +3742,8 @@
 	<type>LASER</type>
 	<title>Light Laser Mark II</title>
 	<short>L. Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>3</shots>
@@ -3782,8 +3782,8 @@
 	<type>LASER</type>
 	<title>Light Laser Mark III</title>
 	<short>L. Laser III</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>4</shots>
@@ -3824,8 +3824,8 @@
 	<title>Effector Mark I</title>
 	<short>Effect I</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<missiles>0</missiles>
@@ -3856,8 +3856,8 @@
 	<title>Effector Mark II</title>
 	<short>Effect II</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -3888,8 +3888,8 @@
 	<title>Heavy Effector</title>
 	<short>H. Effector</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>0</missiles>
@@ -3921,8 +3921,8 @@
 	<title>Fire Bomb Mark I</title>
 	<short>Fire B. I</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -3952,8 +3952,8 @@
 	<title>Fire Bomb</title>
 	<short>Fire B.</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -3983,8 +3983,8 @@
 	<title>Fire Bomb Mark III</title>
 	<short>Fire B. III</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>3</persDamage>
@@ -4014,8 +4014,8 @@
 	<title>Big Bomb</title>
 	<short>Big B.</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
 	<persDamage>3</persDamage>
@@ -4045,8 +4045,8 @@
 	<title>Anti Bio Bomb</title>
 	<short>Bio B.</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>4</persDamage>
@@ -4076,8 +4076,8 @@
 	<title>Cluster Bomb</title>
 	<short>Cluster B.</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -4107,8 +4107,8 @@
 	<title>Fire Cluster Bomb</title>
 	<short>Fire Cluster</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -4138,8 +4138,8 @@
 	<title>Ion Cluster Bomb</title>
 	<short>Ion Cluster</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>1</missiles>
@@ -4170,8 +4170,8 @@
 	<title>Breach Cluster Bomb</title>
 	<short>Breach C.B.</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -4200,8 +4200,8 @@
 	<type>MISSILES</type>
 	<title>Peryton Missile</title>
 	<short>Peryton</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>2</shots>
@@ -4236,8 +4236,8 @@
 	<type>MISSILES</type>
 	<title>Cockatrice Missile</title>
 	<short>Cockatri</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>3</shots>
@@ -4272,8 +4272,8 @@
 	<type>MISSILES</type>
 	<title>Fire Missiles</title>
 	<short>Fire M.</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>4</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4308,8 +4308,8 @@
 	<type>MISSILES</type>
 	<title>Simurgh Missile</title>
 	<short>Simurgh</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>4</shots>
@@ -4345,8 +4345,8 @@
 	<type>LASER</type>
 	<title>Oni Missiles</title>
 	<short>Oni</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4382,8 +4382,8 @@
 	<type>LASER</type>
 	<title>Ifrit Missile</title>
 	<short>Ifrit</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>4</shots>
@@ -4420,8 +4420,8 @@
 	<type>MISSILES</type>
 	<title>Leto Missiles</title>
 	<short>Leto</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4455,8 +4455,8 @@
 	<type>MISSILES</type>
 	<title>Artemis Missiles</title>
 	<short>Artemis</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4490,8 +4490,8 @@
 	<type>MISSILES</type>
 	<title>Hermes Missile</title>
 	<short>Hermes</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4525,8 +4525,8 @@
 	<type>MISSILES</type>
 	<title>Pegasus Missile</title>
 	<short>Pegasus</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
 	<shots>2</shots>
@@ -4561,8 +4561,8 @@
 	<type>MISSILES</type>
 	<title>Breach Missiles</title>
 	<short>Breach</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>4</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -4596,8 +4596,8 @@
 	<type>LASER</type>
 	<title>Artillery Laser Mark I</title>
 	<short>Arti. I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>4</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -4633,8 +4633,8 @@
 	<type>LASER</type>
 	<title>Artillery Laser Mark II</title>
 	<short>Arti. II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>5</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -4670,8 +4670,8 @@
 	<type>LASER</type>
 	<title>Hull Crusher Laser</title>
 	<short>Hull Crusher</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>3</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -4708,8 +4708,8 @@
 	<type>LASER</type>
 	<title>Auto Laser Mark I</title>
 	<short>Auto I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -4747,8 +4747,8 @@
 	<type>LASER</type>
 	<title>Auto Laser Mark II</title>
 	<short>Auto II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -4785,8 +4785,8 @@
 	<type>LASER</type>
 	<title>Heavy Laser Mark I</title>
 	<short>Heavy Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -4822,8 +4822,8 @@
 	<type>LASER</type>
 	<title>Heavy Laser Mark II</title>
 	<short>Heavy Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -4860,8 +4860,8 @@
 	<type>LASER</type>
 	<title>Hull Smasher Laser</title>
 	<short>Hull Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -4899,8 +4899,8 @@
 	<type>LASER</type>
 	<title>Hull Smasher Laser Mark II</title>
 	<short>Hull Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -4938,8 +4938,8 @@
 	<type>LASER</type>
 	<title>Heavy Scatter Laser Mark I</title>
 	<short>Heavy Scatter I</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -4979,8 +4979,8 @@
 	<type>LASER</type>
 	<title>Heavy Scatter Laser Mark II</title>
 	<short>Heavy Scatter II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>3</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -5020,8 +5020,8 @@
 	<type>LASER</type>
 	<title>Burst Laser Mark II</title>
 	<short>Burst Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -5058,8 +5058,8 @@
 	<type>LASER</type>
 	<title>Burst Laser Mark III</title>
 	<short>Burst Laser III</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>4</shots>
 	<sp>0</sp>
@@ -5096,8 +5096,8 @@
 	<type>LASER</type>
 	<title>Burst Laser Mark III</title>
 	<short>Burst L. III</short>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>5</shots>
 	<sp>0</sp>
@@ -5135,8 +5135,8 @@
 	<title>Heavy Ion</title>
 	<short>Heavy Ion</short>
 	<locked>1</locked>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<speed>40</speed>
@@ -5177,8 +5177,8 @@
 	<title>Heavy Ion Mark II</title>
 	<short>Heavy Ion II</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>3</ion>
 	<sysDamage>1</sysDamage>
@@ -5220,8 +5220,8 @@
 	<title>Heavy Ion Mark III</title>
 	<short>Heavy Ion III</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<sysDamage>2</sysDamage>
@@ -5263,8 +5263,8 @@
 	<title>Ion Bomb</title>
 	<short>I. Bomb</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>1</missiles>
@@ -5397,8 +5397,8 @@
 <droneBlueprint name="DE_DRONE_HEAVY_1_ENEMY">
 	<type>COMBAT</type>
 	<title>Heavy Anti-Ship Drone Mark I</title>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -5413,8 +5413,8 @@
 <droneBlueprint name="DE_DRONE_HEAVY_2_ENEMY">
 	<type>COMBAT</type>
 	<title>Heavy Anti-Ship Drone MarkII</title>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -5429,8 +5429,8 @@
 <droneBlueprint name="DE_DRONE_HEAVY_SCATTER_ENEMY">
 	<type>COMBAT</type>
 	<title>Heavy Scatter Drone</title>
-	<short>Enemy drone. You shouldn't see this discription.</short>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<short>Enemy drone. You shouldn't see this description.</short>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>2</power>
 	<cooldown>1000</cooldown> 
 	<dodge>0</dodge>
@@ -5478,8 +5478,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_ENEMY">
 	<type>MISSILES</type>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>5</sp>
@@ -5507,8 +5507,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_HEAVY_ENEMY">
 	<type>MISSILES</type>
-	<desc>Enemy weapon. You shouldn't see this discription.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this discription.</tooltip>
+	<desc>Enemy weapon. You shouldn't see this description.</desc>
+	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>5</sp>
@@ -5538,8 +5538,8 @@
 <droneBlueprint name="DE_DRONE_MISSILES_1_ENEMY">
 	<type>COMBAT</type>
 	<title>Anti-Ship Missile Drone MK I</title>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -5554,8 +5554,8 @@
 <droneBlueprint name="DE_DRONE_MISSILES_2_ENEMY">
 	<type>COMBAT</type>
 	<title>Heavy Anti-Ship Missile Drone</title>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -5570,8 +5570,8 @@
 <droneBlueprint name="DE_DRONE_MISSILES_3_ENEMY">
 	<type>COMBAT</type>
 	<title>Anti-Ship Missile Drone MK II</title>
-	<desc>Enemy drone. You shouldn't see this discription.</desc>
-	<tooltip>Enemy drone. You shouldn't see this discription.</tooltip>
+	<desc>Enemy drone. You shouldn't see this description.</desc>
+	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -6272,7 +6272,7 @@
 	<type>BEAM</type>
 	<title>Drone Hull Beam</title>
 	<short>Drone Hull Beam</short>
-	<desc>Drone beam that does double damaga to systemless rooms.</desc>
+	<desc>Drone beam that does double damage to systemless rooms.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7122,7 +7122,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Beam Drone MK II</title>
 	<short>Beam II</short>
-	<desc>Powerfull drone that cuts enemy ships into pieces with it's heavy beam weapon.</desc>
+	<desc>Powerful drone that cuts enemy ships into pieces with it's heavy beam weapon.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
@@ -7138,7 +7138,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Focus Beam Drone</title>
 	<short>Focus Beam</short>
-	<desc>Powerfull drone that pierces shield with it's focus beam.</desc>
+	<desc>Powerful drone that pierces shield with it's focus beam.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
@@ -7154,7 +7154,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Hull Beam Drone</title>
 	<short>Beam I</short>
-	<desc>Powerfull drone that repeatedly attacks with a small hull beam and deals double damage if it hits systemless rooms.</desc>
+	<desc>Powerful drone that repeatedly attacks with a small hull beam and deals double damage if it hits systemless rooms.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>7</dodge>
@@ -7218,7 +7218,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Ion Drone Mark II</title>
 	<short>Ion II</short>
-	<desc>Advanced drone that can compleatly disable small ships with its ion cannon.</desc>
+	<desc>Advanced drone that can completely disable small ships with its ion cannon.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>5</dodge>
@@ -7234,7 +7234,7 @@
 	<type>COMBAT</type>
 	<title>Effector Drone Mark I</title>
 	<short>Effect I</short>
-	<desc>Electronic warfare drone that disrups enemy ship systems. Ignores even the most advanced shield devices.</desc>
+	<desc>Electronic warfare drone that disrupts enemy ship systems. Ignores even the most advanced shield devices.</desc>
 	<power>2</power>
 	<cooldown>5000</cooldown> 
 	<dodge>7</dodge>
@@ -7250,7 +7250,7 @@
 	<type>COMBAT</type>
 	<title>Effector Drone Mark II</title>
 	<short>Effect II</short>
-	<desc>Powerfull electronic warfare drone that can deeply disrupt enemy ship systems. Moves and effectorizes faster than Mark I.</desc>
+	<desc>Powerful electronic warfare drone that can deeply disrupt enemy ship systems. Moves and effectorizes faster than Mark I.</desc>
 	<power>3</power>
 	<cooldown>5000</cooldown>
 	<dodge>7</dodge>
@@ -7266,7 +7266,7 @@
 	<type>COMBAT</type>
 	<title>Effector Drone</title>
 	<short>Effector</short>
-	<desc>Electronic warfare drone that disrups enemy ship systems.</desc>
+	<desc>Electronic warfare drone that disrupts enemy ship systems.</desc>
 	<power>2</power>
 	<cooldown>5000</cooldown> 
 	<dodge>7</dodge>
@@ -7282,7 +7282,7 @@
 	<type>COMBAT</type>
 	<title>Advanced Effector Drone</title>
 	<short>A. Effector</short>
-	<desc>Powerfull electronic warfare drone that can deeply disrupt enemy ship systems. Moves and effectorizes faster than Mark I.</desc>
+	<desc>Powerful electronic warfare drone that can deeply disrupt enemy ship systems. Moves and effectorizes faster than Mark I.</desc>
 	<power>3</power>
 	<cooldown>5000</cooldown>
 	<dodge>7</dodge>
@@ -7568,7 +7568,7 @@
 	<type>SHIP_REPAIR</type>
 	<title>Slow Hull Repair</title>
 	<short>Slow Hull Repair</short>
-	<desc>Your shouldn't see this discription.</desc>
+	<desc>Your shouldn't see this description.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect repair drone -->
 	<dodge>8</dodge>
@@ -7704,7 +7704,7 @@
 
 <augBlueprint name="TE_GOODS_ZOLTAN_CODEX">
 	<title>Zoltan Legal Codex</title>
-	<desc>The Zoltan legal codeis the basis of general system law. Even when stored on super capacity micro drives, this behemoth of legal documentation still fills an entire cargo hold. Basic trade goods.</desc>
+	<desc>The Zoltan legal code is the basis of general system law. Even when stored on super capacity micro drives, this behemoth of legal documentation still fills an entire cargo hold. Basic trade goods.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
