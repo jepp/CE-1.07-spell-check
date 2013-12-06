@@ -1094,24 +1094,24 @@
 		</choice>
 </event>
 <textList name="C_BOSS_CRUISER_TEXT">
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Cut The Crap". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "Size Isn't everything". Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Space Monster". We heard a lot about you. Looks like we'll get promoted soon." They move in to attack!</text> <!-- image- no fleet, empty planet-->
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Big Sexy Beast". Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "Arrested Development". Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Cut The Crap'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'Size Isn't Everything'. Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Space Monster'. We heard a lot about you. Looks like we'll get promoted soon." They move in to attack!</text> <!-- image- no fleet, empty planet-->
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Big Sexy Beast'. Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'Arrested Development'. Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons.</text>
 
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Chatterbox". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "Where Are You Darling?". Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Invader". We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> <!-- image- no fleet, empty planet-->
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Revolution". Look what has become of your Federation. You have escaped us long enough. Prepare to be targeted!"</text>
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "End Of Invention". Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Chatterbox'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'Where Are You Darling?'. Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Invader'. We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> <!-- image- no fleet, empty planet-->
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Revolution'. Look what has become of your Federation. You have escaped us long enough. Prepare to be targeted!"</text>
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'End Of Invention'. Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
 
 
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Socialization Fail". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "Pain Monitor". Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Sexy Gunfire". We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> <!-- image- no fleet, empty planet-->
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Pew!Pew!Pew!". Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "End Of Inventions". Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Socialization Fail'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'Pain Monitor'. Our big guns are charging up. Meet your executioner!"</text> <!--image-no fleets-->
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Sexy Gunfire'. We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> <!-- image- no fleet, empty planet-->
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Pew!Pew!Pew!'. Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'End Of Inventions'. Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
 </textList>
 
 <event name="C_BOSS_CRUISER_WARNING" unique="false">
@@ -1170,21 +1170,21 @@
 		</choice>
 </event>
 <textList name="C_BOSS_CRUISER_WARNING_TEXT">
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "Ablation". Moving in hot, suckers!" Better brace for impact.</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Credibility Problem". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS "Pure Mad Boat Man". We will blow you apart, Fed-scum." Red alert!</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'Ablation'. Moving in hot, suckers!" Better brace for impact.</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Credibility Problem'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS 'Pure Mad Boat Man'. We will blow you apart, Fed-scum." Red alert!</text>
 	<text>The fleet admiral of the nearby Federation cruiser squadron sends and encrypted message: "We try to distract them, to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May god help you!" One of the Rebel cruisers, the RS "Undesirable Alien" performed a short distance jump and appeared right in front of your ship.</text>
 
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "Don't Try This At Home". Moving in hot, suckers!" Better brace for impact.</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Zero Credibility". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS "Now We Try It My Way". We will blow you apart, Fed-scum." Red alert!</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'Don't Try This At Home'. Moving in hot, suckers!" Better brace for impact.</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Zero Credibility'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS 'Now We Try It My Way'. We will blow you apart, Fed-scum." Red alert!</text>
 	<text>The fleet admiral of the nearby Federation cruiser squadron sends and encrypted message: "We try to distract them, to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May god help you!" One of the Rebel cruisers, the RS "Mutual Respect" performed a short distance jump and appeared right in front of your ship.</text>
 
 
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "I don't want to brag but...". Moving in hot, suckers!" Better brace for impact.</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Gravitas Shortfall". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS "Indigestible". We will blow you apart, Fed-scum." Red alert!</text>
-	<text>The fleet admiral of the nearby Federation cruiser squadron sends and encrypted message: "We try to distract them, to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May god help you!" One of the Rebel cruisers, the RS "Sleeper Cell" performed a short distance jump and appeared right in front of your ship.</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'I Don't Want To Brag, But...'. Moving in hot, suckers!" Better brace for impact.</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Gravitas Shortfall'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>The commander of a nearby Federation cruiser sends a warning message: "Multiple enemy assets converge on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communication: "This is the RS 'Indigestible'. We will blow you apart, Fed-scum." Red alert!</text>
+	<text>The fleet admiral of the nearby Federation cruiser squadron sends and encrypted message: "We try to distract them, to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May god help you!" One of the Rebel cruisers, the RS 'Sleeper Cell' performed a short distance jump and appeared right in front of your ship.</text>
 </textList>
 
 <event name="C_BOSS_CRUISER_RESCUE">
@@ -1256,7 +1256,7 @@
 </event>
 <textList name="C_BOSS_CRUISER_RESCUE_TEXT">
 	<text planet="PLANET_POPULATED">You arrive to find a Rebel fighter squadron battling with a few heavily damaged Federation assault classes. The main fleet is holding back near the core of the system but a cruiser, identifying as the RS "You'll Thank Me Later", has already broken through the lines and started to bombard a settlement on a nearby planet. Should we move in to assist?</text>
-	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS "Invincible". We are targeted by the RS "Meatfucker". Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
+	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS 'Invincible'. We are targeted by the RS 'Meatfucker'. Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
 	<text>While the battle rages in the distance a Federation scout squadron is being decimated by a nearby Rebel cruiser, identifying as RS "Problem Child". Shall we assist?</text>
 	<text planet="PLANET_POPULATED">A series of space stations in orbit around a nearby planet is under attack from a Rebel cruiser that has broken away from the main fleet. They identify as RS "Recent Convert". No Federation ship seems to be willing or able to assist. You might be, though.</text>
 	<text planet="PLANET_POPULATED">A single Rebel cruiser, identifying as RS "Good High", is pounding the colonies on this small Planet, while the main fleets battle a few clicks away. You receive a distorted hail from the surface: "You are the only friendly ship in range. They are going to murder us all, please help us!"</text>
@@ -1442,7 +1442,7 @@ IDEAS
 <textList name="SE_START_BEACON_FED_TEXT">
 	<text>The last thing you heard about this sector was that it is about to be evacuated. Local Federation forces might need any help they can get, but you will have to keep in mind that your have your own mission.</text>
 	<text>Forward units of the Rebel fleet battle with Federation squadrons for the control of this sector. If you want to complete your mission you will have to get through this mess alive somehow.</text>
-	<text>You arrived in a sector that is technically still under Federation controll. Because the monumental Rebel fleet is approaching the Federation main base, local forces will probably retreat soon. Or fight their last battles.</text>
+	<text>You arrive in a sector that is technically still under Federation control. Because the monumental Rebel fleet is approaching the Federation main base, local forces will probably retreat soon. Or fight their last battles.</text>
 	<text>You arrive in a contested sector. Officially it is still under Federation control, but Rebel forward units are everywhere and the local Federation fleet-detachments are performing an unorganized retreat.</text>
 </textList>
 <eventList name="QUEST_FED_BATTLE_START">
@@ -1462,7 +1462,7 @@ IDEAS
 				<choice>
 					<text>We have a high priority mission and request assistance.</text>
 					<event>
-						<text>"You request assistance? Did you listen to me at at all? ... OK, all right, you might get some help at one of our last outposts. Transmitting coordinates. Now get out of the channel." Communication is cut immediately.</text>
+						<text>"You request assistance? Did you listen to me at all? ... OK, all right, you might get some help at one of our last outposts. Transmitting coordinates. Now get out of the channel." Communication is cut immediately.</text>
 						<quest event="FEDERATION_BASE_ASSIST"/>
 					</event>
 				</choice>
@@ -1474,7 +1474,7 @@ IDEAS
 <eventList name="QUEST_FED_BATTLE_1">
 	<event>
 		<fleet>battle</fleet>
-		<text>You arrive right in the middle of a major fleet battle. The beacon took heavy damage and can barely stabilize it's jump circle. A jung Federation captain contacts you on secured audio channels: "Free asset, you are considered part of this battle-group now. Stand by for your combat task."</text>
+		<text>You arrive right in the middle of a major fleet battle. The beacon took heavy damage and can barely stabilize it's jump circle. A junior Federation captain contacts you on secured audio channels: "Free asset, you are considered part of this battle-group now. Stand by for your combat task."</text>
 		<choice>
 			<text>Understood.</text>
 			<event load="QUEST_FED_BATTLE_1_LIST"/>
@@ -1772,7 +1772,7 @@ IDEAS
 	</event>
 	<event>
 		<fleet>battle</fleet>
-		<text>Stray lasers hit your ship as the battle rages around you. You pilot tries best to dodge all the wreckage. "Our flanks ar threatened by several fighter squadrons at [encrypted]. Take some of them out will you?" You pick your target.</text>
+		<text>Stray lasers hit your ship as the battle rages around you. You pilot tries best to dodge all the wreckage. "Our flanks are threatened by several fighter squadrons at [encrypted]. Take some of them out will you?" You pick your target.</text>
 		<ship load="QUEST_FED_BATTLE_1_SHIP_FIGHTER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -1882,7 +1882,7 @@ IDEAS
 	</event>
 	<event>
 		<fleet>battle</fleet>
-		<text>You fire shots at everything that looks like a Rebel ship while your pilot franticly navigates through the raging battle. "Free asset come in. Parts of the [encrypted] squadron have been disabled, Rebel troopships move in on their position. Engage the attackers immediately. Federation cruiser [encrypted] will assist you.</text>
+		<text>You fire shots at everything that looks like a Rebel ship while your pilot frantically navigates through the raging battle. "Free asset come in. Parts of the [encrypted] squadron have been disabled, Rebel troopships move in on their position. Engage the attackers immediately. Federation cruiser [encrypted] will assist you.</text>
 		<ship load="QUEST_FED_BATTLE_1_SHIP_TROOPSHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -2005,11 +2005,11 @@ IDEAS
 	</choice>
 </event>
 <textList name="QUEST_FED_BATTLE_2_TEXT">
-	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS "Cleanup Crew". We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
-	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS "Dirty Whisle". We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
-	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS "The Sword Is Mightier Than The Pen". We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
-	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS "Riptide". We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
-	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS "Armed And Dangerous". We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
+	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS 'Cleanup Crew'. We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
+	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS 'Dirty Whistle'. We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
+	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS 'The Sword Is Mightier Than The Pen'. We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
+	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS 'Riptide'. We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
+	<text>As you pick through the debris a Rebel cruiser jumps in. They hail: "This is the RS 'Armed And Dangerous'. We knew we would catch some stragglers here... but you? You are special! Prepare to be targeted." They move in to engage.</text>
 </textList>
 
 <event name="FREE_ITEMS_FED">
@@ -2087,7 +2087,7 @@ IDEAS
 	<text planet="PLANET_POPULATED_SMALL">You discover a nearby planet speckled with settlements, although none respond to your hails. Several small cities have been largely destroyed by orbital missile strikes.</text>
 	<text>This beacon has been built for a nearby civilian space-station. No one hails your ship.</text>
 	<text planet="NONE">Your jump leads to a completely unremarkable binary star system. There is nothing else around but the wreck of an old Kestrel-class cruiser. Scans reveal it has been striped clean of any usable parts.</text>
-	<text planet="NONE">Your jump leads to a remarkable binary star system. An encrypted hazard beacon warns of minefields nearby, undoubtedly layed by the Federation to help protect their evacuation forces.</text>
+	<text planet="NONE">Your jump leads to a remarkable binary star system. An encrypted hazard beacon warns of minefields nearby, undoubtedly laid by the Federation to help protect their evacuation forces.</text>
 </textList>
 
 <event name="NOTHING_FED_BATTLE">
@@ -2407,24 +2407,24 @@ IDEAS
 		</choice>
 </event>
 <textList name="C_FED_REBEL_CRUISER_TEXT">
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Terminal Damage". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text> 
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "Size Is everything". Our big guns are charging up. Meet your executioner!"</text>
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Rukola". We heard a lot about you. Looks like we'll get promoted soon." They move in to attack!</text> 
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Disco Love". Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>	
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "Advanced Whistle Blowing". Our fleet has encircled the entire sector. You won't get out of this!" Time to power up the weapons once more.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Terminal Damage'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text> 
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'Size Is Everything'. Our big guns are charging up. Meet your executioner!"</text>
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Rukola'. We heard a lot about you. Looks like we'll get promoted soon." They move in to attack!</text> 
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Disco Love'. Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>	
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'Advanced Whistle Blowing'. Our fleet has encircled the entire sector. You won't get out of this!" Time to power up the weapons once more.</text>
 
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Hotline". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "I Am Here, Darling". Our big guns are charging up. Meet your executioner!"</text>
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Airballoon". We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> 
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Beautiful Boy". Look what has become of your Federation. You have escaped us long enough. Prepare to be targeted!"</text>
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "Target Manager". Our fleet has encircled the entire sector. You won't get out of this!" Time to power up the weapons once more.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Hotline'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text>  <!--image- Fleet background-->
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'I Am Here, Darling'. Our big guns are charging up. Meet your executioner!"</text>
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Airballoon'. We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text> 
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Beautiful Boy'. Look what has become of your Federation. You have escaped us long enough. Prepare to be targeted!"</text>
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'Target Manager'. Our fleet has encircled the entire sector. You won't get out of this!" Time to power up the weapons once more.</text>
 
 
-	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS "Advanced Communication Skills". You made it this far, but you won't get further. Target their engines!" They move in to engage.</text> 
-	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS "Also Good At Talking". Our big guns are charging up. Meet your executioner!"</text>
-	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS "Sexy Gunfire". We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text>
-	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS "Alpha Strike". Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
-	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS "Gunfire". Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
+	<text>Although this sector is still under Federation control, a single cruiser has already broken through the defense lines. They hail: "This is the RS 'Advanced Communication Skills'. You made it this far, but you won't get further. Target their engines!" They move in to engage.</text> 
+	<text>Long range scanners show this system is empty of any capital ships. Clearly it is not of strategic value. Wait... FTL signatures show a Rebel cruiser just jumped nearby! A Rebel general hails: "This is the RS 'Also Good At Talking'. Our big guns are charging up. Meet your executioner!"</text>
+	<text planet="PLANET_UNPOPULATED">Sensors indicate a Rebels cruiser hiding behind the nearby planet's moon. As it registers you, it hails you: "This is the RS 'Sexy Gunfire'. We heard a lot about you. Looks like we get promoted soon." They moves in to attack!</text>
+	<text>Federation ships are scarce in this region of space despite a number of civilian space stations. You see a Rebel cruiser mopping up the remains of a Federation medevac squadron. It lets the last ship escape and targets you instead. "This is the RS 'Alpha Strike'. Look what has become of the Federation. You have escaped us long enough. Prepare to be targeted!"</text>
+	<text>As soon as you arrive at the beacon, a Rebel cruiser turns to engage. How could they have gotten here so fast? They send a message "This is the RS 'Gunfire'. Our fleet has encircled the entire sector and the Federation base will fall soon. You won't get out of this!" Time to power up the weapons once more.</text>
 </textList>
 
 <event name="C_FED_CRUISER_WARNING" unique="false"> 
@@ -2483,18 +2483,18 @@ IDEAS
 		</choice>
 </event>
 <textList name="C_FED_CRUISER_WARNING_TEXT">
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "Cute Little Thing". Moving in hot, suckers!" Better brace for impacts!</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Misty Night". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS "Roll The Dice" is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'Cute Little Thing'. Moving in hot, suckers!" Better brace for impacts!</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Misty Night'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS 'Roll The Dice' is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
 
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "Try This At Home". Moving in hot, suckers!" Better brace for impacts!</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Some Credibility". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS "Not Invented Here" is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'Try This At Home'. Moving in hot, suckers!" Better brace for impacts!</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Some Credibility'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS 'Not Invented Here' is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
 
 
-	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS "Big Thing". Moving in hot, suckers!" Better brace for impacts!</text>
-	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS "Kiss My Gun". God, you are annoying, but now we got you." Evasive maneuvers!</text>
-	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS "Just Showing Off" is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
+	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'Big Thing'. Moving in hot, suckers!" Better brace for impacts!</text>
+	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed, but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail: "This is the RS 'Kiss My Gun'. God, you are annoying, but now we got you." Evasive maneuvers!</text>
+	<text>Federation command hails you: "Free asset, be advised: Rebel cruiser designated RS 'Just Showing Off' is closing in on you. We can not render you assistance at this time. You will have to battle them on your own for a while." You check the shields and move into an defensive position as the Cruiser approaches.</text>
 </textList>
 
 
@@ -2567,14 +2567,14 @@ IDEAS
 </event>
 <textList name="C_FED_CRUISER_RESCUE_TEXT">
 	<text planet="PLANET_POPULATED">You arrive to find a Rebel fighter squadron battling with a few heavily damaged Federation assault classes. The main fleet is holding back near the core of the system but a cruiser, identifying as the RS "No Worries", has already broken through the lines and started to bombard a settlement on a nearby planet. Should we move in to assist?</text>
-	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS "Cake Eater". We are targeted by the RS "Brute Force". Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
+	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS 'Cake Eater'. We are targeted by the RS 'Brute Force'. Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
 	<text>While the battle rages in the distance a Federation scout squadron is being decimated by a nearby Rebel cruiser, identifying as RS "Nasty Rash". Shall we assist?</text>
 	<text planet="PLANET_POPULATED">A series of space stations in orbit around a nearby planet is under attack from a Rebel cruiser that has broken away from the main fleet. They identify as RS "New In Town". No Federation ship seems to be willing or able to assist. You might be, though.</text>
 	<text planet="PLANET_POPULATED">A single Rebel cruiser, identifying as RS "The Best Ship Ever", is pounding the colonies on this small Planet, while the main fleets battle a few clicks away. You receive a distorted hail from the surface: "You are the only friendly ship in range. They are going to murder us all, please help us!"</text>
 
 	<text planet="PLANET_POPULATED">You arrive to find a Rebel fighter squadron battling with a few heavily damaged Federation assault classes. The main fleet is holding back near the core of the system but a cruiser, identifying as the RS "Beautiful Butterfly", has already broken through the lines and started to bombard a settlement on a nearby planet. Should we move in to assist?</text>
-	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS "Very Straight". We are targeted by the RS "Brute Force". Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
-	<text>While the battle rages in the distance a Federation scout squadron is being decimated by a nearby Rebel cruiser, identifying as RS "Climat Change". Shall we assist?</text>
+	<text>As soon as you arrive you register a Rebel capital ship pounding into a Federation cruiser. They  hail: "This is the FS 'Very Straight'. We are targeted by the RS 'Brute Force'. Systems security breached by cyber attacks. Weapons and artillery beam off-line. Requesting assistance... God, please help us, we are a sitting duck here!"</text>
+	<text>While the battle rages in the distance a Federation scout squadron is being decimated by a nearby Rebel cruiser, identifying as RS "Climate Change". Shall we assist?</text>
 	<text planet="PLANET_POPULATED">A series of space stations in orbit around a nearby planet is under attack from a Rebel cruiser that has broken away from the main fleet. They identify as RS "Causes Revolutions". No Federation ship seems to be willing or able to assist. You might be, though.</text>
 	<text planet="PLANET_POPULATED">A single Rebel cruiser, identifying as RS "Nice and Clean", is pounding the colonies on this small Planet, while the main fleets battle a few clicks away. You receive a distorted hail from the surface: "You are the only friendly ship in range. They are going to murder us all, please help us!"</text>
 </textList>
@@ -2616,7 +2616,7 @@ IDEAS
 	<choice req="WEAPONS_BEAMS_STRONG" hidden="true"> 
 		<text>(Advanced Beam Weapon) Perform an orbital beam-strike.</text>
 		<event>
-			<text>You order an accurate targeting calculation and prepare the beam weapon. On board, only a monotone decharge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
+			<text>You order an accurate targeting calculation and prepare the beam weapon. On board, only a monotone de-charge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
@@ -2636,7 +2636,7 @@ IDEAS
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
-					<text>A minuit later the missiles reach the surface. A few are intercepted by the Rebels AA tanks, but most detonate in the middle of their ranks, throwing their forces into disarry. You bought the evacuation some time and a escaping shuttle offers to unload some supplies as thanks.</text>
+					<text>A minute later the missiles reach the surface. A few are intercepted by the Rebels AA tanks, but most detonate in the middle of their ranks, throwing their forces into disarray. You bought the evacuation some time and a escaping shuttle offers to unload some supplies as thanks.</text>
 					<autoReward level="LOW">stuff</autoReward>
 				</event>
 			</choice>
@@ -2661,7 +2661,7 @@ IDEAS
 	<choice req="artillery" hidden="true"> 
 		<text>(Artillery Beam) Perform an orbital beam-strike.</text>
 		<event>
-			<text>You order an accurate targeting calculation and prepare the Vindicator Beam. On board, only a monotone decharge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
+			<text>You order an accurate targeting calculation and prepare the Vindicator Beam. On board, only a monotone de-charge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
@@ -2711,7 +2711,7 @@ IDEAS
 	<choice req="ENERGY_SHIELD" hidden="true">
 		<text>(Zoltan Shield) Reconfigure the shield frequencies to scramble the enemy artillery targeting.</text>
 	<event>
-		<text>Your advanced shield technlogy prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
+		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_REBEL_BEAM_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -2853,7 +2853,7 @@ IDEAS
 	<text>Arriving in the System you discover a small trade station. It has been completely militarized and is under full Federation fleet control. After a brief exchange they give you clearance to receive emergency repairs. You decide to dock and see what the traders have to offer.</text>
 	<text>You receive a repair service offer from a nearby public ship-yard. They currently serve the Federation fleet for free in order to facilitate the evacuation. While the ship is patched up you check the local offers.</text>
 	<text planet="PLANET_POPULATED">A trade hub orbits this Federation controlled planet. You check their offers and also call in for a repair crew at a nearby Federation shipyard. Your mission ID gets you to the top of the waiting list, but only a few repair drones can be spared per ship.</text>
-	<text planet="PLANET_POPULATED">A trade station is about te be evacuated nearby. Some Federation engineers re-purposed their shipyard to perform military repairs. They offer to help fix your ship while you dock the trade-post.</text>
+	<text planet="PLANET_POPULATED">A trade station is about to be evacuated nearby. Some Federation engineers re-purposed their shipyard to perform military repairs. They offer to help fix your ship while you dock the trade-post.</text>
 </textList>
 
 <eventList name="TE_STORE_FED_LIST">
@@ -2861,7 +2861,7 @@ IDEAS
 		<text>You consider striking a deal here. This might take some time.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some illigalized goods.</text>
+			<text>Buy some illegal goods.</text>
 			<event>
 				<text load="STORE_FED_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -2874,7 +2874,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<!-- best deal-->
-			<text>A doctor approaches you: "Do you have medical supplies? Look arround you, we need this stuff badly here..." [Sell Pharmaceuticals for about 90 Scrap]</text>
+			<text>A doctor approaches you: "Do you have medical supplies? Look around you, we need this stuff badly here..." [Sell Pharmaceuticals for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_FED_SELL_TEXT"/>
 				<item_modify>
@@ -3102,7 +3102,7 @@ IDEAS
 
 <textList name="STORE_FED_BUY_TEXT"> <!-- to do, battle background -->
 	<text>You transfer the scrap. Loading the cargo poses some problems, as the entire hangar is packed with refuges that want to get out of the system. You have a look at the ship equipment the shop also offers. Time passes.</text>
-	<text>You write a scrap transfer order. The office is full of traders that want to strike last minuit deals and get out of the system. Loading the cargo takes a while. You check the ship equipment catalog while waiting.</text>
+	<text>You write a scrap transfer order. The office is full of traders that want to strike last minute deals and get out of the system. Loading the cargo takes a while. You check the ship equipment catalog while waiting.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes it's time. The cargo drones are in much less of a hurry than you and there are people everywhere, most of them refugees. While waiting you get a chance to check the ship equipment they offer here.</text>
 </textList>
 
@@ -3119,7 +3119,7 @@ IDEAS
 		<text>You consider striking a deal here.  Your equipment will facilitate trading.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some illigalized goods.</text>
+			<text>Buy some illegal goods.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -3131,7 +3131,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<!-- best deal-->
-			<text>A doctor approaches you: "Do you have medical supplies? Look arround you, we need this stuff badly here..." [Sell Pharmaceuticals for about 90 Scrap]</text>
+			<text>A doctor approaches you: "Do you have medical supplies? Look around you, we need this stuff badly here..." [Sell Pharmaceuticals for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<item_modify>
