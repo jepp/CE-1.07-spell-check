@@ -2093,7 +2093,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew Member) Have your Rock crew member pose as captain and let him execute a traditional Rock collision-greeting [2 hull damage].</text>
+		<text>(Rock Crew) Have your Rock crew member pose as captain and let him execute a traditional Rock collision-greeting [2 hull damage].</text>
 		<event>
 			<text>Your Rock crew member takes the helm and rams the ship directly into the station, using medium engine power and little dignity. The stations armor plating is barely scratched but your front hull takes some dents. A Rock admiral addresses your crew member via vid-comm: "You command this alien vessel? We have to acknowledge that your greeting was executed in the most traditional and honorably way. We shall give you permission to dock."</text>
 			<damage amount="2"/>

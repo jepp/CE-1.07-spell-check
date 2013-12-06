@@ -986,7 +986,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew Member) Offer to lead them out of the nebula.</text>
+		<text>(Rock Crew) Offer to lead them out of the nebula.</text>
 		<event>
 			<text>The rock grudgingly transfer control of their helm to you and you steer them to a thinner part of the nebula. They're not sure what to think, but transfer over some supplies all the same.</text>
 			<autoReward level="HIGH">standard</autoReward>

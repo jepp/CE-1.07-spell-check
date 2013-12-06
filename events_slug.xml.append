@@ -812,7 +812,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="slug">
-						<text>(Slug crew member) Our Slug senses someone aboard the ship. Investigate it.</text>
+						<text>(Slug Crew) Our Slug senses someone aboard the ship. Investigate it.</text>
 						<event>
 							<text>It looks like the merchant was trying to stall you while someone teleported on board. You catch him before he could finish and he teleports away. You immediately prepare for battle.</text>
 							<ship load="JELLY" hostile="true"/>

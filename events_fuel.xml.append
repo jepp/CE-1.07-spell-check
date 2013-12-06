@@ -1596,7 +1596,7 @@
 	<choice hidden="true">
 		<text>Negotiate.</text>
 		<event>
-			<text>You offer a more reasonable price but the Slugman is outraged! He moves in to attack!</text>
+			<text>You offer a more reasonable price but the Slug is outraged! He moves in to attack!</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 

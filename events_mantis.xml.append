@@ -214,11 +214,11 @@
 		<event load="MANTIS_CAPTURE_COMMANDO_KILL"/>
 	</choice>
 	<choice req="mantis" hidden="true">
-		<text>(Mantis Crew Member) Interrogate him.</text>
+		<text>(Mantis Crew) Interrogate him.</text>
 		<event load="MANTIS_CAPTURE_COMMANDO_TALK"/>
 	</choice>
 	<choice req="slug" hidden="true">
-		<text>(Slug Crew Member) Screen his intentions.</text>
+		<text>(Slug Crew) Screen his intentions.</text>
 		<event load="MANTIS_CAPTURE_COMMANDO_SLUG"/>
 	</choice>
 </event>
@@ -1049,7 +1049,7 @@
 	<ship load="MANTIS_NAMED_THIEF" hostile="false"/>
 	<text>You cross paths with a Mantis ship that looks to have had dozens of layers of armor-plating added over what must have been a hundred year career. Its captain is legendary thief KazaaakplethKilik. Your crew look frightened.</text>
 	<choice hidden="true" req="mantis">
-		<text>(Mantis crew member) Attempt to hail him.</text>
+		<text>(Mantis Crew) Attempt to hail him.</text>
 		<event>
 			<text>Your Mantis crew-member steps forward. He and KazaaakplethKilik perform a weird kind of alien haka. You, meanwhile, charge the battle systems.</text>
 			<ship hostile="true"/>
@@ -1204,7 +1204,7 @@
 		<event load="MANTIS_CREW_LIST"/>
 	</choice>
 	<choice req="slug" hidden="true">
-		<text>(Slugman Crew Member) Can you sense if there is someone in the pod?</text>
+		<text>(Slug Crew) Can you sense if there is someone in the pod?</text>
 		<event load="MANTIS_CREW_SLUG_LIST"/>
 	</choice>
 </event>
