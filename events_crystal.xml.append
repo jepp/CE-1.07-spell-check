@@ -31,13 +31,13 @@
 	<choice req="AE_BEACON_KIT" hidden="true">
 		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
 		<event>
-			<text>The FTL network here seeme to work as you know it, but the jump beacons are of a design you never have seen before. Their crystal shape hints nothing of their function, they could just as well be fancy asteroids. The Access Kit is useles here.</text>
+			<text>The FTL network here seems to work as you know it, but the jump beacons are of a design you've never seen before. Their crystal shape hints nothing of their function, they could just as well be fancy asteroids. The Access Kit is useless here.</text>
 		</event>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. What will the cyatal beings think of this? The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. What will the crystal beings think of this? The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -1225,7 +1225,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Get the field up, in case this things can teleport.</text>
 		<event>
-			<text>You indeed detect something that could be teleporter targeting. The crew recomends to get out of here before they call in their war ships.</text>
+			<text>You indeed detect something that could be teleporter targeting. The crew recommends getting out of here before they call in their warships.</text>
 		</event>
 	</choice>
 	<choice>
@@ -1237,9 +1237,9 @@
 	</choice>
 </event>
 <textList name="BOARDERS_CRYSTAL">
-	<text>You detect a heavily armed Crystalline ship escorting some sort of prison vessel. Scans indicate there are a number of non-Crystal based life forms aboard; they must be rounding up all of the intruders in their space! Before you can react, you hear the anoying sound of your ships teleporter-warning.</text>
+	<text>You detect a heavily armed Crystalline ship escorting some sort of prison vessel. Scans indicate there are a number of non-Crystal based life forms aboard; they must be rounding up all of the intruders in their space! Before you can react, you hear the annoying sound of your ships teleporter warning.</text>
 	<text>You arrive near a small settlement and a lone guard ship moves to intercept you. You try to contact them but they are refusing all hails.</text>
-	<text>You pick up chatter from a nearby ship, "Yes... Here are some interesting specimens. Try to take them alive this time, there's a lot of money to be had on aliens." Scanners indicate a remote teleporter is powering up.</text>
+	<text>You pick up chatter from a nearby ship, "Yes... Here are some interesting specimens. Try to take them alive this time; there's a lot of money to be had on aliens." Scanners indicate a remote teleporter is powering up.</text>
 </textList>
 
 
@@ -1283,14 +1283,14 @@
 </event>
 <textList name="STORE_CRYSTAL">
 	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello aliens", says a rotund crystalline being on the vid screen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>"Ah! Hello aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out some sort of exchange."</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vid screen, "Long time since use universal translator no necessary. Please, buy, buy!"</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator no necessary. Please, buy, buy!"</text>
 	
 	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello aliens", says a rotund crystalline being on the vid screen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>"Ah! Hello aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out so sort of exchange?"</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vid screen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
 </textList>
 
 <eventList name="TE_STORE_CRYSTAL_LIST">
@@ -1517,11 +1517,11 @@
 </eventList>
 
 <textList name="STORE_CRYSTAL_BUY_TEXT">
-	<text>You transfer the scrap. You are not sure if you just bough priceless art or simply cheap crap. No one knows what purpose this artifacts serve... While your crew loads the cargo you have a look at the ship equipment the shop also also offers. Time passes.</text>
+	<text>You transfer the scrap. You are not sure if you just bought priceless art or simply cheap crap. No one knows what purpose these artifacts serve... While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
 	<text>You agree to transfer the scrap, but making the deal still takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting. Luckily, you have the universal translator.</text>
 </textList>
 <textList name="STORE_CRYSTAL_SELL_TEXT">
-	<text>These beings never traded with an outsider in their whole life and think seems to think it is great fun. They don't care about the price at all, but haggle as some kind of game or exotic performance. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>These beings never traded with an outsider in their whole life and seem to think it is great fun. They don't care about the price at all, but haggle as some kind of game or exotic performance. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 </textList>
 
 
