@@ -188,7 +188,7 @@
 		<name>The Dice Coreworlds</name>
 		<name>Zik-Zik Coreworlds</name>
 		<name>The Far Human Coreworlds</name>
-		<name>The Supream Coreworlds</name>
+		<name>The Supreme Coreworlds</name>
 		<name>The Close Coreworlds</name>
 		<name>The Open Coreworlds</name>
 		<name>The Prosperous Coreworlds</name>
@@ -425,7 +425,7 @@
 		<name>Biter 2</name>
 		<name>The Venkman Colony</name>
 		<name>Kepler Periphery</name>
-		<name>Betelguess Rimworlds</name>
+		<name>Betelguese Rimworlds</name>
 		<name>Rigel 4</name>
 		<name>New Rigel Colonies</name>
 		<name>Tau Ceti</name>
@@ -639,11 +639,11 @@
 		<name>Shifters Zone</name>
 		<name>Hanged Mans Moons</name>
 		<name>Gun-Lovers Retreat</name>
-		<name>Illegalized Zone iv</name>
-		<name>Illegalized Zone xviii</name>
+		<name>Illegalized Zone IV</name>
+		<name>Illegalized Zone XVII</name>
 		<name>The Vilgin Drug Mines</name>
-		<name>The Zorg Blackmarkets</name>
-		<name>The Central Backalley</name>
+		<name>The Zorg Black Markets</name>
+		<name>The Central Back Alley</name>
 		<name>The Carabian System</name>
 		<name>The Drifter System</name>
 
@@ -681,13 +681,13 @@
 		<name>Rebel Supply Base Omicron</name>
 		<name>Rebel Supply Base Phi</name>
 		<name>Rebel Supply Base Rho</name>
-		<name>Rebel Supply Base Lamda</name>
+		<name>Rebel Supply Base Lambda</name>
 		<name>Rebel Supply Base Delta</name>
 		<name>Rebel Supply Base Upsilon</name>
 		<name>The Liberated Front</name>
 		<name>The Vindicated Front</name>
 		<name>The Pacified Front</name>
-		<name>The Peacefull Front</name>
+		<name>The Peaceful Front</name>
 		<name>The Old Front</name>
 		<name>The First Front</name>
 		<name>The Second Front</name>
@@ -835,7 +835,7 @@
 		<name>The Killing Grounds</name>
 		<name>The Writhing Worlds</name>
 		<name>The Scarred Arm</name>
-		<name>The Pinacle</name>
+		<name>The Pinnacle</name>
 	</nameList>
 	<trackList>
 		<track>mantis</track>
@@ -883,7 +883,7 @@
 		<name>Unexplored Nebula 2.283</name>
 		<name>Unexplored Nebula 0.95.4</name>
 		<name>Unexplored Nebula Iota</name>
-		<name>Unexplored Nebula Lamda 29</name>
+		<name>Unexplored Nebula Lambda 29</name>
 		<name>Undiscovered Nebula 348</name>
 		<name>Undiscovered Nebula 423</name>
 		<name>Undiscovered Nebula 027</name>
@@ -1218,8 +1218,8 @@
 		<name>The Outer Walls</name>
 		<name>The Inner Walls</name>
 		<name>Rockslide Five</name>
-		<name>Earthquark Three</name>
-		<name>Erruption One xT</name>
+		<name>Earthquake Three</name>
+		<name>Eruption One xT</name>
 		<name>Hill 48</name>
 		<name>Hill 12</name>
 		<name>Hill 6</name>
@@ -1228,7 +1228,7 @@
 		<name>The Outer Mines</name>
 		<name>The Abandoned Mines</name>
 		<name>The New Mines</name>
-		<name>Sunflare Factories</name>
+		<name>Solar Flare Factories</name>
 		<name>Rockslide Factories</name>
 		<name>The Magma Factories</name>
 		<name>The Hard Factories</name>
@@ -1298,7 +1298,7 @@
 		<name>Commandment Three Two</name>
 		<name>Commandment Two One</name>
 		<name>Commandment One One</name>
-		<name>The Granit-Chin Monarchy</name>
+		<name>The Granite-Chin Monarchy</name>
 		<name>The Molton Monarchy</name>
 		<name>The Sandstorm Monarchy</name>
 
@@ -1374,7 +1374,7 @@
 		<name>Payback?</name>
 		<name>Redemption?</name>
 		<name>Salvation?</name>
-		<name>Vengence?</name>
+		<name>Vengeance?</name>
 		<name>Retribution?</name>
 		<name>Retaliation?</name>
 		<name>Punishment</name>
