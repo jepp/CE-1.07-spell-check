@@ -1051,7 +1051,7 @@
 	<choice hidden="true" req="mantis">
 		<text>(Mantis Crew) Attempt to hail him.</text>
 		<event>
-			<text>Your Mantis crewman steps forward. He and KazaaakplethKilik perform a weird kind of alien haiku. You, meanwhile, charge the battle systems.</text>
+			<text>Your Mantis crewman steps forward. He and KazaaakplethKilik perform a weird kind of alien haka. You, meanwhile, charge the battle systems.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
