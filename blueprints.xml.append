@@ -467,7 +467,7 @@
 
 <augBlueprint name="AE_IRRADIATOR">   <!-- 0% fail -->
 	<title>Radiation Projector</title>
-	<desc>Constantly irradiates the enemy ship, polluting it's oxygen and after some time killing the crew. Ineffective against advanced life support systems. Combat augment.</desc>
+	<desc>Constantly irradiates the enemy ship, polluting its oxygen and after some time killing the crew. Ineffective against advanced life support systems. Combat augment.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>
@@ -2545,7 +2545,7 @@
 	<title>Ion Burst Mark III</title>
 	<short>Ion Burst III</short>
 	<locked>1</locked>
-	<desc>Powerful ion weapons that can deeply disrupt enemy ships with it's massive salvos.</desc>
+	<desc>Powerful ion weapons that can deeply disrupt enemy ships with its massive salvos.</desc>
 	<tooltip>Fires 4 blasts that do 1 ion damage each. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -3155,7 +3155,7 @@
 	<type>LASER</type>
 	<title>Ifrit Missile</title>
 	<short>Ifrit</short>
-	<desc>Brilliantly designed high-tech missile launcher that fires four projectiles for the cost of one. It's cloaked missiles can only be shot down by the most advanced defense drones.</desc>
+	<desc>Brilliantly designed high-tech missile launcher that fires four projectiles for the cost of one. Its cloaked missiles can only be shot down by the most advanced defense drones.</desc>
 	<tooltip>Fires 4 missiles; 1 damage each; pierces all shields; evades lvl 1 defense drones.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -6976,7 +6976,7 @@
 	<type>COMBAT</type>
 	<title>Light Anti-Crew Missile Drone</title>
 	<short>Light M.</short>
-	<desc>Slow drone that damages enemy crew and systems with guided micro missiles. It's usage can be considered a war-crime under interstellar law, but nobody cares.</desc>
+	<desc>Slow drone that damages enemy crew and systems with guided micro missiles. Its usage can be considered a war-crime under interstellar law, but nobody cares.</desc>
 <!-- Pierces hull but can not damage ships structural integrity. -->
 	<power>1</power>
 	<cooldown>1000</cooldown>
@@ -7122,7 +7122,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Beam Drone MK II</title>
 	<short>Beam II</short>
-	<desc>Powerful drone that cuts enemy ships into pieces with it's heavy beam weapon.</desc>
+	<desc>Powerful drone that cuts enemy ships into pieces with its heavy beam weapon.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
@@ -7138,7 +7138,7 @@
 	<type>COMBAT</type>
 	<title>Anti-Ship Focus Beam Drone</title>
 	<short>Focus Beam</short>
-	<desc>Powerful drone that pierces shield with it's focus beam.</desc>
+	<desc>Powerful drone that pierces shield with its focus beam.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
@@ -7812,7 +7812,7 @@
 
 <augBlueprint name="TE_GOODS_SLUG_ART">
 	<title>Eccentric Artworks</title>
-	<desc>Nebula and other phenomena often inspire aliens to create impressive pictures, installations, sound-scapes, genetic mutation sculptures and all kinds of other stuff. Common trade goods.</desc>
+	<desc>Nebula and other phenomena often inspire aliens to create impressive pictures, installations, soundscapes, genetic mutation sculptures and all kinds of other stuff. Common trade goods.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -7824,7 +7824,7 @@
 
 <augBlueprint name="TE_GOODS_SLUG_ANIMALS">
 	<title>Alien Livestock</title>
-	<desc>Living cargo. The individuals you sell these animals to will either pet, hunt, slaughter or live-dissect them. It's a sad galaxy you try to survive in. Common trade goods.</desc>
+	<desc>Living cargo. The individuals you sell these animals to will either pet, hunt, slaughter or vivisect them. Its a sad galaxy you try to survive in. Common trade goods.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
