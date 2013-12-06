@@ -97,7 +97,7 @@
 	</event>
 </eventList>
 <textList name="ENGI_FIGHT_DESTROYED">  
-	<text>You can only assume the emotions of the attacking Engis remain static in their final moments as their ship explodes around them, their armor panels scattering into the surrounding space.</text>
+	<text>You can only assume the emotions of the attacking Engi remain static in their final moments as their ship explodes around them, their armor panels scattering into the surrounding space.</text>
 	<text>The drones circling the Engi ship suddenly stop dead, the ship controlling them falling apart into a clutter of metal panels and other usable materials.</text>
 	<text>The lights on the Engi craft flicker and shut off as it loses power, the core of its engine detonates violently.</text>
 	<text>The circular form of the Engi ship breaks apart into many fragments, scattering useful scrap material and ship parts in its wake.</text>
@@ -120,7 +120,7 @@
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
 		<text>(FTL Fuel Recycler) Recycle some FTL fuel cells.</text>
 		<event>
-			<text>You are undisturbed here can recycle some fuel while the FTL charges. The recylcer device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
+			<text>You are undisturbed here and can recycle some fuel while the FTL charges. The recycler device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
 			<item_modify>
 				<item type="fuel" min="2" max="4"/>
 			</item_modify>
@@ -148,7 +148,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay out some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the Engi. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay out some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the Engi. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -163,8 +163,8 @@
 <textList name="NOTHING_ENGI">
 	<text>The complex arrangements of ship hulls and FTL drive capacitors floating abandoned in space suggest the Engi were here not too long ago; but no longer.</text>
 	<text>You arrive at a green planet with great plains and rolling waterfalls. It would be of little interest to the Engi nearby.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
-	<text>You have arrived near an Engi construction yard.  Most Engi's maintain their bi-pedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships.  Truly a sight to behold.</text>
-	<text>Even though each "individual" Engi is made up of trillions of nano-machines, their culture still revolves around traditional social interactions.  A nearby station seems to be constructed for entertainment of passing Engi travellers.</text>
+	<text>You have arrived near an Engi construction yard.  Most Engi maintain their bi-pedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships.  Truly a sight to behold.</text>
+	<text>Even though each "individual" Engi is made up of trillions of nanomachines, their culture still revolves around traditional social interactions.  A nearby station seems to be constructed for entertainment of passing Engi travellers.</text>
 	<text>You see a number of Engi space stations and fleets nearby.  Despite looking like piles of junk loosely tied together they are actually a model of efficiency.  They just lack a certain aesthetic emphasis in their constructions.</text>
 	<text>This system appears quite peaceful.  You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
 	<text>There are a number of merchant ships passing through the area despite the threat of Mantis invasion.  No doubt interested in buying the efficient technology of the Engi.</text>
@@ -188,7 +188,7 @@
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
 		<text>(FTL Fuel Recycler) Recycle some FTL fuel cells.</text>
 		<event>
-			<text>You are undisturbed here can recycle some fuel while the FTL charges. The recylcer device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
+			<text>You are undisturbed here and can recycle some fuel while the FTL charges. The recycler device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps.</text>
 			<item_modify>
 				<item type="fuel" min="2" max="4"/>
 			</item_modify>
@@ -212,7 +212,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay out some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the Engi. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay out some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the Engi. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -226,7 +226,7 @@
 </event>
 <textList name="START_BEACON_ENGI">
 	<text>You have arrived in Engi space. The Mantis have been threatening the Engi core worlds, but you should be able to stock up for your journey.</text>
-	<text>You have arrived in Engi space. The fall of the Federation has brought tough times for these robotic lifeforms, but they're usually willing to help.</text>
+	<text>You have arrived in Engi space. The fall of the Federation has brought tough times for these robotic life forms, but there usually willing to help.</text>
 	<text>You have arrived in Engi space. Soon the Rebel fleet will sweep over this sector with, it's unlikely that the Engi will put up much of a fight.</text>
 </textList>
 
@@ -403,7 +403,7 @@
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) The Mantis surely will try to board. Get our defenses online!</text>
 			<event>
-				<text>No teleporting today. The mantis must be disapointed.</text>
+				<text>No teleporting today. The mantis must be disappointed.</text>
 				<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -636,21 +636,21 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>The Engies are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting med-bot disperser they hope they won't need.</text>
+		<text>The Engi are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting med-bot disperser they hope they won't need.</text>
 		<weapon name="BOMB_HEAL"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The Engies are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting repair device they hope they won't need.</text>
+		<text>The Engi are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting repair device they hope they won't need.</text>
 		<weapon name="BOMB_NANO_2"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The Engies are grateful. They don't have much by way of supplies but they do offer a drone schematic for your use.</text>
+		<text>The Engi are grateful. They don't have much by way of supplies but they do offer a drone schematic for your use.</text>
 		<drone name="RANDOM"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
@@ -659,7 +659,7 @@
 </eventList>
 
 <event name="ENGI_UNLOCK_2FAKE">
-	<text>You arrive at one of the Rebel bases that the Engies told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them.</text>
+	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them.</text>
 	<ship load="REBEL_ENGI_UNLOCK_2FAKE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -714,7 +714,7 @@
 </event>
 
 <event name="ENGI_UNLOCK_2REAL">
-	<text>You arrive at one of the Rebel bases that the Engies told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them."</text>
+	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them."</text>
 	<ship load="REBEL_ENGI_UNLOCK_2REAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -862,7 +862,7 @@
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You discover an old industrial cutting beam loosly attached to the the husk of an old mining vessel. Analysis suggests it could be turned into a weapon.</text>
+		<text>You discover an old industrial cutting beam loosely attached to the husk of an old mining vessel. Analysis suggests it could be turned into a weapon.</text>
 		<weapon name="BA_BEAM_SCYTHE"/>
 	</event>
 	<event>
@@ -874,7 +874,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true">
 			<text>(Advanced Proximity Navigation) Brace for impact! Activate AI controlled evasion!</text>
 			<event>
-				<text>Within seconds, the navigation AI brings your ship into the optimal position to withstand the explosion. Your shields are depleated compleatly, but the hull takes no damage.</text>
+				<text>Within seconds, the navigation AI brings your ship into the optimal position to withstand the explosion. Your shields are depleted completely, but the hull takes no damage.</text>
 			</event>
 		</choice>
 		<choice>
@@ -886,7 +886,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>At the edge of the scrapyard a pirate ship suddenly emerges from the husk of an derelict supply station! The scavengers immediately fire a pre-ignited salvo and your evasive maneuver forces you into into the near asteroid belt.</text>
+		<text>At the edge of the scrapyard a pirate ship suddenly emerges from the husk of an derelict supply station! The scavengers immediately fire a pre-ignited salvo and your evasive maneuver forces you into the nearby asteroid belt.</text>
 		<environment type="asteroid"/>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1060,9 +1060,9 @@
 
 </event>
 <textList name="BS_EVENT_ENGI_TEXT">
-	<text>A small Engi station is looping a warning message: "Warning! Quarantine Level 7 in effect under FHA Act 283, article 4.7. Stations personal infected with terminal personality degradation virus. Keep your distance." This virus is known to destroy the self consciousness of individual Engis, resulting in unpredictable, aggressive behavior.</text>
+	<text>A small Engi station is looping a warning message: "Warning! Quarantine Level 7 in effect under FHA Act 283, article 4.7. Stations personal infected with terminal personality degradation virus. Keep your distance." This virus is known to destroy the self consciousness of individual Engi, resulting in unpredictable, aggressive behavior.</text>
 	<text>You spot a small Engi ring-station at this beacon. They message you: "Our designation: science lab RPG-74-PXTCC. Purpose: Running war simulations. Elapsed time since program start: 108 standard years. Engi station's evaluated disposition: Eccentric aggressive. Exchange of fire to be expected. Valuable Data will be collected."</text>
-	<text>Immediately after arriving in the system your vidscreen shows a small engi ship. They are fired on by one of their own stations and massage: "Danger present. Fellow Engi infected with personality degradation virus. Station purging necessary. Success wished for you by this Engi." They jump away and leave you with a station full of mad Engis, which now starts targeting you.</text>
+	<text>Immediately after arriving in the system your vidscreen shows a small Engi ship. They are fired on by one of their own stations and massage: "Danger present. Fellow Engi infected with personality degradation virus. Station purging necessary. Success wished for you by this Engi." They jump away and leave you with a station full of mad Engi, which now starts targeting you.</text>
 </textList>
 
 <event name="BS_DISTRESS_ENGI_MEDICAL_MANTIS_CONTROLLED" unique="true">
@@ -1434,15 +1434,15 @@
 </event>
 <textList name="C_EVENT_ENGI_TRANSPORT_TEXT">
 	<text>You spot a civilian transport ship nearby. Passive scans indicate they are transporting locally produced goods.</text>
-	<text>An only lightly armed Engi transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTL's besides each other.</text>
-	<text>An Engi transport hails: "This Engis threat level: insignificant. Federation affinity positive? Relief exercised by this Engi." After a little chit chat they prepare to jump.</text>
+	<text>An only lightly armed Engi transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTLs besides each other.</text>
+	<text>An Engi transport hails: "This Engi's threat level: insignificant. Federation affinity positive? Relief exercised by this Engi." After a little chit chat they prepare to jump.</text>
 	<text>A civilian Engi ship recharges its FTL at this beacon. They hail you: "Caution advisable. Piracy event growth in this sector during last standard year: 187,34 percent. Arrival of "Luck" concept to you hoped for by this Engi."</text>
 </textList>
 <textList name="C_ENGI_SURRENDER_TEXT">
 	<text>The Engi ship surrenders and sends a message: "Destruction of this Engi probable. "Death" concept of other species applicable. Emotional reaction present? Exchange of goods negotiable."</text>
 	<text>They send surrender signals and hail: "Efficiency-rating of your piracy attempt: 8. Transfer of goods logical consequence."</text>
 	<text>The ship shows heavy damage and the Engi want to surrender.</text>
-	<text>You don't realy understand their message but you think the Engi want to surrender and offer some supplies if you let them go.</text>
+	<text>You don't really understand their message but you think the Engi want to surrender and offer some supplies if you let them go.</text>
 </textList>
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_ENGI">
@@ -1625,7 +1625,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew doesn't care more then you about this civilians. They throw the bodies out of the airlock and later find a weapon system on their ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>Your crew doesn't care more than you about these civilians. They throw the bodies out of the airlock and later find a weapon system on their ship. With all the civilians slaughtered, you can take it for your ship.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -1633,7 +1633,7 @@
 
 <eventList name="DESTROYED_PIRACY_ENGI">
 	<event>	
-		<text>The ship explodes, leaving behind a substantial collection of useful scrap material. You just commited an act of piracy. This might disturb your crew.</text>
+		<text>The ship explodes, leaving behind a substantial collection of useful scrap material. You just committed an act of piracy. This might disturb your crew.</text>
 		<choice hidden="true"> 
 			<text>See how the crew reacts.</text>
 			<event load="DESTROYED_PIRACY_ENGI_RESULTS"/>
@@ -1766,7 +1766,7 @@
 		</event>
 	</choice>
 	<choice req="engi">
-		<text>(Engi Crew) Your crewmember wants to go aboard to see if he can provide any help personally. He requests some scrap to help.</text>
+		<text>(Engi Crew) Your crewman wants to go aboard to see if he can provide any help personally. He requests some scrap to help.</text>
 		<event>
 			<text>He returns bearing good news. He was able to improve their engines and convinced one of their crew to join your cause.</text>
 			<item_modify>
@@ -2067,13 +2067,13 @@
 	<text>You transfer the scrap. The Engi are very helpful while the goods are loaded, but things get mixed up in translation and some of your goods are loaded into another ship. Sorting this out takes its time. You check the equipment sale-console in the meantime.</text>
 	<text>You transfer the scrap but the Engi get busy with another costumer and block the coms. When the cargo finally arrives you already flipped through most of ship equipment ads that are transmitted here. Some stuff catches your eye.</text>
 	<text>Who says machines are the better workers? Watching how slow the cargo drones load your freight is almost painful. At last you can out check the ship equipment they offer here in the meantime.</text>
-	<text>There are not enough cargo drones available to load the freight as fast as you would have whished. While waiting, an Engi suggests you have a look at the ship gear it has to offer.</text>
+	<text>There are not enough cargo drones available to load the freight as fast as you would have wished. While waiting, an Engi suggests you have a look at the ship gear it has to offer.</text>
 </textList>
 
 <textList name="STORE_ENGI_SELL_TEXT">
-	<text>You are not sure if the Engi realy don't understand you well or just pretend not to. After finally receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
-	<text>Negotiating prices with Engi is most of the time difficult but often also quite fun. It never is quick though. You get a downpayment and have to unload the cargo at the shop to finalize the transaction. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
-	<text>The Engi inquire in detail about your journey and the Rebel threat before transfering some of the scrap. You already lost a lot of time and still have to unload the cargo at the shop to receive the rest of your payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>You are not sure if the Engi really don't understand you well or just pretend not to. After finally receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>Negotiating prices with Engi is most of the time difficult but often also quite fun. It never is quick, though. You get a down payment and have to unload the cargo at the shop to finalize the transaction. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>The Engi inquire in detail about your journey and the Rebel threat before transferring some of the scrap. You already lost a lot of time and still have to unload the cargo at the shop to receive the rest of your payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>The Engi insist on being informed on the exact properties of the goods to make a fair trade. This takes much longer than you would have thought. You already lost a lot of time and still have to unload the cargo at the shop to receive the rest of your payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 </textList>
 
