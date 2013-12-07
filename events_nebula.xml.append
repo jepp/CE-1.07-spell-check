@@ -3201,7 +3201,7 @@ IDEAS
 </event>
 
 <event name="STORM_PIRATE_INTENSE" unique = "true">
-	<text>Lightening strikes the hull and sparks fly out of your console. The ship experiences power distribution failure in all systems. You jumped right into the center of the sector-wide plasma anomaly! The perfect storm... A pirate was waiting here and moves in to attack. They must be completely nuts.</text>
+	<text>Lightning strikes the hull and sparks fly out of your console. The ship experiences power distribution failure in all systems. You jumped right into the center of the sector-wide plasma anomaly! The perfect storm... A pirate was waiting here and moves in to attack. They must be completely nuts.</text>
 	<environment type="storm"/>
 	<status type="limit" target="player" system="pilot" amount="1"/>
 	<status type="limit" target="player" system="engines" amount="4"/>
@@ -3429,8 +3429,8 @@ IDEAS
 </event>
 <textList name ="STORM_EMPTY_TEXT">
 	<text>The plasma storm seems to engulf the entire sector. At last no one else is around. You try to squeeze as much power as possible from your generators to charge the FTL.</text>
-	<text>Without active sensors you have no other option but to look out of the view-ports in apprehension. Lightening illuminates the clouds from time to time, but you seem to be alone in the storm.</text>
-	<text>You nervously glance out the windows but the only thing to greet you is more ionized gases and lightening arcs. The ship shudders violently on every discharge. You eventually manage to charge the FTL with the little power the storm leaves you with.</text>
+	<text>Without active sensors you have no other option but to look out of the view-ports in apprehension. Lightning illuminates the clouds from time to time, but you seem to be alone in the storm.</text>
+	<text>You nervously glance out the windows but the only thing to greet you is more ionized gases and lightning arcs. The ship shudders violently on every discharge. You eventually manage to charge the FTL with the little power the storm leaves you with.</text>
 	<text>You cycle through wide-band com channels as soon as you arrive. No communication possible within the storm.</text>
 	<text>With the sensors down, you spend a good deal of time staring out the window. The storm appears eerily beautifully to you.</text>
 </textList>
