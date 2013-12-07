@@ -7315,7 +7315,7 @@
 	<type>DEFENSE</type>
 	<level>1</level>
 	<title>Missile Defense Turret MKII</title>
-	<short>M. DefenseII</short>
+	<short>M. Defens.II</short>
 	<desc>Basic turret drone that destroys incoming missiles, mines and asteroids with a counter-missile barrage. Reloads in 14 second.</desc>
 	<power>1</power>
 	<cooldown>14000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
@@ -7568,7 +7568,7 @@
 	<type>SHIP_REPAIR</type>
 	<title>Slow Hull Repair</title>
 	<short>Slow Hull Repair</short>
-	<desc>Your shouldn't see this description.</desc>
+	<desc>You shouldn't see this description.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect repair drone -->
 	<dodge>8</dodge>

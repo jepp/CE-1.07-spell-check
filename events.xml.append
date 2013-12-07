@@ -14,7 +14,7 @@
 			<text>A test enemy spawns and attacks you!</text>
 			<ship load="CE_TEST" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -76,7 +76,7 @@
 	<event>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -138,16 +138,16 @@
 	<text>The ship computer informs the crew: "Threat level 2 hostile approaching. Armed engagement imminent."</text>
 	<text>The ship computer reassures the crew: "Simulations show good success chances for this engagement. Remain calm and do your job."</text>
 	<text>Red lights flicker on your console. The enemy is rated threat level 3.</text>
-	<text>You calmly sit down in the captains chair and give the final order: "Engage!"</text>
+	<text>You calmly sit down in the captain's chair and give the final order: "Engage!"</text>
 	<text>Sirens glare on board the ship. Battle stations!</text>
 	<text>Combat is imminent. You get to your console and sound the red alert.</text>
 	<text>The crew runs for their stations.</text>
 	<text>Everyone on board braces for impacts.</text>
-	<text>Your crew reports: "Moving in from below captain."</text>
-	<text>Your crew reports: "All offensive assets at your command, captain."</text>
-	<text>Your crew reports: "All defensive assets ready, captain."</text>
-	<text>Your crew reports: "Randomized evasive course set. We are ready to engage."</text>
-	<text>Your crew reports: "We are moving in hot."</text>
+	<text>Your crew reports, "Moving in from below, Captain."</text>
+	<text>Your crew reports, "All offensive assets at your command, Captain."</text>
+	<text>Your crew reports, "All defensive assets ready, Captain."</text>
+	<text>Your crew reports, "Randomized evasive course set. We are ready to engage."</text>
+	<text>Your crew reports, "We are moving in hot."</text>
 </textList>
 <textList name="CE_PRE_FIGHT_ION_TEXT">
 	<text>The enemy shields flicker and on of their protective layers collapses. This should soften them up a bit.</text>
@@ -155,26 +155,26 @@
 	<text>Lightening flashes from the enemy shields. One of their shield bubbles collapses and stays down.</text>
 	<text>The ion field depletes one of the enemy shield bubbles.</text>
 	<text>You augment once again disrupts an opponents shields.</text>
-	<text>You crew reports: "Good effect on target captain. Enemy defenses weakened."</text>
-	<text>"Their shields are collapsing captain." You move in to engage.</text>
+	<text>You crew reports, "Good effect on target, Captain. Enemy defenses weakened."</text>
+	<text>"Their shields are collapsing, Captain." You move in to engage.</text>
 	<text>That should soften them up a bit.</text>
 	<text>The field projector has trouble keeping a lock on the enemy, but after a while their defenses are going down.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_TELEPORTER_TEXT">
 	<text>A reassuring green light on your console tells you that the teleporter disruptor is online. The enemies will have difficulties boarding you.</text>
 	<text>A graphic on the vidscreen illustrates how the disruption field unfolds. The enemy teleporter signals are scrambled.</text>
-	<text>"Disrupter field stable, captain. That should keep them away." You move in to attack.</text>
+	<text>"Disrupter field stable, Captain. That should keep them away." You move in to attack.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_BIOWEAPON_TEXT">
 	<text>"Captain?" Your crew awaits verification of the order. You push your concerns aside and order the activation of the bio weapon. The enemy crew will suffer greatly, unless their life support system is quite advanced.</text>
 	<text>"Eh... right, targeting radiation projector..." Your crew seems to be quite disturbed by the excessive use of this weapon.</text>
-	<text>Your first mate sights. "Radiation projector deployed, captain. Good effect on target."</text>
+	<text>Your first mate sights. "Radiation projector deployed, Captain. Good effect on target."</text>
 	<text>Your first mate nods silently. Your augment begins to irradiate the enemy vessel.</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR">
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Weapons.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1"/>
@@ -246,7 +246,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
@@ -542,7 +542,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. Good effect on target."</text>
+		<text>Your crew reports, "Jammers active sir. Good effect on target."</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -554,7 +554,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
+		<text>Your crew reports, "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
 		<choice hidden="true"> 
 			<text>Continue...</text>
 			<event/>
@@ -602,7 +602,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -638,7 +638,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -748,11 +748,11 @@
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. Good effect on target."</text>
+		<text>Your crew reports, "Jammers active sir. Good effect on target."</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
+		<text>Your crew reports, "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
 	</event>
 	<event>
 		<text>Your jamming augments seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with full fire from his weapon array.</text>
@@ -768,7 +768,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -780,7 +780,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -803,9 +803,9 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Drone Control.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_2"/>
@@ -845,7 +845,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
@@ -911,9 +911,9 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Weapons.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2"/>
@@ -953,7 +953,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
@@ -1020,9 +1020,9 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Weapons.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2"/>
@@ -1066,7 +1066,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Medbay.</text>
 							<event>
@@ -1125,9 +1125,9 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Weapons.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2"/>
@@ -1164,7 +1164,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
@@ -1227,9 +1227,9 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event>
-				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+				<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 				<choice hidden="true">
 					<text>Weapons.</text>
 					<event load="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2"/>
@@ -1273,7 +1273,7 @@
 				<choice hidden="true">
 					<text>Other system.</text>
 					<event>
-						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, captain?"</text>
+						<text>Your electronic warfare device intrudes into the enemy computer. "Hacking routines in place. Target, Captain?"</text>
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
@@ -1392,7 +1392,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true"> 
 			<text>(Advanced Proximity Navigation) Calculate optimal evasive course-pattern. We better get out of here.</text>
 			<event>
-				<text>The navigation computer allows you to leave the field unscaled.</text>
+				<text>The navigation computer allows you to leave the field unscathed.</text>
 			</event>
 		</choice>
 	</event>
@@ -1401,7 +1401,7 @@
 		<environment type="asteroid"/>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1456,7 +1456,7 @@
 		<environment type="asteroid"/>
 		<ship load="BS_PIRATE_ASTEROID" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1569,10 +1569,10 @@
 	<choice>
 		<text>Fight the ship.</text>
 		<event>
-			<text>Mercenaries are worse than rebels. The only honorable course is to engage the mercenary in battle.</text>
+			<text>Mercenaries are worse than Rebels. The only honorable course is to engage the mercenary in battle.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1643,7 +1643,7 @@
 	<distressBeacon/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1708,7 +1708,7 @@
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship load="PIRATE_CIVILIAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1783,7 +1783,7 @@
 		<text>Detecting the greater threat (and potential reward), they turn and engage your ship.</text>
 		<ship load="PIRATE_CIVILIAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1843,7 +1843,7 @@
 </eventList>
 
 
-<event name="REBEL_VS_FEDERATION" unique="true">  <!-- Fight a rebel ship who's attacking a Federation ship.   JUSTIN - maybe make a distress event for this, almost the same as this -->
+<event name="REBEL_VS_FEDERATION" unique="true">  <!-- Fight a Rebel ship who's attacking a Federation ship.   JUSTIN - maybe make a distress event for this, almost the same as this -->
 	<text load="REBEL_VS_FEDERATION"/>
 	<img back="BACKGROUND" planet="PLANET_POPULATED"/>
 	<choice>
@@ -1852,7 +1852,7 @@
 			<text>You power up your weapons and engage the Rebel ship.</text>
 			<ship load="REBEL_VS_FEDERATION" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2063,7 +2063,7 @@
 			<text>"You asked for it!" They pull away from the planet and move in to engage.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2251,7 +2251,7 @@
 						<boarders min="1" max="2" class="human"/>
 						<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2341,7 +2341,7 @@
 						<crewMember amount="-1" class="traitor"/>
 						<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2425,7 +2425,7 @@
 	<environment type="asteroid"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2481,7 +2481,7 @@
 	<environment type="sun"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2581,7 +2581,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all, the Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2638,7 +2638,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2695,7 +2695,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2789,7 +2789,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all, the Federation has to be re established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2846,7 +2846,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2903,7 +2903,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2989,7 +2989,7 @@
 					<text>Your crew indeed expected you might handle things harsh like this. The mission is paramount after all, the Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3046,7 +3046,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3103,7 +3103,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3162,7 +3162,7 @@
 		<text>You escort the ship to the requested beacon.  Much to your dismay you are ambushed by a Rebel ship.  You walked right into their trap!</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3230,7 +3230,7 @@
 		<event>
 			<ship load="SQUAT_STORE_RESCUE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3295,7 +3295,7 @@
 		<event>
 			<ship load="SQUAT_STORE_RESCUE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3380,7 +3380,7 @@
 				<text>"Just be sure not to blow them up!" they say nervously as they direct you to a nearby moon.  You find the pirate ship docked there.  They immediately respond to your appearance with, "Your money or your life!"   They must be new to this.</text>
 				<ship load="SQUAT_PIRATE_MERCENARY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3502,7 +3502,7 @@
 		<text>You decide the pirate is not worth saving and fire a few volleys into their hull. Before you can scrap the remains another pirate ship flashes on your radar. Perhaps they saw your deed, or perhaps they want to claim the spoils for themselves, but for whatever reason, they're charging weapons!</text>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3611,7 +3611,7 @@
 					<text>"We are going in. Weapons charging, Captain."</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3788,7 +3788,7 @@
 			</item_modify>
 			<ship load="MANTIS_LANDING_PARTY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3882,7 +3882,7 @@
 		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_MANTIS_ARTILLERY_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3939,7 +3939,7 @@
 			<text load="CE_PRE_FIGHT_TEXT"/>
 		<ship load="CE_SPOTTER_MANTIS_ARTILLERY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4000,7 +4000,7 @@
 	<text>You find the ship that you were asked to capture intact. You're not sure why, but they stressed that it's of great importance that you kill the crew WITHOUT destroying the ship.</text>
 	<ship load="PIRATE_QUEST_CREWDEAD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4057,7 +4057,7 @@
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>A flushed and panicky Rebel soldier has teleported aboard. The rebel, who appears unarmed, repeatedly declares his peaceful intentions. It seems the rebel life has lost its charm.</text>
+			<text>A flushed and panicky Rebel soldier has teleported aboard. The Rebel, who appears unarmed, repeatedly declares his peaceful intentions. It seems the Rebel life has lost its charm.</text>
 			<choice>
 				<text>Accept his proposal, and prepare to fight the Rebel ship.</text>
 				<event load="ALISON_DEFECTOR_HELP"/>
@@ -4077,7 +4077,7 @@
 	<event>
 		<text>Your fearless crew easily overcome the intruder, but the Rebel ship still needs to be dealt with.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4131,7 +4131,7 @@
 		<text>Attempting to deal with attacks from inside and out is never easy!</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4193,7 +4193,7 @@
 				<text>The defector gets desperate. "I'm not going back!" He draws weapon.</text>
 				<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4252,7 +4252,7 @@
 		<damage amount="3"/>
 		<modifyPursuit amount="1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4307,7 +4307,7 @@
 		<boarders min="2" max="2" class="human"/>
 		<damage amount="3"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4361,7 +4361,7 @@
 		<text>Relieved and light-headed, your new crew member gets to work as the Rebel ship attacks.</text>
 		<crewMember amount="1" class="human"/>	
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4415,7 +4415,7 @@
 		<text>Relieved and light-headed, your new crew member gets to work as the Rebel ship attacks.</text>
 		<crewMember amount="1" class="human"/>	
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4469,7 +4469,7 @@
 		<text>Relieved and light-headed, your new crew member gets to work as the Rebel ship attacks.</text>
 		<crewMember amount="1" class="human"/>	
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4524,7 +4524,7 @@
 		<boarders min="1" max="1" class="human"/>
 		<crewMember amount="-1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4582,7 +4582,7 @@
 		<damage amount="3"/>
 		<modifyPursuit amount="1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4637,7 +4637,7 @@
 		<boarders min="2" max="2" class="human"/>
 		<damage amount="3"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4692,7 +4692,7 @@
 		<crewMember amount="1" class="human"/>
 		<quest event="ALISON_DEFECTOR_QUEST"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4747,7 +4747,7 @@
 		<crewMember amount="1" class="human"/>
 		<quest event="ALISON_DEFECTOR_QUEST"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4802,7 +4802,7 @@
 		<crewMember amount="1" class="human"/>
 		<quest event="ALISON_DEFECTOR_QUEST"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4857,7 +4857,7 @@
 		<boarders min="1" max="1" class="human"/>
 		<crewMember amount="-1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4914,7 +4914,7 @@
 	<event>
 		<text>Your slug stares at the Rebel for moment. "Thiss persson wantsss to manipulate you ssir. Don't trust him." You call a security alert and your fearless crew easily overcome the intruder, but the Rebel ship still needs to be dealt with.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4968,7 +4968,7 @@
 		<text>Your slug stares at the Rebel for moment. "Don't trussst him ssir, he wantss to deceive you!" As you order to restrain the intruder, things escalate. Attempting to deal with attacks from inside and out is never easy!</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5022,7 +5022,7 @@
 		<text>Your slug stares at the Rebel for moment. "Thiss persson indeed wantss to defect from the Rebel fleet." The Slug crew member spasms. "He hass ssseen terrible, terrible thingss there. But he has a strong mind. He will be a valuable addition to your crew." A little disturbed by the telepathic intrusion, your new crew member gets to work as the Rebel ship attacks.</text>
 		<crewMember amount="1" class="human"/>	
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5079,7 +5079,7 @@
 			<event>
 				<text>"I won't submit to your command. You can take me as a prisoner." He refuses to say another word. You probably can leave him at the next station, but you will have to deal with the Rebel ship he escaped from first.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5157,7 +5157,7 @@
 		<damage amount="5"/>
 		<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5212,7 +5212,7 @@
 		<ship load="ENGI_SHIP" hostile="true"/>
 		<crewMember amount="1" class="mantis"/>	
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5278,7 +5278,7 @@
 		<boarders min="1" max="1" class="mantis"/>
 		<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5407,7 +5407,7 @@
 			<text>You wait till the Rebels start to teleport, than activate the disruption field. The atoms of their away-team are scattered in higher space, only some pieces of clothing make it on board. "What? ... You will pay for this!"</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5465,7 +5465,7 @@
 			<boarders min="3" max="5" class="human"/>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5532,7 +5532,7 @@
 			<status type="limit" target="enemy" system="cloaking" amount="0"/>
 
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5585,20 +5585,20 @@
 	</choice>
 </event>
 <textList name="C_CRUISER_AVOIDABLE_TEXT">
-	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS "Crowd Dispersal". This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
-	<text planet="PLANET_POPULATED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS "Lethal And Nonlethal Force". Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
+	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS 'Crowd Dispersal'. This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
+	<text planet="PLANET_POPULAThis is the RS 'Ammunition Collector'TED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS 'Lethal And Nonlethal Force'. Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
 	<text planet="PLANET_POPULATED_SMALL">As soon as you arrive you find yourself in the debris field of a small scale battle. Your scans conclude that a Federation medevac squadron has been eradicated by a cruiser that still orbits the closest moon. They identify as RS "Rock Stone Scissors All In One" and engage you as soon as they realize who you are.</text>
 	<text>A barrage of shots fly by and your computer registers multiple weapon locks as soon as you arrive. As expected a Rebel cruiser, identifying as RS "Circuit Breaker", was waiting at the beacon.</text>
 	<text planet="PLANET_POPULATED">As expected you find a Rebel cruiser at these coordinates. It identifies as RS "Grinding Fun" and is busy attacking a small Federation station nearby. As you come in scanning range it immediately targets you.</text>
 
-	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS "Rapid Response". This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
-	<text planet="PLANET_POPULATED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS "Ammunition Collector". Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
+	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS 'Rapid Response'. This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
+	<text planet="PLANET_POPULATED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS 'Ammunition Collector'. Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
 	<text planet="PLANET_POPULATED_SMALL">As soon as you arrive you find yourself in the debris field of a small scale battle. Your scans conclude that a Federation medevac squadron has been eradicated by a cruiser that still orbits the closest moon. They identify as RS "Father Of Guns" and engage you as soon as they realize who you are.</text>
 	<text>A barrage of shots flies by and your computer registers multiple weapon locks as soon as you arrive. As expected a Rebel cruiser, identifying as RS "Today: Revolution, Tomorrow: Cleanup", was waiting at the beacon.</text>
 	<text planet="PLANET_POPULATED">As expected you find a Rebel cruiser at these coordinates. It identifies as RS "To-Do List" and is busy attacking a small Federation station nearby. As you come in scanning range it immediately targets you.</text>
 
-	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS "Excessive Force". This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
-	<text planet="PLANET_POPULATED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS "They Hate Me". Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
+	<text>As expected, a forward cruiser of the Rebel fleet remains stationary at this beacon. They hail: "This is the RS 'Excessive Force'. This sector will fall to the Rebels soon. You will not stop us." They power up their engines and move in to engage.</text>
+	<text planet="PLANET_POPULATED">You arrive to find a Rebel cruiser bombarding a Federation settlement on a nearby planet. Radiation levels on the surface are pretty high. It is unlikely that anyone survived. "This is the RS 'They Hate Me'. Seems you are a pretty important target. What did you do to anger the Rebellion this much?" They move in to engage.</text>
 	<text planet="PLANET_POPULATED_SMALL">As soon as you arrive you find yourself in the debris field of a small scale battle. Your scans conclude that a Federation medevac squadron has been eradicated by a cruiser that still orbits the closest moon. They identify as RS "Master Of Reloading" and engage you as soon as they realize who you are.</text>
 	<text>A barrage of shots fly by and your computer registers multiple weapon locks as soon as you arrive. As expected a Rebel cruiser, identifying as RS "Peace Through Superior Firepower", was waiting at the beacon.</text>
 	<text planet="PLANET_POPULATED">As expected you find a Rebel cruiser at these coordinates. It identifies as RS "Barely Scratched" and is busy attacking a small Federation station nearby. As you come in scanning range it immediately targets you.</text>
@@ -5726,7 +5726,7 @@
 		<boarders min="2" max="4" class="random"/>
 		<ship load="PIRATE_ZOLTAN_CREW_STUDY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5787,7 +5787,7 @@
 		<text>As you start to break it apart a Rock military ship jumps nearby, "You think you can come into our sector and just steal whatever you please?! Prepare to die, vandals!"</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5865,7 +5865,7 @@
 					<text>Your crew indeed expected you might handle things harsh like this. The mission is paramount after all, the Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5922,7 +5922,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5979,7 +5979,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6084,7 +6084,7 @@
 			<text>This place is rotten to the core and as much a threat to the Federation as the Rebels are. No need to spare it.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6150,7 +6150,7 @@
 				<event>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6207,7 +6207,7 @@
 					<text>"I sssee... However you have no choice in the matter!" They move in to attack.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6271,7 +6271,7 @@
 		<boarders min="1" max="2" class="slug"/>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6338,7 +6338,7 @@
 	<text>You are immediately hailed by an impressive looking Mantis ship, "Your ship would make a mighty fine prize. Prepare for battle!"</text>
 	<ship load="DONOR_MANTIS_CHASE1" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6397,7 +6397,7 @@
 		<event>
 			<text>"Not YOU again! Do you know how much these repairs are going to cost me? Time to take out the big guns."</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6559,7 +6559,7 @@
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone.  This must be the Federation base you were told about!</text>
 		<ship load="AUTO_FEDERATION_BASE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6613,7 +6613,7 @@
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone.  This must be the Federation base you were told about!</text>
 		<ship load="AUTO_FEDERATION_BASE2" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6667,7 +6667,7 @@
 		<text load="C_REBEL_CRUISER_FEDERATION_BASE_TEXT"/>
 		<ship load="C_REBEL_CRUISER_FEDERATION_BASE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6792,7 +6792,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6849,7 +6849,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -6906,7 +6906,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7012,7 +7012,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7069,7 +7069,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7126,7 +7126,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7214,7 +7214,7 @@
 		<choice hidden="true">
 			<text>Demand the Engi joins your crew but release the rest.</text>
 			<event>
-				<text>"Verify primary object is to defeat rebels, re-establish peace?" You nod and it responds, "Acceptable." You drop the rest off at a nearby station and strip the ship.</text>
+				<text>"Verify primary object is to defeat Rebels, re-establish peace?" You nod and it responds, "Acceptable." You drop the rest off at a nearby station and strip the ship.</text>
 				<crewMember amount="1" class="engi"/>  
 				<autoReward level="LOW">standard</autoReward>
 			</event>
@@ -7241,7 +7241,7 @@
 	<text load="BS_EVENT_FED_TEXT"/>
 	<ship load="BS_FED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7295,7 +7295,7 @@
 	<text>You are relieved to spot a station of the United Federation at this beacon. They message you: "Welcome to this re-purposed forward base station, in Rebel hand since three standard weeks. We are already running identification routi... wait a second... it's you!" This station must have been taken over by the Rebels, they cease communication and load weapons.</text>
 	<text>Immediately after arriving in the system you are hailed by a Rebel occupied station. "We know who you are and what you carry. You will have to get past us if you want to jump from this beacon. Except you won't."</text>
 	<text>This beacon lies in close proximity to what looks like a small Federation station, but IDs as a Rebel forward base. It appears to been taken over by the Rebel fleet and verifies this by locking weapons on your ship.</text>
-	<text>You get an automated message from a station right next to the beacon: "Greetings citizen/traveller/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station was scanning you while broadcasting and immediately ceases communication upon identifying your ship. The Rebels inside must be pretty excited now.</text>
+	<text>You get an automated message from a station right next to the beacon: "Greetings, citizen/traveler/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station was scanning you while broadcasting and immediately ceases communication upon identifying your ship. The Rebels inside must be pretty excited now.</text>
 	<text>You receive hail from a small station: "In accordance to general system law we identify ourselves as Rebel occupied and no longer friendly. We have identified you as a prime target in return and will commence the attack now." These guys don't fool around.</text>
 </textList>
 
@@ -7304,7 +7304,7 @@
 	<ship load="BS_FED_AUTO" hostile="true"/>
 	<status type="limit" target="enemy" system="oxygen" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7359,7 +7359,7 @@
 	<text>The station you detect upon arriving at this beacon was apparently targeted by an advanced cyber-attack. The crew is dead and the now autonomous operating weapon systems target you.</text>
 	<text>After arriving at the beacon you are hailed by an otherwise completely dark station. "Greetings. I am Federation AI core Krzbrg-22/71. My new master, the unavailable Rebel fleet, told me to suffocate my crew and engage any hostiles that arrive at this beacon. Starting up systems." The stations weapons go live!</text>
 	<text>You spot a small Federation station close by the beacon. Its lights are flickering and upon getting closer you realize that all its airlocks have been opened. Dead crewmen float in space. As its weapon systems activate all by themselves you become sure: The station has been hacked and taken over by Rebel AI routines.</text>
-	<text>You get an automated message from a station right next to the beacon: "Greetings citizen/traveller/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a rebel hacker-AI.</text>
+	<text>You get an automated message from a station right next to the beacon: "Greetings, citizen/traveler/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a Rebel hacker-AI.</text>
 </textList>
 
 
@@ -7430,7 +7430,7 @@
 		<text>As you close in the station lights up bright. You get a flood of endlessly repeated massages from what you identify as a Rebel siege AI: "Found you! Found you! Found you! Found..."</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7516,7 +7516,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>On board you find little remaining atmosphere and a lot of dead crewmen. You are not sure what happened but assume the station has been hacked or boarded by the rebels. You take any supplies that are left.</text>
+		<text>On board you find little remaining atmosphere and a lot of dead crewmen. You are not sure what happened but assume the station has been hacked or boarded by the Rebels. You take any supplies that are left.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -7590,7 +7590,7 @@
 					<text>This place is rotten to the core and as much a threat to the Federation as the Rebels are. No need to spare it.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7650,10 +7650,10 @@
 </event>
 <textList name="BS_EVENT_PIRATE_BLACKMARKET_TEXT">
 	<text>A black-market trading hub hails you: "Never seen you here before. Keep your guns holstered and we can do business."</text>
-	<text planet="PLANET_POPULATED">There's a busy black-market station orbiting the nearby planet. You receive its automated hail: "Greetings traveller. Our big guns are standing by. To engage in trade depower weapon systems and proceed to docking bay. Else, begone! - Greetings traveller ..."</text>
+	<text planet="PLANET_POPULATED">There's a busy black-market station orbiting the nearby planet. You receive its automated hail: "Greetings, traveler. Our big guns are standing by. To engage in trade depower weapon systems and proceed to docking bay. Else, begone! - Greetings, traveler ..."</text>
 	<text>The commander of this impressive pleasure station says he can provide "services" as long as you've got the scrap.</text>
 	<text planet="PLANET_POPULATED">Entire space habitats have been taken over by smugglers and want-to-be-dashing-criminals now, knowing that their less-than-legal services are in demand during this period of unrest. One of these black-market hubs is orbiting the near by planet and hails you.</text>
-	<text>A station hails you: "Greetings Captain! You're the guys the Rebels hunt, right? We can help out, but we are constantly in need for scrap to patch up this space bucket we live in...</text>
+	<text>A station hails you: "Greetings, Captain! You're the guys the Rebels hunt, right? We can help out, but we are constantly in need for scrap to patch up this space bucket we live in...</text>
 </textList>
 
 <textList name="BS_EVENT_PIRATE_HINTS">
@@ -7675,7 +7675,7 @@
 	<text>The bartender seems to be intoxicated by some substances. He explains they used these hallucinogens all the time on his old pirate hideout, but now he is almost clean. "Some Slug trader came each cycle. The stuff costs a fortune, but we would pay anything, Cap. Good times... till this Fed cruiser blew the place up."</text>
 	<text>The place looks much less rough inside than on the outside. Modern art-pieces are arranged in the canteen. The Zoltan bartender notices you interest in her collection. "I got bored by the homeworlds, so I came here and show these works to common people. Back home this is worth a fortune, but I feel only here beings truly appreciate it."</text>
 	<text>Some union traders hang out on the bar. "Sister, trading with these things is sooo tedious. I got me this new translator, but I still don't get what they want most of the time." "Tell me about it. You want to hear what problems I got on my end? Do you even know how difficult is to get this stuff out of Mantis territory?"</text>
-	<text>Some drunken cowboy-type ship Captain tells you his story, although you did not ask at all: "It's not the same like in the old colony days... Trading live animals, you know, a hangar full of cattle? Now it's only tube bred livestock from the Slug nebula. And I sell it to these robots, don't wanna know what they do with it..."</text>
+	<text>Some drunken cowboy-type ship captain tells you his story, although you did not ask at all: "It's not the same like in the old colony days... Trading live animals, you know, a hangar full of cattle? Now it's only tube bred livestock from the Slug nebula. And I sell it to these robots, don't wanna know what they do with it..."</text>
 	<text>While you sip your galaxy import you brows through an old Federation fleet manual, lying beer-soaked on the bar. You remember the lesson on interceptor defense quite well from the academy. The chapter explains in detail the advantage of burst firing missile weapons against this ship type.</text>
 	<text>While you wait for your ration-smoothie, a union trader tries to coax you into buying his load of compressed nebula gas. "Okay, okay, who am I trying to fool here. We both know this stuff is worth almost nothing. I guess I have to journey to Rock territory again then I guess..."</text>
 </textList>
@@ -7746,7 +7746,7 @@
 					<text>This place is rotten to the core and as much a threat to the Federation as the Rebels are. No need to spare it.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7809,7 +7809,7 @@
 		<environment type="asteroid"/>
 		<ship load="BS_PIRATE_ASTEROID" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7864,7 +7864,7 @@
 	<text>You discover a hidden station, build within the largest asteroids of the field. You are informed that this place is open for everyone, this might be a good place for a short rest.</text>
 	<text>It turns out that one of the bigger asteroids has been mined hollow and then turned into a space habitat. The commander openly admits that he is a federation deserter. He asks if you still believe in your missions and offers you to stay. You politely decline. You can not give up now.</text>
 	<text>Entire space habitats have been taken over by smugglers and want-to-be-dashing-criminals now, knowing that their less-than-legal services are in demand during this period of unrest. Turns out that one of these black-market hubs is hidden out here, encased within a huge asteroid.</text>
-	<text>As you search the field a station suddenly hails you: "Greetings Captain! What you doing out here? We can offer some supplies, but we are constantly in need for scrap to patch up this rock we live in...</text>
+	<text>As you search the field a station suddenly hails you: "Greetings, Captain! What you doing out here? We can offer some supplies, but we are constantly in need for scrap to patch up this rock we live in...</text>
 </textList>
 
 <event name="CE_DINER" unique="true">
@@ -7880,7 +7880,7 @@
 </event>
 <eventList name="CE_DINER_LIST">
 	<event>
-		<text>A sleek looking type in an expensive suit approaches you while you sit over your distasteful space-fries. "Greetings Captain. I understand you command this vessel docking out there? My name is Mr. Johnson. I represent the Waypoint-Junta corporation. I might have a little freelance work for you."</text>
+		<text>A sleek looking type in an expensive suit approaches you while you sit over your distasteful space-fries. "Greetings, Captain. I understand you command this vessel docking out there? My name is Mr. Johnson. I represent the Waypoint-Junta corporation. I might have a little freelance work for you."</text>
 		<choice hidden="true">
 			<text>Listen.</text>
 			<event load="CE_DINER_JUNTA"/>		
@@ -7904,7 +7904,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>After you sat down with your replicated tofu smoothie you realize that a group of Rebel inspectors are having their lunch break on the opposite table. You try to blend in, but one of the Rebels keeps staring at you. He whispers something to his colleagues and they immediately take their leave. You are pretty sure that your location has just been discovered.</text>
+		<text>After you sit down with your replicated tofu smoothie you realize that a group of Rebel inspectors are having their lunch break on the opposite table. You try to blend in, but one of the Rebels keeps staring at you. He whispers something to his colleagues and they immediately take their leave. You are pretty sure that your location has just been discovered.</text>
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
@@ -7937,7 +7937,7 @@
 	<text>The first pirate ship waits at this beacon, ready to ambush trade ships. You inform them that you will take them down in the name of the trade union. They don't seem to be impressed and load weapons.</text>
 	<ship load="CE_UNION_PIRATE_1" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -7992,7 +7992,7 @@
 	<text planet="PLANET_UNPOPULATED">The second pirate ship is stationary behind a small moon near by. You move in and inform them that you will take them down in the name of the trade union. They send a frantic message, wondering how you found them, then they load weapons.</text>
 	<ship load="CE_UNION_PIRATE_2" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8047,7 +8047,7 @@
 	<text>The last pirate ship is trying to hide a few clicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message: "Who the hell are you?" You go in guns blazing.</text>
 	<ship load="CE_UNION_PIRATE_3" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8100,7 +8100,7 @@
 
 <eventList name="TE_LOOT_GOODS_UNION">
 	<event>
-		<text>You take the cargo on board. "Voila! The finest luxury goods from the core worlds. If you can bring this stuff to a Slug merchant, you will be rich soon. It was a pleasure to be working with you Captain. Take care."</text>
+		<text>You take the cargo on board. "Voila! The finest luxury goods from the core worlds. If you can bring this stuff to a Slug merchant, you will be rich soon. It was a pleasure to be working with you, Captain. Take care."</text>
 		<augment name="TE_GOODS_CIVILIAN_LUXURY"/>
 	</event>
 	<event>
@@ -8123,10 +8123,10 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>You are hailed by the cruiser: "This is the Rebel Limited Offence Unit "Ship With No Name". You interrupted important negotiations here. Also we just have been informed that you are a high profile target. Prepare for combat". The cruiser slowly moves in to engage.</text>
+			<text>You are hailed by the cruiser: "This is the Rebel Limited Offense Unit 'Ship With No Name'. You interrupted important negotiations here. Also we just have been informed that you are a high profile target. Prepare for combat". The cruiser slowly moves in to engage.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8182,11 +8182,11 @@
 
 <eventList name="CE_DINER_JUNTA">
 	<event>
-		<text>"While I personally like free markets and little regulations for corporations like mine, the Rebels seem to view things a little too liberal. They have forcefully occupied one of our R and D instalments. Would you be capable of... liberating it?"</text>
+		<text>"While I personally like free markets and little regulations for corporations like mine, the Rebels seem to view things a little too liberal. They have forcefully occupied one of our R and D installments. Would you be capable of... liberating it?"</text>
 		<choice hidden="true">
 			<text>We will find a way, Mr. Johnson.</text>
 			<event>
-				<text>"Good! The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this instalment intact. Damage to the station or loss of our tech is unacceptable."</text>
+				<text>"Good! The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this installment intact. Damage to the station or loss of our tech is unacceptable."</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
@@ -8199,7 +8199,7 @@
 		<choice hidden="true" req="teleporter" lvl="1">
 			<text>(Teleporter) We are well equipped for that.</text>
 			<event>
-				<text>"Excellent! It is in my authority to give you some supplies for job. The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this instalment intact. Damage to the station or loss of our tech is unacceptable."</text>
+				<text>"Excellent! It is in my authority to give you some supplies for job. The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this installment intact. Damage to the station or loss of our tech is unacceptable."</text>
 				<autoReward level="LOW">stuff</autoReward>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -8223,7 +8223,7 @@
 				<choice hidden="true">
 					<text>Accept.</text>
 					<event>
-						<text>"Alright. The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this instalment intact. Damage to the station or loss of our tech is unacceptable."</text>
+						<text>"Alright. The station is only lightly armed and shielded, but the Rebel presence on board will be substantial. Remember: We need this installment intact. Damage to the station or loss of our tech is unacceptable."</text>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event>
@@ -8254,7 +8254,7 @@
 			<text>As soon as you come into the station's scanning range, it activates its rudimentary weapon systems. It would be easy to just destroy it, but Mr. Johnson would want you to take over the station intact.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8317,7 +8317,7 @@
 			<choice>
 				<text>Agree to pay.</text>
 				<event>
-					<text>"The right decision captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with you subordination. Have a nice day."</text>
+					<text>"The right decision, Captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with you subordination. Have a nice day."</text>
 					<item_modify>
 						<item type="scrap" min="-150" max="-50"/>
 					</item_modify>
@@ -8328,7 +8328,7 @@
 							<modifyPursuit amount="1"/>
 							<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8395,7 +8395,7 @@
 					<boarders min="2" max="2" class="human"/>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -8456,7 +8456,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>"Well done captain. We will send out a hull repair drone to patch up the damage that was done to your ship. Please also accept this augmentation from our newest production line. Our business is concluded. Have a nice day.</text>
+			<text>"Well done, Captain. We will send out a hull repair drone to patch up the damage that was done to your ship. Please also accept this augmentation from our newest production line. Our business is concluded. Have a nice day.</text>
 			<damage amount="-10"/>
 			<autoReward level="HIGH">augment</autoReward>
 		</event>
@@ -9184,17 +9184,17 @@
 	</event>
 </eventList>
 <textList name="CE_HOLOGRAM_HAPPY_BIRTHDAY_TEXT">
-			<text>You are undisturbed here and can give the AI some time to create one of its avatars. The partial holographic being greets you friendly and reports that it is ready for service.</text>
-			<text>Another AI avatar is born. "Hello captain, pleased to meet you. What is the my purpose here?" You send the hologram to its station.</text>
-			<text>The new born hologram greet you friendly: "Hello captain. Please state my duty on board."</text>
-			<text>You are undisturbed here and instruct the AI to create another of its avatars. "Please take good care of my children, captain."</text>
-			<text>The avatar generator spawns another hologram. You which it a happy birthday and the entity is quite happy about that. It goes to work immediately.</text>
+			<text>You are undisturbed here and can give the AI some time to create one of its avatars. The partial holographic being greets you amicably and reports that it is ready for service.</text>
+			<text>Another AI avatar is born. "Hello, Captain, pleased to meet you. What is the my purpose here?" You send the hologram to its station.</text>
+			<text>The newborn hologram greet you friendly: "Hello, Captain. Please state my duty on board."</text>
+			<text>You are undisturbed here and instruct the AI to create another of its avatars. "Please take good care of my children, Captain."</text>
+			<text>The avatar generator spawns another hologram. You wish it a happy birthday and the entity is quite happy about that. It goes to work immediately.</text>
 </textList>
 <textList name="CE_HOLOGRAM_FAIL_TEXT">
-	<text>The new born AI avatar seems confused. It splits and starts to run ammo on your ship. The AI apologizes: "Something went wrong captain. My children are out of control. I promise I will do better next time."</text>
-	<text>The new born AI avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself and draws its weapons. The AI comments: "Oops, that's not supposed to happen..."</text>
-	<text>The AI creates multiple avatars, to your surprise they draw weapons. You order an emergency shutdown. The AI declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
-	<text>Your crew discovers a virus in the AI subroutines during the programing of the new AI entities. But it is to late: The AI spawns several corrupted avatars. Security alert!</text>
+	<text>The newborn AI avatar seems confused. It splits and starts to run ammo on your ship. The AI apologizes, "Something went wrong, Captain. My child is out of control. I promise I will do better next time."</text>
+	<text>The newborn AI avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself and draws its weapons. The AI comments, "Oops, that's not supposed to happen..."</text>
+	<text>The AI creates multiple avatars, and to your surprise they draw weapons. You order an emergency shutdown. The AI declares, "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
+	<text>Your crew discovers a virus in the AI subroutines during the programing of the new AI entities. But it is to late; the AI spawns several corrupted avatars. Security alert!</text>
 </textList>
 			
 <textList name="CE_FUEL_RECYCLE_TEXT">
@@ -9203,7 +9203,7 @@
 			<text>You are undisturbed here and can recycle some more fuel.</text>
 			<text>Your crew refills a few FTL capsules with recycled fuel from spent FTL cells while you wait.</text>
 			<text>You have spent enough fuel to recycle some of the cells. You put your whole crew on the task while you wait for the FTL to charge.</text>
-			<text>While the recycler is at work, you contemplate that humanity would never have successfully taken to the stars if it would not have turned to more sustainable lifestyle in the mid 20th century.</text>
+			<text>While the recycler is at work, you contemplate that humanity would never have successfully taken to the stars if it would not have turned to a more sustainable lifestyle in the mid 20th century.</text>
 </textList>
 
 
@@ -9525,7 +9525,7 @@
 		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9580,7 +9580,7 @@
 		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9635,7 +9635,7 @@
 		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9690,7 +9690,7 @@
 		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9745,7 +9745,7 @@
 		<text>Seems the Rebels won't take any more chances with you: They send in an automated spotter unit to mark your ship for a long range artillery strike. The fleet will unleash its full combined firepower on you if you don't manage to jump away in time.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9800,7 +9800,7 @@
 		<text>A nearby scout turns to engage. You must flee before their cruisers open fire!</text>
 		<ship load="LONG_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9855,7 +9855,7 @@
 		<text>You are lucky: The capital ships are still far away and a scout is sent to deal with you. You must flee before their cruisers open fire!</text>
 		<ship load="LONG_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9910,7 +9910,7 @@
 		<text>You try to get as far away from the beacon as its jump radius allows, but the Rebels send a small scout after you. You must flee before their cruisers get in firing range!</text>
 		<ship load="LONG_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -9965,7 +9965,7 @@
 		<text>A small fighter craft is the only ship in weapon range for now. You must flee before their cruisers open fire!</text>
 		<ship load="LONG_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10020,7 +10020,7 @@
 		<text>A nearby escort unit turns to engage. You must flee before their cruisers open fire!</text>
 		<ship load="C_REBEL_GUNBOAT_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10075,7 +10075,7 @@
 		<text>An escort gunboat moves in to intercept. You must flee before their cruisers open fire!</text>
 		<ship load="C_REBEL_GUNBOAT_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10135,7 +10135,7 @@
 				<text>Fleeing seems to be a suitable option here... still, taking out an elite cruiser would surely throw the Rebel fleet into disarray.</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10197,7 +10197,7 @@
 				<text>Fleeing seems to be a suitable option here... still, taking out an elite cruiser would surely throw the Rebel fleet into disarray.</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10259,7 +10259,7 @@
 				<text>Your cruiser is not designed to take on a battleship, if you want to get out of this alive you should probably jump away as fast as possible.</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10318,7 +10318,7 @@
 	<text>One of the cruisers is already in firing range! They hail: "This is the RS 'Dirty Unicorn'. Multiple of our fleets assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you: "This is the RS 'Bad Day'. Just wanted to let you know who is going to annihilate you." They cut communication..</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship: "This is the RS 'Sweet Little Terrorist'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realise why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS "Bad Habits". You might have guessed: Resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: A forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel general: "This is the RS 'Bad Habits'. You might have guessed: Resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in: "This is the RS 'New Toy'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
 	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail: "This is the RS 'Nine Rounds Rapid'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
@@ -10365,14 +10365,14 @@
 	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS 'Subtle Shift In Emphasis'. You're running from us in this tiny cruiser? Pathetic! Get ready to be fired on."</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS 'Troubled Childhood'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS general offensive unit 'Mindless Tool'. As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
-	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Attitude Adjuster'. Sorry captain, you won't leave here alive."</text>
+	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Attitude Adjuster'. Sorry, Captain, you won't leave here alive."</text>
 	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS 'Corrector'. We will ruin your day!" They start their weapon charge cycles.</text>
 
 <text>The cruisers are still a few clicks away but your relief fades quickly as your computer detects one of the most dense incoming jump signatures you have ever seen. A bright flash of white light fills the vidscreen as a Rebel battleship the size of a small space station jumps in. "This is the Rebel General Offensive Unit RS 'Bad For Business' ..." The highly decorated Rebel dismissively stares at you for a few seconds and then simply cuts communication.</text>
 	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. A highly decorated Rebel appears on the vidscreen: "This is the RS 'Credibility Problem'. You're running from us in this tiny cruiser? Pathetic! There will be nothing left of you after we are finished here. Get ready to be fired on."</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you till the FTL is charged, but then a rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail: "This is the RS 'Patriarch'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in: "This is the RS general offensive unit "What Is The Answer and Why?". As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
-	<text>A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Lapsed Pacifist'. All your escape vectors will be covered soon. Sorry captain, you won't leave here alive."</text>
+	<text>A battle cruiser from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Lapsed Pacifist'. All your escape vectors will be covered soon. Sorry, Captain, you won't leave here alive."</text>
 	<text>Seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard boiled space marine badasses is hungry for blood. They hail your ship: "This is the RS 'Lasting Damage'. We will ruin your day!" They start their weapon charge cycles.</text>
 </textList>
 
@@ -10392,7 +10392,7 @@
 		<text>The Rebel ships have taken defensive position far away from the beacon. You know what this means. An automated spotter unit zips past on the vidscreen. It acquires your ship and transmits you exact position to the Rebel fleet. Soon their long range point defense artillery will be unleashed against you.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10451,7 +10451,7 @@
 					<text>Fleeing seems to be a suitable option here... still, taking out an elite cruiser would surely throw the Rebel fleet into disarray.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10512,7 +10512,7 @@
 					<text>Fleeing seems to be a suitable option here... still, taking out an elite cruiser would surely throw the Rebel fleet into disarray.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10567,80 +10567,80 @@
 </eventList>
 
 <textList name="C_FLEET_BEACON_TEXT">
-	<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "New Recruit". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS "It's A Trap". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "Pretty Good Shot". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Beacon Eater". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS "Sun Hugger". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "Overly Self Confident". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "Pain Maximizer". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "Sugarcoated". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realise why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "Gangsters Paradise". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "Crisis Cause". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "Love-Hate Relationship". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+	<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'New Recruit'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS 'It's A Trap'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'Pretty Good Shot'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Beacon Eater'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS 'Sun Hugger'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'Overly Self Confident'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'Pain Maximizer'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'Sugarcoated'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'Gangsters Paradise'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'Crisis Cause'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'Love-Hate Relationship'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 
 
-<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "Promises Broken". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS "Disappointing Son". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "FTL Discharge". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Laser Therapy". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS "No Need To Hide". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "System Nerd". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "Uninvited Jazz Band". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "Surrogate". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realise why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "Brass Bandit". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "Not This Thing Again". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "Boogie Man". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'Promises Broken'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS 'Disappointing Son'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'FTL Discharge'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Laser Therapy'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS 'No Need To Hide'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'System Nerd'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'Uninvited Jazz Band'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'Surrogate'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'Brass Bandit'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'Not This Thing Again'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'Boogie Man'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 
 
-<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "Get Off My Lawn". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS "Compensation". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "No One Likes A Tourist". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Wants To Live Like Common People". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS "They Call It Murder". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "Drone Lover". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "No Need For Caution". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "Borderline". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realise why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "Special Circumstances". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "Murder Time". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "Lessons In Revolting". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'Get Off My Lawn'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel Forward Cruiser RS 'Compensation'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'No One Likes A Tourist'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Wants To Live Like Common People'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closest unit: "This is the Rebel guard asset RS 'They Call It Murder'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'Drone Lover'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'No Need For Caution'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed nearby. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'Borderline'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'Special Circumstances'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'Murder Time'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'Lessons In Revolting'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 
 
-	<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "Iron Wall". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS "Justice And Compassion". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "Advanced Bookstore". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Alabaster Barrel". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS "Impact Calculation". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "Roadkill Producer". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "Armed And Sometimes Dangerous". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "Wack Bunny". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "Your Own Personal Liberator". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "Never Ending Story". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "Revolution Number Five". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+	<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'Iron Wall'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS 'Justice And Compassion'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'Advanced Bookstore'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Alabaster Barrel'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS 'Impact Calculation'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'Roadkill Producer'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'Armed And Sometimes Dangerous'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'Wack Bunny'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'Your Own Personal Liberator'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'Neverending Story'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'Revolution Number Five'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 
-<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "Occupier". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS "Here For The Occasion". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "Well Sorted". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Well Behaved". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS "Symbol For...". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "Mastermind". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "Another Player". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "Superstitious". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "You Can't Drive". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "You Can't Even Shoot Straight". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "A Million Missiles". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'Occupier'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS 'Here For The Occasion'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'Well Sorted'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Well Behaved'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS 'Symbol For...'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'Mastermind'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'Another Player'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'Superstitious'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'You Can't Drive'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'You Can't Even Shoot Straight'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'A Million Missiles'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 
-<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS "Orbital Striker". I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
-	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS "Beam-Burned". Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
-	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS "Minelayer Deluxe Version". You will not get away this time. Pound them boys!"</text>
-	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS "Warning - High Threat Level Detected". You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
-	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS "Teleport Everyone". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS "More Weapons Than Ship". Just wanted to let you know who you are dealing with. Now prepare to die."</text>
-	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS "Let's Be Sweet With Each Other". Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
-	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS "I [heart] Rebel Dominance". We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
-	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS "Five Beams And More". My whole crew is made of hard boiled elite officers with little humour. We were sent to finish the job."</text>
-	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS "Putting The Burst Back Into Laser". You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
-	<text>"This is the Rebel cruiser RS "Scatter Storm". You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
+<text>The Rebels made sure that this key position is well protected. They stationed a cruiser squadron near the beacon. You are hailed by a Rebel general: "This is the RS 'Orbital Striker'. I was ordered to deal with you personally. Sorry that is had come to this. I was a Federation Officer once you know... We will open fire now, you will not withstand us for long."</text>
+	<text>A Rebel cruiser guards the system exit. You receive a high priority massage: "This is the Rebel forward cruiser RS 'Beam-Burned'. Our tubes are loaded and reinforcements are on the way. Any last words?" They don't wait for your answer and cut communication.</text>
+	<text>A fully armed Rebel cruiser already waits for you. They must have known that you will exit the system here. A message comes in: "This is the Rebel primary asset RS 'Minelayer Deluxe Version'. You will not get away this time. Pound them boys!"</text>
+	<text>You aren't surprised that the Rebel fleet has immediately stationed a cruiser squadron here. It is only logical to guard the system exit as best as possible. At least they contact you before they open fire: "This is the Rebel guard asset RS 'Warning - High Threat Level Detected'. You will have to get past us if you want to leave this system. Be assured: We will do anything to prevent you from leaving."</text>
+	<text>The Rebel fleet has already moved in cruisers here. You are hailed by the closes unit: "This is the Rebel guard asset RS 'Teleport Everyone'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>It's hardly surprising that a cruiser squadron has been moved in to guard this strategic position. You are hailed: "This is the Rebel guard asset RS 'More Weapons Than Ship'. Just wanted to let you know who you are dealing with. Now prepare to die."</text>
+	<text>A cruiser squadron guards this key position and their forward unit moves in to engage. "This is the Rebel guard asset RS 'Let's Be Sweet With Each Other'. Let's be honest here, you know that you don't stand a chance against a ship with equal capabilities." They start their targeting sequence.</text>
+	<text>A cruiser with rigger support is stationed near by. Thy get in an attack vector as soon as they register you. "This is the Rebel primary unit RS 'I [heart] Rebel Dominance'. We will be in weapon range shortly... I'm sorry, but we've got our orders." They cut communication and load weapons.</text>
+	<text>An interceptor squadron is patrolling the system, but they keep their distance. You realize why: A cruiser jumps in to deal with you. Instead of opening fire they send a message first: "This is the Rebel primary unit RS 'Five Beams And More'. My whole crew is made of hard boiled elite officers with little humor. We were sent to finish the job."</text>
+	<text>Your computer registers a threat level 12 enemy concentration near by: A Rebel cruiser, flanked by two drone carriers lingers in the distance. You receive a hail: "This is the Rebel primary unit RS 'Putting The Burst Back Into Laser'. You know that we easily outgun you, don't you? This will be nasty, but you asked for it." The cruiser moves in to attack.</text>
+	<text>"This is the Rebel cruiser RS 'Scatter Storm'. You really thought you could escape us? For the Rebellion!" The ship moves in to attack.</text>
 </textList>
 
 
@@ -10706,7 +10706,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>There are no more life-signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. He decides to desert your mission and stays on board the civilian ship.</text>
+		<text>There are no more life-signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the coms, arguing that this operation was unnecessary and against Federation protocols. He decides to desert your mission and stays on board the civilian ship.</text>
 		<crewMember amount="-1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -10858,7 +10858,7 @@
 		<text>Piracy isn't exactly Federation protocol, but you decide that ends justify the means. Your crew is highly disturbed by this course of action.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10912,7 +10912,7 @@
 		<text>Piracy isn't exactly Federation protocol, but you decide that ends justify the means. Your crew is highly disturbed by this course of action.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -10966,7 +10966,7 @@
 		<text>You tell yourself that the mission is more important than these civilians. The live of millions depend on you. Your crew doesn't seem to see it exactly like that, but they follow their orders.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11034,7 +11034,7 @@
 						<text>This was drastic. But you won't let any individuals endanger your mission. Discipline has to be preserved. Everyone would have done the same in this situation. You are a perfectly sane ship Captain after all, right? You decide to keep the drone at your side for security reasons and repeat your orders. This time the crew complies.</text>
 						<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11106,7 +11106,7 @@
 						<text>This was drastic. But you won't let any individuals endanger your mission. Discipline has to be preserved. Everyone would have done the same in this situation. You are a perfectly sane ship captain after all, right? You decide to keep the drone at your side for security reasons and repeat your orders. This time the crew complies.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11291,7 +11291,7 @@
 		<text>Your crew is much more silent than usual as the bounty is loaded into the cargo holds. No one talks to you anymore unless given orders.</text>
 	</event>
 	<event>
-		<text>One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. He already deserted your ship via an escape pod.</text>
+		<text>One of your crew members sends a formal complaint over the coms, arguing that this operation was unnecessary and against Federation protocols. He already deserted your ship via an escape pod.</text>
 		<crewMember amount="-1"/>
 	</event>
 </eventList>
@@ -11320,7 +11320,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"We even know that you have doubtss about the Rebel fleet and thought about abandon you missssion. You already have contributed greatly to thiss crew. If you want to join the Captain for real, now isss the time!" Your Rebel affiliated crew member is pretty embarrassed. He admits that he thought about changing sides. Your Slug will continue to have an eye on him, just in case.</text>
+					<text>"We even know that you have doubtss about the Rebel fleet and thought about abandon you missssion. You already have contributed greatly to thiss crew. If you want to join the captain for real, now isss the time!" Your Rebel affiliated crew member is pretty embarrassed. He admits that he thought about changing sides. Your Slug will continue to have an eye on him, just in case.</text>
 				</event>
 			</choice>
 		</event>
@@ -11328,7 +11328,7 @@
 	<choice hidden="true" req="BOMB_1">
 		<text>(Small Bomb) Press the panic button on your pocket terminal.</text>
 		<event>
-			<text>Your ex-crewman suddenly clenches in pain. You take cover behind your chair, shortly before the bomb that has been teleported into his guts explodes. The ship computer reports: "Anti treason procedure executed." The bridge looks pretty messy. Apart from the cleaning you will also have to deal with the Rebel ship that just jumped in.</text>
+			<text>Your ex-crewman suddenly clenches in pain. You take cover behind your chair, shortly before the bomb that has been teleported into his guts explodes. The ship computer reports, "Anti treason procedure executed." The bridge looks pretty messy. Apart from the cleaning you will also have to deal with the Rebel ship that just jumped in.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
@@ -11336,7 +11336,7 @@
 			<modifyPursuit amount="1"/>
 			<ship load="C_REBEL_GUNBOAT_TRAITOR_REWARD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11395,7 +11395,7 @@
 		<modifyPursuit amount="1"/>
 		<ship load="C_REBEL_GUNBOAT_TRAITOR_REWARD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11451,7 +11451,7 @@
 		<modifyPursuit amount="1"/>
 		<ship load="C_REBEL_GUNBOAT_TRAITOR_REWARD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11513,7 +11513,7 @@
 				<modifyPursuit amount="1"/>
 				<ship load="C_REBEL_GUNBOAT_TRAITOR" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11575,7 +11575,7 @@
 				<modifyPursuit amount="1"/>
 				<ship load="C_REBEL_GUNBOAT_TRAITOR" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11632,7 +11632,7 @@
 		<modifyPursuit amount="1"/>
 		<ship load="C_REBEL_GUNBOAT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11727,7 +11727,7 @@
 				<status type="limit" target="player" system="oxygen" amount="0"/>
 				<status type="limit" target="player" system="doors" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11792,7 +11792,7 @@
 				<status type="limit" target="player" system="doors" amount="0"/>
 				<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11861,7 +11861,7 @@
 			<event>
 				<text>These vessels are usually used by bounty hunters - extremely dangerous individuals. The Rebels must have put a price on your head. The auto ship is not firing yet, but sends out drones to assist its master.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11924,7 +11924,7 @@
 			<event>
 				<text>These vessels are usually used by bounty hunters - extremely dangerous individuals. The Rebels must have put a price on your head. The auto ship is not firing yet, but sends out drones to assist its master.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -11994,7 +11994,7 @@
 			<event>
 				<text>These vessels are usually used by bounty hunters - extremely dangerous individuals. The Rebels must have put a price on your head. You probably have been boarded. The auto ship is not firing yet, but sends out drones to assist its master.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12057,7 +12057,7 @@
 			<event>
 				<text>These vessels are usually used by bounty hunters - extremely dangerous individuals. The Rebels must have put a price on your head. You probably have been boarded already. The auto ship is not firing yet, but sends out drones to assist its master.</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12127,7 +12127,7 @@
 				<status type="limit" target="enemy" system="weapons" amount="0"/>
 				<status type="limit" target="enemy" system="cloaking" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12180,7 +12180,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>One of your crewmen does not report in anymore. Instead, an announcement is made via the ships speaker system: "Greetings captain. One of your crew members interrupted my work, so I had to kill him. My cloak got damaged, so I will introduce you to my Plan B now..."</text>
+		<text>One of your crewmen does not report in anymore. Instead, an announcement is made via the ships speaker system: "Greetings, Captain. One of your crew members interrupted my work, so I had to kill him. My cloak got damaged, so I will introduce you to my Plan B now..."</text>
 		<crewMember amount="-1"/>
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
@@ -12191,7 +12191,7 @@
 				<status type="limit" target="enemy" system="weapons" amount="0"/>
 				<status type="limit" target="enemy" system="cloaking" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12250,7 +12250,7 @@
 
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SLUG">
 	<event>
-		<text>The Slug stares at a wall for a bit. "Yess Captain... He iss... a bounty hunter. He hass... a personal cloaking device... Hiss sship... is close to us... and he wantss to ssabotage our life ssupport! ... The Rebelss hired him. Be careful, he iss very dangerouss... and not afraid."</text>
+		<text>The Slug stares at a wall for a bit. "Yess, Captain... He iss... a bounty hunter. He hass... a personal cloaking device... Hiss sship... is close to us... and he wantss to ssabotage our life ssupport! ... The Rebelss hired him. Be careful, he iss very dangerouss... and not afraid."</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
@@ -12260,7 +12260,7 @@
 				<status type="limit" target="enemy" system="cloaking" amount="0"/>
 				<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12313,7 +12313,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Slug stares at a wall for a bit. "Yess captain... He iss... a bounty hunter. He hass a personal cloaking device... Hiss sship... is close to us... and he wantss to ssabotage our life ssupport! ... The Rebelss hired him. Be careful, he iss very dangerouss... and not afraid."</text>
+		<text>The Slug stares at a wall for a bit. "Yess, Captain... He iss... a bounty hunter. He hass a personal cloaking device... Hiss sship... is close to us... and he wantss to ssabotage our life ssupport! ... The Rebelss hired him. Be careful, he iss very dangerouss... and not afraid."</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
@@ -12323,7 +12323,7 @@
 				<status type="limit" target="enemy" system="cloaking" amount="0"/>
 				<boarders min="1" max="1" class="human"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12398,7 +12398,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12455,7 +12455,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12512,7 +12512,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12666,7 +12666,7 @@
 </event>
 <eventList name="CE_DISTRESS_SUN_DOCK">
 	<event>
-		<text>Another massive solar flare blasts into your crafts right as you are about to compleat the docking maneuver. The civilian vessel is torn away from your ship and their airlock gets ripped open in the process. You realize that there is no way to save them now.</text>
+		<text>Another massive solar flare blasts into your crafts right as you are about to complete the docking maneuver. The civilian vessel is torn away from your ship and their airlock gets ripped open in the process. You realize that there is no way to save them now.</text>
 		<environment type="sun"/>
 		<damage amount="3"/>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
@@ -12689,7 +12689,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Another massive solar flare blasts into your crafts right as you are about to compleat the docking maneuver. The civilian vessel is torn away from your ship and their airlock gets ripped open in the process. You realize that there is no way to save them now.</text>
+		<text>Another massive solar flare blasts into your crafts right as you are about to complete the docking maneuver. The civilian vessel is torn away from your ship and their airlock gets ripped open in the process. You realize that there is no way to save them now.</text>
 		<environment type="sun"/>
 		<damage amount="3"/>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
@@ -12718,7 +12718,7 @@
 </eventList>
 <eventList name="CE_DISTRESS_SUN_TELEPORT">
 	<event>
-		<text>They reluctantly agree. You advanced teleporters manage to lock on, even from this range. Once aboard, you watch as their ship slowly drifts into the sun. They thank you, but say "I don't know what we'll do without our ship. As the Captain, I feel obligated to help you with your mission."</text>
+		<text>They reluctantly agree. You advanced teleporters manage to lock on, even from this range. Once aboard, you watch as their ship slowly drifts into the sun. They thank you, but say "I don't know what we'll do without our ship. As the captain, I feel obligated to help you with your mission."</text>
 		<crewMember amount="1"/>
 	</event>
 	<event>
@@ -12753,7 +12753,7 @@
 					<environment type="asteroid"/>
 					<ship load="BS_PIRATE_STRONGHOLD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12813,7 +12813,7 @@
 			<modifyPursuit amount="1"/>
 			<ship load="PIRATE_DEFENSE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -12921,7 +12921,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event> 
 	<event> 
-		<text>The attack was repelled, but the station took heavy damage. "Thanks for your help, captain. We can't spare a lot right now, but you should take some of our supplies. We wouldn't have made it without you." They transmit some scrap and wish you farewell.</text>
+		<text>The attack was repelled, but the station took heavy damage. "Thanks for your help, Captain. We can't spare a lot right now, but you should take some of our supplies. We wouldn't have made it without you." They transmit some scrap and wish you farewell.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
@@ -12933,7 +12933,7 @@
 		<damage amount="-5"/>
 	</event>
 	<event>
-		<text>"Thanks for you help captain. I guess it was to no avail though." The station took some heavy hits and its hull integrity starts to fail. The civilian ships hurry to help with the evacuation. "We will all be homeless soon..." There is nothing left to be done here.</text>
+		<text>"Thanks for you help, Captain. I guess it was to no avail though." The station took some heavy hits and its hull integrity starts to fail. The civilian ships hurry to help with the evacuation. "We will all be homeless soon..." There is nothing left to be done here.</text>
 	</event>
 </eventList>
 
@@ -12971,7 +12971,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13028,7 +13028,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13085,7 +13085,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13256,7 +13256,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13313,7 +13313,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13370,7 +13370,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13542,7 +13542,7 @@
 <event name="CE_PIRATE_CREW_BOUNTY" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
 	<ship load="PIRATE" hostile="false"/>
-	<text>A ship with pirate markings hails you: "Hello Captain. You have been causing the Rebels quite a headache. The bounty on your crew is substantial, hand one of your crewmen over and we'll share it."</text>
+	<text>A ship with pirate markings hails you: "Hello, Captain. You have been causing the Rebels quite a headache. The bounty on your crew is substantial, hand one of your crewmen over and we'll share it."</text>
 	<choice hidden="false">
 		<text>That bounty could be vital to our survival. Draw straws and hand one of your crewmen over.</text>
 		<event>
@@ -13562,7 +13562,7 @@
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -13745,19 +13745,19 @@
 	</event>
 	<event>
 		<ship load="REBEL" hostile="false"/>
-		<text>A rebel ship arrives at the beacon. "Ah! It seems you did our dirty work for us. Nothing worse than Engi refugees. Let us give you some spare supplies as thanks, we've been chasing those Federation lapdogs through two sectors." Luckily they're too grateful for your help to notice who you are.</text>
+		<text>A Rebel ship arrives at the beacon. "Ah! It seems you did our dirty work for us. Nothing worse than Engi refugees. Let us give you some spare supplies as thanks, we've been chasing those Federation lapdogs through two sectors." Luckily they're too grateful for your help to notice who you are.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 </eventList>
 <eventList name="LONE_SHUTTLE_SLUG">
 	<event>
-		<text>"It is unmanned captain. I do not sense anyone, but this all does not seem right. I advice caution." You decide to take the advise and move on.</text>
+		<text>"It is unmanned, Captain. I do not sense anyone, but this all does not seem right. I advice caution." You decide to take the advise and move on.</text>
 	</event>
 	<event>
-		<text>"It is unmanned captain. I do not sense anyone, but this all does not seem right. I advice caution." You decide to take the advise and move on.</text>
+		<text>"It is unmanned, Captain. I do not sense anyone, but this all does not seem right. I advice caution." You decide to take the advise and move on.</text>
 	</event>
 	<event>
-		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
+		<text>"Good newsss, Captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
 		<choice>
 			<text>Contact the shuttle and invite its captain to join your crew.</text>
 			<event>
@@ -13771,7 +13771,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"Good newsss captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
+		<text>"Good newsss, Captain. I ssensse a federation friendly on board. The shuttless sssenssorss are damaged; he can not detect usss. But the individual sstrives to rejoin with Federation forcess."</text>
 		<choice>
 			<text>Contact the shuttle and invite its captain to join your crew.</text>
 			<event>
@@ -13785,7 +13785,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I ssensse Rebelss on board the sshuttle captain. They prepare a teleporter and are almossst in range. You musst open fire." You give the order and the small craft is annihilated by a full salvo of your weapon array. The Rebels for sure didn't see that coming.</text>
+		<text>"I ssensse Rebelss on board the sshuttle, Captain. They prepare a teleporter and are almossst in range. You musst open fire." You give the order and the small craft is annihilated by a full salvo of your weapon array. The Rebels for sure didn't see that coming.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>
@@ -13982,7 +13982,7 @@
 			<status type="limit" target="enemy" system="cloaking" amount="0"/>
 			<ship load="CE_INFILTRATOR" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -14058,7 +14058,7 @@
 	<text planet="NONE">You find yourself surrounded by a group of mysterious alien vessels. They hail you and apparently have some cargo and valuable technology for sale.</text>
 	<text planet="PLANET_POPULATED">A transmission from the nearby planet indicates an outpost below which offers trade goods and supplies to travelers. You send down an away party to check it out.</text>
 	<text planet="PLANET_POPULATED">The space station here has a travelling merchant who shows you his wares.</text>
-	<text planet="NONE">There is only one other ship at this beacon, and it is showing heavy damage. You receive a message on your console: "Greetings traveler. We were crippled by a band of pirates and are now forced to sell our remaining cargo and valuable equipment to acquire the necessary supplies to get home."</text>
+	<text planet="NONE">There is only one other ship at this beacon, and it is showing heavy damage. You receive a message on your console: "Greetings, traveler. We were crippled by a band of pirates and are now forced to sell our remaining cargo and valuable equipment to acquire the necessary supplies to get home."</text>
 	<text planet="PLANET_POPULATED">A trade depot orbits the nearby planet. Multiple merchant ships are docked. Looks like you can strike a bargain here.</text>
 	<text planet="PLANET_POPULATED">A space mall sells goods to ships coming and going from this settlement.</text>
 </textList>
@@ -14738,7 +14738,7 @@ IDEAS
 			<status type="limit" target="enemy" system="cloaking" amount="0"/>
 			<ship load="CE_INFILTRATOR_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -14800,7 +14800,7 @@ IDEAS
 	<text load="MILITIA_TEXT"/>
 	<ship load="MILITIA_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -14865,7 +14865,7 @@ IDEAS
 	<text load="BS_EVENT_MILITIA_TEXT"/>
 	<ship load="BS_MILITIA" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -14917,7 +14917,7 @@ IDEAS
 </event>
 <textList name="BS_EVENT_MILITIA_TEXT">  <!-- to do -->
 	<text>A nearby station has been taken over by local militias. They refuse all hails and start firing on you.</text>
-	<text>After jump completion you register a small military instalment. They identify themselves as "independent", but that they start firing on you for no reason suggests that they might be sympathising with the Rebel fleet.</text>
+	<text>After jump completion you register a small military installment. They identify themselves as "independent", but that they start firing on you for no reason suggests that they might be sympathising with the Rebel fleet.</text>
 	<text>You receive hail from a small station: "The Rebels want you dead an we want peace in our sector. So... we will destroy your ship, hand the remains to the fleet and things can finally go back to normal here." Weapon lock detected!</text>
 </textList>
 
@@ -14947,7 +14947,7 @@ IDEAS
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all. The Federation has to be re-established!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15004,7 +15004,7 @@ IDEAS
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15061,7 +15061,7 @@ IDEAS
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15401,7 +15401,7 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>There are no more life-signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. He decides to desert your mission and stays on board the depot.</text>
+		<text>There are no more life-signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the coms, arguing that this operation was unnecessary and against Federation protocols. He decides to desert your mission and stays on board the depot.</text>
 		<crewMember amount="-1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -15515,7 +15515,7 @@ IDEAS
 			<text>You program an attack course. You won't let yourself be threatened by petty criminals.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15579,7 +15579,7 @@ IDEAS
 	<text load="GANG_TEXT"/>
 	<ship load="GANG_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15648,7 +15648,7 @@ IDEAS
 	<text>A small gang vessel hails you: "Glad you are here friend. See that ship on your nine? That's a Mantis expedition ship. My drive is almost charged. I'll inform the militia while you hold them off, okay?" Seems you won't have much choice.</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15769,12 +15769,12 @@ IDEAS
 				<choice hidden="true">
 					<text>Signal the intruder alert.</text>
 					<event>
-						<text>The Federation sympathizers manages to jump through the security doors before they fall shut between you and the militias. "Thank you Captain!" You hear pulse rifles from within the ship and the station also opens fire. Let's hope this person was worth all this.</text>
+						<text>The Federation sympathizers manages to jump through the security doors before they fall shut between you and the militias. "Thank you, Captain!" You hear pulse rifles from within the ship and the station also opens fire. Let's hope this person was worth all this.</text>
 						<crewMember amount="1" class="human"/>
 						<boarders min="2" max="2" class="human"/>
 						<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -15861,7 +15861,7 @@ IDEAS
 			<text>You fly a strafing run and open fire on the rioters. The crowd scatters; many lie dead in the street. The local authorities are terrified by your actions. Some militia ships have arrived by now and one intercepts you as you get back into orbit.</text>
 			<ship load="MILITIA_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -16017,7 +16017,7 @@ IDEAS
 		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_CIV_BEAM_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -16083,7 +16083,7 @@ IDEAS
 		<text>A small ship is send after you to spot for the planetary beam artillery. This might get nasty.</text>
 		<ship load="CE_SPOTTER_CIV_BEAM" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -16155,7 +16155,7 @@ IDEAS
 			<text>A test enemy spawns and attacks you!</text>
 			<ship load="CE_TEST" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">

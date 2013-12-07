@@ -55,7 +55,7 @@
 	<text load="CRYSTAL_FIGHT"/>
 	<ship load="CRYSTAL_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -110,7 +110,7 @@
 	<text>A large convoy of lumbering civilian ships appears to be passing through this region. You show no hostile intentions, but they are taking no chances, immediately sending their escort to attack!</text>
 	<ship load="CRYSTAL_CONVOY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -165,7 +165,7 @@
 	<text>Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships!</text>
 	<ship load="CRYSTAL_HUNTER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -220,7 +220,7 @@
 	<text>As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail.</text>
 	<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -275,7 +275,7 @@
 	<text>The Rebels must have sent their automated scouts to find you. One jumps in and immediately moves to attack.</text>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -335,7 +335,7 @@
 			<text>You message the Crystalline ship your intentions and move in to intercept the Rebel ship.</text>
 			<ship load="REBEL_CRYSTAL_REBEL_CRYSTAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -393,7 +393,7 @@
 			<modifyPursuit amount="1"/>
 			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -459,7 +459,7 @@
 			<text>You activate your impulse engines and fly between the Mantis and their prey, weapons charging. You appear to have their full attention.</text>
 			<ship load="MANTIS_CRYSTAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -526,7 +526,7 @@
 			<text>You chase down the pirate before it has a chance to engage the civilian ship. When it detects the real threat, it turns to face you.</text>
 			<ship load="PIRATE_CRYSTAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -594,7 +594,7 @@
 			<text>Before you can engage, the Crystalline ship scores a direct hit and obliterates the Rebel ship! They hail: "You, you are like these other aliens! You brought them here!" With that they turn their cannons on you!</text>
 			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -663,7 +663,7 @@
 			<text>It doesn't look like the Fed ship can stand much more pressure. You fly in and intercept the Crystalline ship.</text>
 			<ship load="CRYSTAL_FED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -743,7 +743,7 @@
 			<text>Deserters cannot be tolerated. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -813,7 +813,7 @@
 		<text>"I see. That is a shame. However we must not let this opportunity pass us by. Submit and you will be treated reasonably well!" A military ship docked nearby detaches and charges you.</text>
 		<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -870,7 +870,7 @@
 		<text>"Wow, thanks. Oh look, another alien ship! I wonder if they're as nice as you." Seeing the Rebel decals you doubt they're friendly. They spot you and move in to attack, while the Crystalline civilian jumps away.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -944,7 +944,7 @@
 				<text>You indeed detect something that could be teleporter targeting. The ship attacks!</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1002,7 +1002,7 @@
 				<boarders min="1" max="2" class="crystal"/>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1077,7 +1077,7 @@
 					<text>The Crystalline captain contacts you urgently: "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" His turns his massive ship on yours and you prepare to fight for your life.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1146,7 +1146,7 @@
 							<text>The Crystalline captain contacts you urgently: "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" His turns his massive ship on yours and you prepare to fight for your life.</text>
 							<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>[Targeting Jammer] Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>[Targeting Jammer] Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1283,14 +1283,14 @@
 </event>
 <textList name="STORE_CRYSTAL">
 	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out some sort of exchange."</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator no necessary. Please, buy, buy!"</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator no necessary. Please, buy, buy!"</text>
 	
 	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out so sort of exchange?"</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realise it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
 </textList>
 
 <eventList name="TE_STORE_CRYSTAL_LIST">

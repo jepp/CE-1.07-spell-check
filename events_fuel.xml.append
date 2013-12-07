@@ -191,7 +191,7 @@
 		<text>Far away, the Rebel fleet lines up in loose formation, almost out of you primary sensor range. A single automated spotter ship moves in. The Rebels know you cannot escape and will try to execute you with their long range point defense weapons.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET_NO_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -255,7 +255,7 @@
 					<text>You detect significant fuel reserves on board the cruiser. Maybe you can still pull this off.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -311,15 +311,15 @@
 </event>
 </eventList>
 <textList name="C_NO_FUEL_FLEET_TEXT">
-	<text>A shock-wave ripples through your ship as a Rebel cruisers jumps in right in front of you. A scarred Rebel, apparently an admiral, appears on the vidscreen: "This is the RS "End Of The Line". A lot of the men you killed where under my command. I'm glad I can deal with your personally.</text>
-	<text>Waiting like this is unbearable. Everyone is on their stations and battle ready. Finally the cruiser jumps in and hails: "This is the RS "Big Picture". We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. They enter the system with full powered impulse engines. You receive a hail: "This is the RS "Hyper Cheese". Looks like you made some terrible mistakes captain. We where called in to finally finish you. Fair well." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message: "This is the RS "The Word Laser Fifty Times" Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
+	<text>A shock-wave ripples through your ship as a Rebel cruisers jumps in right in front of you. A scarred Rebel, apparently an admiral, appears on the vidscreen: "This is the RS 'End Of The Line'. A lot of the men you killed where under my command. I'm glad I can deal with your personally.</text>
+	<text>Waiting like this is unbearable. Everyone is on their stations and battle ready. Finally the cruiser jumps in and hails: "This is the RS 'Big Picture'. We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
+	<text>You don't have to wait long for the cruiser. They enter the system with full powered impulse engines. You receive a hail: "This is the RS 'Hyper Cheese'. Looks like you made some terrible mistakes captain. We where called in to finally finish you. Fair well." They cut communication and open fire.</text>
+	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message: "This is the RS 'The Word Laser Fifty Times' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
 
-	<text>A shock-wave ripples through your ship as a Rebel cruisers jumps in right in front of you. A scarred Rebel, apparently an admiral, appears on the vidscreen: "This is the RS "Last Straw". A lot of the men you killed where under my command. I'm glad I can deal with your personally.</text>
-	<text>Waiting like this is unbearable. Everyone is on their stations and battle ready. Finally the cruiser jumps in and hails: "This is the RS "Chilled Jam Session". We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. They enter the system with full powered impulse engines. You receive a hail: "This is the RS "Space Cake". Looks like you made some terrible mistakes captain. We where called in to finally finish you. Fair well." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message: "This is the RS "Solar Cookie" Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
+	<text>A shock-wave ripples through your ship as a Rebel cruisers jumps in right in front of you. A scarred Rebel, apparently an admiral, appears on the vidscreen: "This is the RS 'Last Straw'. A lot of the men you killed where under my command. I'm glad I can deal with your personally.</text>
+	<text>Waiting like this is unbearable. Everyone is on their stations and battle ready. Finally the cruiser jumps in and hails: "This is the RS 'Chilled Jam Session'. We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
+	<text>You don't have to wait long for the cruiser. They enter the system with full powered impulse engines. You receive a hail: "This is the RS 'Space Cake'. Looks like you made some terrible mistakes captain. We where called in to finally finish you. Fair well." They cut communication and open fire.</text>
+	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message: "This is the RS 'Solar Cookie' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
 </textList>
 
 
@@ -353,7 +353,7 @@
 				<text>"Ah I see... that didn't work..." The captain is obviously quite irritated. "Alright, we try something else then..." All he can come up with is charging weapons.</text>
 				<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -411,7 +411,7 @@
 				<boarders min="2" max="3" class="human"/>
 				<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -467,7 +467,7 @@
 		<text>As they approach, you detect their weapons powering up.  It seems their intentions are hostile!</text>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -533,7 +533,7 @@
 		<text>They reply,"Keep our distance?  Let's see if you can stop us!"  They power up their weapons and advance.</text>
 		<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -598,7 +598,7 @@
 			<event>
 				<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -684,7 +684,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all, the Federation has to be reestablished!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -741,7 +741,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -798,7 +798,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -878,7 +878,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all, the Federation has to be reestablished!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -935,7 +935,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -992,7 +992,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1140,7 +1140,7 @@
 				<text>You engage the outlaw station.</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1199,7 +1199,7 @@
 		<text>You wander within scanning range of a small Rebel automated scout!</text>
 		<ship load="REBEL_AUTO_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1255,7 +1255,7 @@
 	<text load="FUEL_ON_REBEL_ATTACK"/>
 	<ship load="REBEL_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1310,7 +1310,7 @@
 	<text>A ship responding to your distress moves in. Unfortunately it turns out to be an automated Rebel scout. It immediately reverses thrust after scanning your ship.</text>
 	<ship load="REBEL_AUTO_WARNING" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1365,7 +1365,7 @@
 	<text load="FUEL_ON_MANTIS_ATTACK"/>
 	<ship load="MANTIS_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1449,7 +1449,7 @@
 			<text>The Rock people are not renowned for their generosity. If it's fuel you need, it's fuel you must take!</text>
 			<ship load="FUEL_OFF_ROCK_CURIOUS" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1518,7 +1518,7 @@
 		<status type="limit" target="player" system="engines" amount="1"/>
 		<ship load="FUEL_OFF_ROCK_CURIOUS" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1599,7 +1599,7 @@
 			<text>You offer a more reasonable price but the Slug is outraged! He moves in to attack!</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">

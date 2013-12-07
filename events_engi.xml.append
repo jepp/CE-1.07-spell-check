@@ -236,7 +236,7 @@
 	<text load="ENGI_MANTIS_FIGHT"/>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -288,10 +288,10 @@
 </event>
 
 <event name="ENGI_REBEL_FIGHT">
-	<text>The rebel fighter here would seem to suggest elements of the rebel fleet are already making incursions on Engi space. You move to engage.</text>
+	<text>The Rebel fighter here would seem to suggest elements of the Rebel fleet are already making incursions on Engi space. You move to engage.</text>
 	<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -346,7 +346,7 @@
 	<text>There must have been rich pickings for pirates around here up until war broke out. The pirate you encounter here looks worn down, but hungry. You'll have to fight!</text>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -406,7 +406,7 @@
 				<text>No teleporting today. The mantis must be disappointed.</text>
 				<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -464,7 +464,7 @@
 				<boarders min="1" max="2" class="mantis"/>
 				<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -520,7 +520,7 @@
 		<text>You approach to find a Mantis ship assaulting a small Engi space station.  You prepare for a fight!</text>
 		<ship load="MANTIS_ENGI_STATION" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -573,11 +573,11 @@
 </eventList>
 
 <event name="DISTRESS_ENGI_REBEL" unique="true">
-	<text>The distress signal originates at a small Engi ship under attack by a rebel fighter - but when they see Federation markings they turn to attack!</text> 
+	<text>The distress signal originates at a small Engi ship under attack by a Rebel fighter - but when they see Federation markings they turn to attack!</text> 
 	<distressBeacon/>
 	<ship load="DISTRESS_ENGI_REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -662,7 +662,7 @@
 	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them.</text>
 	<ship load="REBEL_ENGI_UNLOCK_2FAKE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -717,7 +717,7 @@
 	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them."</text>
 	<ship load="REBEL_ENGI_UNLOCK_2REAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -772,7 +772,7 @@
 	<text>You have finally caught up with the ships you've been hunting.  A hangar-sized cargo ship is being escorted by a number of Mantis ships.  As you reconsider the assault, a squadron of Engi ships with pirate emblems jump in and assist you.  You prepare to fight the Mantis but scans indicate they are manned by Rebels!</text>
 	<ship load="MANTIS_ENGI_UNLOCK_3" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -890,7 +890,7 @@
 		<environment type="asteroid"/>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -951,7 +951,7 @@
 	<text load="BS_EVENT_ENGI_TEXT"/>
 	<ship load="BS_ENGI_MEDICAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1008,7 +1008,7 @@
 	<ship load="BS_ENGI_DRONE" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1070,7 +1070,7 @@
 	<distressBeacon/>
 	<ship load="BS_ENGI_MEDICAL_MANTIS_CONTROLLED" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1180,7 +1180,7 @@
 	<text load="CE_EVENT_ENGI_COLLECTOR_TEXT"/>
 	<ship load="CE_ENGI_COLLECTOR" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1258,7 +1258,7 @@
 					<text>Your crew indeed expected you might handle things harshly like this. The mission is paramount after all, the Federation has to be reestablished!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1315,7 +1315,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1372,7 +1372,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get to the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1813,7 +1813,7 @@
 </event>
 <textList name="STORE_ENGI">
 	<text>The Engi can do remarkable things with just a pile of scrap. The Engi hive at this beacon is selling equipment for just that.</text>
-	<text>A message arrives: "Your scrap, ours. Our weapons for you." You're about to raise the shields when you realise it's just an Engi trader looking for a trade.</text>
+	<text>A message arrives: "Your scrap, ours. Our weapons for you." You're about to raise the shields when you realize it's just an Engi trader looking for a trade.</text>
 	<text>An Engi ship hails: "Engine upgrade necessary for travel home. Sale of equipment necessary for engine upgrade."</text>
 	<text planet="PLANET_POPULATED">An Engi manufacturing plant orbits this densely settled planet. They sell equipment right off the production line.</text>
 	<text planet="PLANET_POPULATED">A few hundred drones swarm around this Engi hive and load containers with machinery and electronic equipment into cargo ships. No one notices you at first, but after you hail repeatedly, some Engi offer to trade.</text>

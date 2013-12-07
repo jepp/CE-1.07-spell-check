@@ -77,7 +77,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -93,7 +93,7 @@
 	<text>You can't see anything through the thick gases surrounding your ship. Without knowing what is out there, all you can do is wait for your FTL to charge.</text>
 	<text>Without active sensors you have no other option but to look out of the view-ports in apprehension. It's eerily quiet.</text>
 	<text>As you wait for the FTL drive to charge, you half expect to be ambushed at any moment. However, no attack comes...</text>
-	<text>You feel naked without functioning sensors. You half expect a rebel ship to appear from behind a cloud at any moment, but none come.</text>
+	<text>You feel naked without functioning sensors. You half expect a Rebel ship to appear from behind a cloud at any moment, but none come.</text>
 	<text>Your crew are constantly looking out of the windows, checking for hostiles. They jump at every creak and moan of the ship. The tension is almost palpable...</text>
 	<text>You nervously glance out the windows but the only thing to greet you is more clouds and silence.</text>
 	<text>You cycle through wide-band com channels as soon as you arrive. Nothing but static.</text>
@@ -145,7 +145,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -168,7 +168,7 @@
 
 
 <event name = "FLEET_EASY_NEBULA"> <!-- could use some cruisers -->
-	<text>An advanced rebel hunter easily found your ship. You can't see it through the nebula, but you can assume the fleet is right on top of you. You need to escape quickly.</text>
+	<text>An advanced Rebel hunter easily found your ship. You can't see it through the nebula, but you can assume the fleet is right on top of you. You need to escape quickly.</text>
 	<ship load = "LONG_FLEET" hostile ="true"/>
 	<environment type="storm"/>
 </event>
@@ -178,7 +178,7 @@
 	<environment type="nebula"/>
 	<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -235,7 +235,7 @@
 	<environment type="nebula"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -287,11 +287,11 @@
 </event>
 
 <event name="NEBULA_AUTO_WARNING" unique = "true">
-	<text>It appears that an automated rebel scout was positioned within the nebula to warn of your passing.</text>
+	<text>It appears that an automated Rebel scout was positioned within the nebula to warn of your passing.</text>
 	<environment type="nebula"/>
 	<ship load="REBEL_AUTO_WARNING" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -346,7 +346,7 @@
 	<text load="NEBULA_PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -402,7 +402,7 @@
 	<environment type="nebula"/>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -455,7 +455,7 @@
 
 
 <event name="NEBULA_REBEL_UNDETECTED" unique="true">
-	<text>Your ship emerges quite far away from the beacon. You see a rebel ship waiting nearby; undoubtedly stationed to look for you.</text>
+	<text>Your ship emerges quite far away from the beacon. You see a Rebel ship waiting nearby; undoubtedly stationed to look for you.</text>
 	<ship load="REBEL" hostile="false"/>
 	<environment type="nebula"/>
 	<choice>
@@ -463,7 +463,7 @@
 		<event>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -527,13 +527,13 @@
 </event>
 <eventList name="NEBULA_REBEL_UNDETECTED_LIST">
 	<event>
-		<text>You immediately slip further into the clouds, but not quickly enough. The rebel catches sight of you and moves in to engage!</text>
+		<text>You immediately slip further into the clouds, but not quickly enough. The Rebel catches sight of you and moves in to engage!</text>
 		<choice>
 			<text>Prepare to fight.</text>
 			<event>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -620,7 +620,7 @@
 	<choice req="weapons" lvl="6" hidden="true">
 		<text>(Weapons) Activate your advanced weapons threateningly.</text>
 		<event>
-			<text>They hail you, "There's no need for aggression... Perhaps this would convince you to look the other way."</text>
+			<text>They hail you: "There's no need for aggression... Perhaps this would convince you to look the other way."</text>
 			<choice>
 				<text>Take their bribe.</text>
 				<event>
@@ -639,14 +639,14 @@
 
 
 <event name="NEBULA_AUTO_DEFENSE_ITEM" unique="true">
-	<text>An advance rebel automated ship remains stationed near a small rebel space-station. However, without functioning sensors it is impossible to tell what is inside.</text>
+	<text>An advance Rebel automated ship remains stationed near a small Rebel space-station. However, without functioning sensors it is impossible to tell what is inside.</text>
 	<ship load="REBEL_AUTO_ITEM" hostile="false"/>  <!-- ship is in other xmls -->
 	<choice>
 		<text>Attack the automated ship to get to the station.</text>
 		<event>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -713,10 +713,10 @@
 		<text>Your search is hopeless. Your sensors can't pick up anything in the nebula.</text>
 	</event>
 	<event>
-		<text>While searching fruitlessly through the nebula, you stumble upon the rebel ship which the Federation loyalists were likely hiding from. You prepare for a fight.</text>
+		<text>While searching fruitlessly through the nebula, you stumble upon the Rebel ship which the Federation loyalists were likely hiding from. You prepare for a fight.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -786,7 +786,7 @@
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -862,7 +862,7 @@
 				<text load="CE_PRE_FIGHT_TEXT"/>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -934,7 +934,7 @@
 		<event>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1003,7 +1003,7 @@
 		<event>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1065,7 +1065,7 @@
 		<text>You follow their vapour trails and surf onto their six o' clock, weapons hot.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1116,7 +1116,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Without sensors you can't maintain a lock for long. The rebels slip away.</text>
+		<text>Without sensors you can't maintain a lock for long. The Rebels slip away.</text>
 	</event>
 	<event>
 		<text>You get disoriented in the nebula and lose your bearings completely. It takes some time to get back to the beacon. It's likely the fleet has had time to advance closer to your position.</text>
@@ -1150,7 +1150,7 @@
 
 
 <event name="STORM_AUTO" unique = "true">
-	<text>You jump into a sector of the nebula beset by a plasma storm. An automated rebel scout stationed at the beacon moves in to attack.</text>
+	<text>You jump into a sector of the nebula beset by a plasma storm. An automated Rebel scout stationed at the beacon moves in to attack.</text>
 	<environment type="storm"/>
 	<choice>
 		<text>Prepare to fight.</text>
@@ -1158,7 +1158,7 @@
 			<text>You engage the ship.</text>
 			<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1228,7 +1228,7 @@
 		<text>Despite your advanced engines you are unable to shake them; you turn and prepare for a fight.</text>
 		<ship load = "REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1281,7 +1281,7 @@
 </eventList>
 
 <event name="STORM_REBEL" unique = "true">
-	<text>You arrive in the middle of a plasma storm. Despite the harsh conditions, a rebel scout seems to be waiting for you.</text>
+	<text>You arrive in the middle of a plasma storm. Despite the harsh conditions, a Rebel scout seems to be waiting for you.</text>
 	<environment type="storm"/>
 	<ship load = "REBEL" hostile = "true"/>
 </event>
@@ -1324,7 +1324,7 @@
 		<autoReward level="LOW">weapon</autoReward>
 	</event>
 	<event>
-		<text>The ship AI calculates an optimal rout and you can savely explores the wrecks. But the storm has taken its toll: Any crew are long-since dead and the floating debris has been scorched beyond repair.</text>
+		<text>The ship AI calculates an optimal route and you can safely explore the wrecks. But the storm has taken its toll; any crew are long-since dead, and the floating debris has been scorched beyond repair.</text>
 	</event>
 </eventList>
 
@@ -1335,7 +1335,7 @@
 	<text load="NEBULA_AUTO_LIST"/>
 	<ship load="REBEL_AUTO_STORM_DELAY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1407,7 +1407,7 @@
 			<choice>
 				<text>Recruit one of the less dodgy individuals for your ships crew.</text>
 				<event>
-					<text>The stations cantina is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy an you come to an agreement.</text>
+					<text>The station's cantina is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy and you come to an agreement.</text>
 					<item_modify>
 						<item type="scrap" min="-60" max="-35"/>
 					</item_modify>
@@ -1440,7 +1440,7 @@
 					<text>This place is rotten to the core and as much a threat to the Federation as the Rebels are. No need to spare it.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1513,7 +1513,7 @@
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 	<environment type="nebula"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1564,11 +1564,11 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT">
-	<text>The rebels must have anticipated you would try to lose them within the nebula. A automated defense turret was waiting for you at the beacon.</text>
-	<text>A few kilometers ahead a Rebel AI-turret floats right in the middle of this wide clearing in the Nebula. A perfect arena for a fight to the death.</text>
-	<text>A few seconds after you arrive you are fired on from within the clouds. A Rebel turret has been left behind to guard this beacon!</text>
-	<text>This part of the nebula seems to be not as uncharted as expected: A Rebele AI turret is guarding the beacon. They knew ships would have to stay in its weapon range to charge their FTL, a fight will be unavoidable.</text>
-	<text>The rebel turret that is guarding this remote part of the nebula seems still be well up to date about high level targets. It immediately powers up it's weapons as you arrive.</text>
+	<text>The Rebels must have anticipated you would try to lose them within the nebula; an automated defense turret was waiting for you at the beacon.</text>
+	<text>A few kilometers ahead a Rebel AI-turret floats right in the middle of this wide clearing in the nebula; a perfect arena for a fight to the death.</text>
+	<text>A few seconds after you arrive you are fired on from within the clouds; a Rebel turret has been left behind to guard this beacon!</text>
+	<text>This part of the nebula seems to be not as uncharted as expected; a Rebel AI turret is guarding the beacon. They knew ships would have to stay in its weapon range to charge their FTL. A fight will be unavoidable.</text>
+	<text>The Rebel turret that is guarding this remote part of the nebula seems to be well up to date about high level targets. It immediately powers up its weapons as you arrive.</text>
 </textList>
 
 <event name="BS_EVENT_AUTO_NEBULA">
@@ -1576,7 +1576,7 @@
 	<environment type="nebula"/>
 	<ship load="BS_AUTO_TURRET" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1627,11 +1627,11 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_NEBULA_TEXT">
-	<text>The rebels must have anticipated you would try to lose them within the nebula. A automated defense turret was waiting for you at the beacon.</text>
-	<text>A few kilometers ahead a Rebel AI-turret floats right in the middle of this wide clearing in the Nebula. A perfect arena for a fight to the death.</text>
-	<text>A few seconds after you arrive you are fired on from within the clouds. A Rebel turret has been left behind to guard this beacon!</text>
-	<text>This part of the nebula seems to be not as uncharted as expected: A Rebele AI turret is guarding the beacon. They knew ships would have to stay in its weapon range to charge their FTL, a fight will be unavoidable.</text>
-	<text>The rebel turret that is guarding this remote part of the nebula seems still be well up to date about high level targets. It immediately powers up it's weapons as you arrive.</text>
+	<text>The Rebels must have anticipated you would try to lose them within the nebula; an automated defense turret was waiting for you at the beacon.</text>
+	<text>A few kilometers ahead a Rebel AI-turret floats right in the middle of this wide clearing in the nebula; a perfect arena for a fight to the death.</text>
+	<text>A few seconds after you arrive you are fired on from within the clouds; a Rebel turret has been left behind to guard this beacon!</text>
+	<text>This part of the nebula seems to be not as uncharted as expected; a Rebel AI turret is guarding the beacon. They knew ships would have to stay in its weapon range to charge their FTL. A fight will be unavoidable.</text>
+	<text>The Rebel turret that is guarding this remote part of the nebula seems still be well up to date about high level targets. It immediately powers up its weapons as you arrive.</text>
 </textList>
 
 <event name="BS_EVENT_PIRATE_NEBULA">
@@ -1639,7 +1639,7 @@
 	<environment type="nebula"/>
 	<ship load="BS_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1691,8 +1691,8 @@
 </event>
 <textList name="BS_EVENT_PIRATE_NEBULA_TEXT">
 		<text>As you drift through the nebula the outlines of an unlicensed station become visible within the clouds. Their weapons come on-line.</text>
-	<text>A pirate station drifts near the beacon and hails: "Look who we have here. In the end they always come to us. Our cargo scans indicate fine prizes aboard your ship, you wont leave here in one piece."  They lock weapons.</text>
-	<text>Your attempts to ID the station ahead ahead are fruitless. When you close in a little you realise that it is a fully armed pirate station that gets its weapons ready!</text>	
+	<text>A pirate station drifts near the beacon and hails: "Look who we have here. In the end they always come to us. Our cargo scans indicate fine prizes aboard your ship, you won't leave here in one piece."  They lock weapons.</text>
+	<text>Your attempts to ID the station ahead are fruitless. When you close in a little you realize that it is a fully armed pirate station that gets its weapons ready!</text>	
 </textList>
 
 <event name="BS_EVENT_PIRATE_STORM" unique="true">
@@ -1700,7 +1700,7 @@
 	<environment type="storm"/>
 	<ship load="BS_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1762,7 +1762,7 @@
 	<environment type="nebula"/>
 	<ship load="CE_CORPORATION" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1813,9 +1813,9 @@
 		</choice>
 </event>
 <textList name="CE_CORPORATION_NEBULA_TEXT">
-	<text>A quick scan after your arrival reveals high concentrations of fuel components in a nearby gas cloud. You are about to begin extraction when your targeting detection lights up. A corporate scout has sticked it's claim here and they seem to have no problems with engaging remnants of the Federation.</text>
-	<text>A assault ship with corporate markings hails you: "This is a private gas mine of the Waypoint-Junta corporation. Trespassers will be shot." You try to reason but they refuse to let you charge the FTL at their beacon and insist you leave immediately with impulse engines. In the end they indeed open fire.</text>
-	<text>"This beacon is corporate property. By jumping here you agreed to our license agreement. It is within our right to requisite parts of your weaponry for customer research. Please comply." This is ridiculous. A crew vote results in the decision to teach this guys a lessons.</text>
+	<text>A quick scan after your arrival reveals high concentrations of fuel components in a nearby gas cloud. You are about to begin extraction when your targeting detection lights up. A corporate scout has staked its claim here and they seem to have no problems with engaging remnants of the Federation.</text>
+	<text>An assault ship with corporate markings hails you: "This is a private gas mine of the Waypoint-Junta corporation. Trespassers will be shot." You try to reason with them, but they refuse to let you charge the FTL at their beacon and insist you leave immediately with impulse engines. In the end they indeed open fire.</text>
+	<text>"This beacon is corporate property. By jumping here you agreed to our license agreement. It is within our right to requisition parts of your weaponry for customer research. Please comply." This is ridiculous. A crew vote results in the decision to teach these guys a lessons.</text>
 </textList>
 
 
@@ -1836,10 +1836,10 @@
 <textList name="NEBULA_STORE">
 	<text>Some brave entrepreneurs set up a station here to extract elements from the nebula. There seems to be a public shipyard and rest stop here as well.</text>
 	<text>Seeing a trade depot set up near the beacon implies there is an alien settlement on some nearby rock. You decide to check out their wares.</text>
-	<text>The centre of a hydrogen cloud doesn't seem like a very usual place for a store, but the Engi aren't a usual species. Wouldn't hurt to take a look.</text>
+	<text>The center of a hydrogen cloud doesn't seem like a very usual place for a store, but the Engi aren't a usual species. Wouldn't hurt to take a look.</text>
 	<text>An Engi cargo vessel hails: "Propose mutually beneficial exchange of properties." That smells like a bargain.</text>
-	<text>You discover a cluster of Federation refugee ships taking shelter in the folds of the nebula. "I'm sorry we've got nothing to give you, but we need scrap to keep the engines running." You sense they'll strike a trade.</text>
-	<text>An installment of the Waypoint-Junta corporation extracts gases from the nebula here. Security is tight, multiple assault classes lock on your ship. You explain your are just a peaceful merchant. The plant manager offers to sell some of the production of the charts.</text>
+	<text>You discover a cluster of Federation refugee ships taking shelter in the folds of the nebula: "I'm sorry we've got nothing to give you, but we need scrap to keep the engines running." You sense they'll strike a trade.</text>
+	<text>An installment of the Waypoint-Junta corporation extracts gases from the nebula here. Security is tight, multiple assault classes lock on your ship. You explain your are just a peaceful merchant. The plant manager offers to sell some of their equipment off the books.</text>
 </textList>
 
 
@@ -1872,7 +1872,7 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<!-- best deal -->
-			<text>Gas poisoning and magnetic sickness are pretty common here. Medicin is bought at very good price. [Sell Pharmaceuticals for about 90 Scrap]</text>
+			<text>Gas poisoning and magnetic sickness are pretty common here. Medicine is bought at very good price. [Sell Pharmaceuticals for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_NEBULA_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -2122,7 +2122,7 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<!-- best deal -->
-			<text>Gas poisoning and magnetic sickness are pretty common here. Medicin is bought at very good price. [Sell Pharmaceuticals for about 90 Scrap]</text>
+			<text>Gas poisoning and magnetic sickness are pretty common here. Medicine is bought at very good price. [Sell Pharmaceuticals for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<item_modify>
@@ -2327,9 +2327,9 @@
 	<text planet="NONE">You find yourself surrounded by a group of mysterious alien vessels. They hail you and apparently have some cargo and valuable technology for sale.</text>
 	<text planet="PLANET_POPULATED">A transmission from the nearby planet indicates an outpost below which offers trade goods and supplies to travelers. You send down an away party to check it out.</text>
 	<text planet="PLANET_POPULATED">The space station here has a traveling merchant who shows you his wares.</text>
-	<text planet="NONE">There is only one other ship at this beacon, and it is showing heavy damage. You receive a message on your console: "Greetings traveler. We were crippled by a band of pirates and are now forced to sell our remaining cargo and valuable equipment to acquire the necessary supplies to get home."</text>
+	<text planet="NONE">There is only one other ship at this beacon, and it is showing heavy damage. You receive a message on your console: "Greetings, traveler. We were crippled by a band of pirates and are now forced to sell our remaining cargo and valuable equipment to acquire the necessary supplies to get home."</text>
 	<text planet="PLANET_POPULATED">A trade depot orbits the nearby planet. Multiple merchant ships are docked. Looks like you can strike a bargain here.</text>
-	<text planet="PLANET_POPULATED">A refinery sells it's product to ships coming and going from this settlement.</text>
+	<text planet="PLANET_POPULATED">A refinery sells its product to ships coming and going at this settlement.</text>
 </textList>
 
 
@@ -2571,9 +2571,9 @@
 </eventList>
 
 <textList name="STORE_CLEARING_BUY_TEXT">
-	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also also offers. Time passes.</text>
+	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
 </textList>
 
@@ -2953,7 +2953,7 @@ IDEAS
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -3015,7 +3015,7 @@ IDEAS
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. You put up a hazard beacon as well to warn the any lost soul passing through here. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the any lost soul passing through here. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -3070,9 +3070,9 @@ IDEAS
 	<autoReward level="LOW">drone</autoReward>
 </event>
 <textList name="FIND_DRONE_HAZARD_TEXT"> <!-- to do! -->
-	<text>An heavily damaged Auto Drone Carrier lyes disabled at this beacon. A quick check yields schematics for a drone. You bring it aboard the ship.</text>
+	<text>An heavily damaged Auto Drone Carrier lies disabled at this beacon. A quick check yields schematics for a drone. You bring it aboard the ship.</text>
 	<text>You find an abandoned research station on a huge asteroid. A quick scan shows no life forms however you discover a usable drone schematic!</text>
-	<text planet="NONE">After all this asteroids your jump leads to a remarkable binary star system. The view is beautiful, but you can not help feeling lonely as you know that there must be no settlements within light years. A scan reveals a data cache magnetized onto the beacon. It is labeled "For who is in need" and contains a drone schematic.</text>
+	<text planet="NONE">After all this, your jump leads to a remarkable binary star system. The view is beautiful, but you can not help feeling lonely as you know that there must be no settlements within light years. A scan reveals a data cache magnetized onto the beacon. It is labeled "For whom is in need" and contains a drone schematic.</text>
 </textList>
 
 
@@ -3083,8 +3083,8 @@ IDEAS
 <textList name="FIND_WEAPON_HAZARD_TEXT">
 	<text planet="NONE" back="BG_NEBULA">Holy crap! A weapon is just floating in space!</text>
 	<text>Debris from several severe navigation accident is scattered around this system. You discover there a functioning weapon on one of the wreaks but are unable to pinpoint the cause for the ships destruction. The crew prefers to get out of here fast.</text>
-	<text>The scorched wreck of a small civilian ship floats nearby. Black box logs indicate they jumped here from within the center of a plasma storm, but their lifesupport failed before their FTL-charge sequence was completed. One of their weapons remains usable.</text>
-	<text>Torn up ship hulls float near by. Scans indicate the have lingered here since a long time, the storm has long since moved on. One of the ships was carriying a weapon in a sealed cargo container. You can install it on your ship.</text>
+	<text>The scorched wreck of a small civilian ship floats nearby. Black box logs indicate they jumped here from within the center of a plasma storm, but their life support failed before their FTL charge sequence was completed. One of their weapons remains usable.</text>
+	<text>Torn up ship hulls float near by. Scans indicate they have lingered here long time; the storm has long since moved on. One of the ships was carrying a weapon in a sealed cargo container. You can install it on your ship.</text>
 </textList>
 
 <event name="BS_EVENT_PIRATE_SUICIDE_ASTEROID">
@@ -3093,7 +3093,7 @@ IDEAS
 	<ship load="BS_PIRATE_SUICIDE" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3149,7 +3149,7 @@ IDEAS
 	<environment type="nebula"/>
 	<ship load="REBEL_AUTO_STORM_DELAY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3227,7 +3227,7 @@ IDEAS
 			<status type="divide" target="enemy" system="medbay" amount="2"/>
 			<status type="divide" target="enemy" system="teleporter" amount="2"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3297,7 +3297,7 @@ IDEAS
 		<text>Despite your advanced engines you are unable to shake them, the storm is interfering with your systems to much. You turn and prepare for a fight.</text>
 		<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3396,7 +3396,7 @@ IDEAS
 		<choice hidden="true" req="pilot" lvl="3">
 			<text>(Advanced Piloting) Perform a short range jump to get to the equipment. [ Fuel. -1 ]</text>
 			<event>
-				<text>You adcanced piloting system and your experienced pilot allow you to jump right on top of the derelict ship and pick up the cargo. The maneuver gave you enough time to get your ship out of the danger zone before the solar outburst hits. Your 1st lieutenant comments: "Well done captain."</text>
+				<text>Your advanced piloting system and your experienced pilot allow you to jump right on top of the derelict ship and pick up the cargo. The maneuver gave you enough time to get your ship out of the danger zone before the solar outburst hits. Your 1st lieutenant comments: "Well done, Captain."</text>
 				<item_modify steal="true">
 					<item type="fuel" min="-1" max="-1"/>
 				</item_modify>
@@ -3407,15 +3407,15 @@ IDEAS
 </event>
 <eventList name="HAZARD_SUN_INTENSE_MAD">
 	<event>
-		<text>The nova errupts before you can even reach the derelict ship. Everything goes dark, you are thrown around on the bridge like in a bad sience fiction movie from the past. When you come to again on the medbay, your 1st officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
+		<text>The nova erupts before you can even reach the derelict ship. Everything goes dark, and you are thrown around on the bridge like in a bad science fiction movie from the past. When you come to again in the medbay, your first officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
 		<damage amount="8"/>
 	</event>
 	<event>
-		<text>The nova errupts before you can even reach the derelict ship. Everything goes dark, you are thrown around on the bridge like in a bad sience fiction movie from the past. When you come to again on the medbay, your 1st officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
+		<text>The nova erupts before you can even reach the derelict ship. Everything goes dark, you are thrown around on the bridge like in a bad science fiction movie from the past. When you come to again in the medbay, your first officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
 	<damage amount="8"/>
 	</event>
 	<event>
-		<text>You fetch the weapon in fly-by with the mechanical arm, but the nova errupts before you can get out of the danger zone. Suddenly, everything goes dark. When you come to again on the medbay, your 1st officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
+		<text>You fetch the weapon in a fly-by with the mechanical arm, but the nova erupts before you can get out of the danger zone. Suddenly, everything goes dark. When you come to again in the medbay, your first officer gives you a grim look. The ship has taken heavy damage, structural integrity is failing.</text>
 		<damage amount="8"/>
 		<weapon name="RANDOM"/>
 		<autoReward level="LOW">stuff</autoReward>
@@ -3440,7 +3440,7 @@ IDEAS
 	<environment type="asteroid"/>
 	<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3503,7 +3503,7 @@ IDEAS
 			<environment type="asteroid"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3568,7 +3568,7 @@ IDEAS
 		<ship hostile="true"/>
 		<environment type="asteroid"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3632,7 +3632,7 @@ IDEAS
 			<status type="limit" target="player" system="sensors" amount="0"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3694,7 +3694,7 @@ IDEAS
 		<status type="limit" target="player" system="sensors" amount="0"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3750,7 +3750,7 @@ IDEAS
 		<status type="limit" target="player" system="sensors" amount="0"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3815,7 +3815,7 @@ IDEAS
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3875,7 +3875,7 @@ IDEAS
 	<environment type="asteroid"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3931,7 +3931,7 @@ IDEAS
 	<environment type="asteroid"/>
 	<ship load="REBEL_AUTO_WARNING" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3987,7 +3987,7 @@ IDEAS
 	<text>Another unmanned ship searches the field here. You prepare the ship for combat.</text>
 	<text>This part of the asteroid field is being patrolled by a unmanned scout. A fight is unavoidable.</text>
 	<text>The Rebels must have send their auto scouts ahead to scout the asteroid fields. The ship spots you and begins its assault.</text>
-	<text>A small Rebel scout is bombarded with asteroids at this beacon. It's AI immediately identifies you as a threat and it engages.</text>
+	<text>A small Rebel scout is bombarded with asteroids at this beacon. Its AI immediately identifies you as a threat and it engages.</text>
 </textList>
 
 
@@ -3997,14 +3997,14 @@ IDEAS
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>As you prepare to jump, a Rebel scout emerges from in between two colossal asteroids. Fancy flying will endanger the ship here, you decide to use the breaks and put a limiter on your engines and engage the ship. You also derivating energy from the augment generator to your navigation computer.</text>
+			<text>As you prepare to jump, a Rebel scout emerges from in between two colossal asteroids. Fancy flying will endanger the ship here; you decide to use the breaks and put a limiter on your engines and engage the ship. You also diverting energy from the augment generator to your navigation computer.</text>
 			<ship load="REBEL_AUTO_WARNING" hostile="true"/>
 			<status type="limit" target="player" system="engines" amount="2"/>
 			<status type="limit" target="enemy" system="engines" amount="2"/>
 			<choice req="AE_ADV_THRUSTERS" hidden="true">
 				<text>(Advanced Proximity Navigation) Activate your advanced navigation software.</text>
 				<event>
-					<text>Your augment allows you to safely navigate within and arround the huge the rocks. You've gained a noticable advantage over your oponent.</text>
+					<text>Your augment allows you to safely navigate within and around the huge the rocks. You've gained a noticeable advantage over your opponent.</text>
 				<status type="clear" target="player" system="engines" amount="100"/>
 				</event>
 			</choice>
@@ -4028,13 +4028,13 @@ IDEAS
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 				<text>(Teleporter Disruptor) Get the disrupter field up. Don't let this things on board.</text>
 				<event>
-					<text>As soon as the whips drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
+					<text>As soon as the wisp drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
 				</event>
 			</choice>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>The whisp drones selfdistruct after teleporting their sentient payload. The AI avatars constantly smile and explain that they come in peace, but fire on everyone they see.</text>
+					<text>The wisp drones self-destruct after teleporting their sentient payload. The AI avatars constantly smile and explain that they come in peace, but fire on everyone they see.</text>
 					<boarders min="3" max="6" class="ghost"/>
 				</event>
 			</choice>
@@ -4070,13 +4070,13 @@ IDEAS
 					<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 						<text>(Teleporter Disruptor) Get the disrupter field up. Don't let this things on board.</text>
 						<event>
-							<text>As soon as the whips drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
+							<text>As soon as the wisp drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
 						</event>
 					</choice>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>The whisp drones selfdistruct after teleporting their sentient payload. The AI avatars constantly smile and explain that they come in peace, but fire on everyone they see.</text>
+							<text>The wisp drones self-destruct after teleporting their sentient payload. The AI avatars constantly smile and explain that they come in peace, but fire on everyone they see.</text>
 							<boarders min="2" max="4" class="ghost"/>
 						</event>
 					</choice>
@@ -4107,7 +4107,7 @@ IDEAS
 <textList name="GHOST_AI_SHIP_TEXT">
 	<text>This beacon lies in an empty section of space. You almost move on before spotting a heavily damaged ship drifting nearby. The ship's markings are unfamiliar.</text>
 	<text>You share this beacon with just one other ship, but it appears ancient and long since abandoned.</text>
-	<text>Another ship is jumping away just as you arrive. They send out a quick communication before their jump completes: "That ruined bulk is more trouble than it's worth." You see a drifting, abandoned vessel nearby.</text>
+	<text>Another ship is jumping away just as you arrive. They send out a quick communication before their jump completes: "That ruined bulk is more trouble than its worth." You see a drifting, abandoned vessel nearby.</text>
 	<text>There's a heavily damaged ship at this beacon. You briefly pick up a very distorted communication from the ship but are unable to understand it. Your sensors detect no life-signs.</text>
 </textList>
 <eventList name="GHOST_DOCK">
@@ -4156,7 +4156,7 @@ IDEAS
 		<text>Suddenly the wreckage powers up. You have no idea who's piloting the ship, but it has clearly become hostile.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4218,7 +4218,7 @@ IDEAS
 				<text>You move in to attack.</text>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4297,7 +4297,7 @@ IDEAS
 </eventList>
 <eventList name="GHOST_AI_STAND">
 	<event>
-		<text>The fight doesn't doesn't go well. Eventually your crew is forced to abandon the supplies and retreat of their own accord.</text>
+		<text>The fight doesn't go well. Eventually your crew is forced to abandon the supplies and retreat of their own accord.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="GHOST_AI_BOARDED"/>
@@ -4349,7 +4349,7 @@ IDEAS
 <textList name="STORE_HAZARD_TEXT"> <!-- to do! -->
 	<text>The Waypoint-Junta cooperation has set up a lonely outpost at this beacon. Corporate protocols are tight, but they haven't met another living soul for months and agree to trade.</text>
 	<text>A well armed transport ship and a squadron of fighters are in orbit nearby. You are wary of their trustworthiness but beggars can't be choosers.</text>
-	<text planet="PLANET_GAS">A huge cargo freighter with a heavy escort is recharging it's FTL in the Orbit of this gas giant. "We specialize in long distance trade. Do you want to exchange some goods?"</text>
+	<text planet="PLANET_GAS">A huge cargo freighter with a heavy escort is recharging its FTL in the Orbit of this gas giant. "We specialize in long distance trade. Do you want to exchange some goods?"</text>
 </textList>
 
 
@@ -4393,7 +4393,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
 			<!-- best deal-->
-			<text>The malnourished stations chief approaches you: "Eh... we ain't getting much trafic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
+			<text>The malnourished stations chief approaches you: "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -4573,7 +4573,7 @@ IDEAS
 
 <textList name="STORE_HAZARD_BUY_TEXT">
 	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>Random ion fields interfere with you magnetic clamps and you only manage to successfully dock after the fourth try. While your crew loads the cargo you have a look at the ship equipment the shop also offers.</text>
 </textList>
 

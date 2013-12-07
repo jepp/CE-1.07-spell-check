@@ -142,13 +142,13 @@
 		<modifyPursuit amount="-1"/>
 	</event>
 	<event>
-		<text>Just after you lay the first mine a Zoltan military ship jumps in. They hail: "By deploying military grade proximity explosives in Zoltan space, you are in violation of the Interstelar Space-Mine Ban Treaty. Your weaponry will be confiscated and you will be brought to trial." You don't have time for this.</text>
+		<text>Just after you lay the first mine a Zoltan military ship jumps in. They hail: "By deploying military grade proximity explosives in Zoltan space, you are in violation of the Interstellar Space-Mine Ban Treaty. Your weaponry will be confiscated and you will be brought to trial." You don't have time for this.</text>
 		<item_modify>
 			<item type="missiles" min="-1" max="-1"/>
 		</item_modify>
 		<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -273,7 +273,7 @@
 			<text>Sometimes you have to bet on the underdog - even on the rare occasions that the underdog is a Mantis warship. You set off for the heart of the asteroid field and engage the Zoltan there.</text>
 			<ship load="ZOLTAN_SHIP_SAVE_MANTIS1" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -331,7 +331,7 @@
 			<environment type="asteroid"/>
 			<ship load="ZOLTAN_SHIP_SAVE_MANTIS2" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -397,7 +397,7 @@
 		<boarders min="2" max="4" class="energy"/>
 		<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -469,7 +469,7 @@
 					<text>The local people - furry, one-eyed tree lizard things - begin chanting when they see you. Suddenly the sky is lit by laser fire - the Zoltan opened fire on your ship! You dash back to the shuttle and join the fight.</text>
 					<ship load="ZOLTAN_PRIMITIVES_ZOLTAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -526,7 +526,7 @@
 					<text>These creatures should be left to develop at their own pace. You direct all weapons on the Rebel ship and begin the firing sequence.</text>
 					<ship load="ZOLTAN_PRIMITIVES_REBEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -591,7 +591,7 @@
 	<text load="ZOLTAN_FIGHT"/>
 	<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -646,7 +646,7 @@
 	<text load="ZOLTAN_PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -702,7 +702,7 @@
 	<text>You pick up the last broadcast from a rupturing Zoltan freighter: "The Mantis, they're here, please-" You're interrupted by fire off the port bow!</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -757,7 +757,7 @@
 	<text>You jump into a debris field that used to be a Zoltan cruiser. Unfortunately, its Engi escort takes you for the attacker and retaliates! They refuse all hails.</text>
 	<ship load="ENGI_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -814,7 +814,7 @@
 	<environment type="asteroid"/>
 	<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -875,7 +875,7 @@
 			<text>You engage the pirates.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -939,7 +939,7 @@
 		<text>You allow them to approach, but are caught unaware when they open fire!</text>
 		<ship load="ZOLTAN_SCIENCE_DOCK" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1004,7 +1004,7 @@
 			<text>"You like a challenge. So be it!" A wormhole forms and a confused, angry Mantis ship hurtles toward you!</text>
 			<ship load="ZOLTAN_RIFT_MANTIS" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1061,7 +1061,7 @@
 			<text>"Do not be fooled, Federation, by a soft underbelly." You detect a wormhole opening up, and seconds later a Slug ship is attacking from the other direction!</text>
 			<ship load="ZOLTAN_RIFT_SLUG" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1118,7 +1118,7 @@
 			<text>"A hardened foe for a hardened veteran." You detect a wormhole opening up, and a Rock ship appears with guns blazing. It appears they were in combat when they were thrust across space-time.</text>
 			<ship load="ZOLTAN_RIFT_ROCK" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1172,10 +1172,10 @@
 	<choice hidden="true" req="crystal">
 		<text>(Crystal Crew) Crystalline Beings.</text>
 		<event>
-			<text>The Zoltan is quiet for a moment, and then whispers, "Are you sure? Well, so be it then." A huge wormhole opens, and from within it looms a Crystalline ship, prepared for war.</text>
+			<text>The Zoltan is quiet for a moment and then whispers, "Are you sure? Well, so be it then." A huge wormhole opens, and from within it looms a Crystalline ship, prepared for war.</text>
 			<ship load="ZOLTAN_RIFT_CRYSTAL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1238,7 +1238,7 @@
 			<text>Expecting resistance, their Energy Shield is raised and ready for combat.</text>
 			<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1323,7 +1323,7 @@
 				<status type="divide" target="player" system="weapons" amount="2"/>
 				<ship load="ZOLTAN_CREW_SCAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1382,7 +1382,7 @@
 	<environment type="nebula"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1443,7 +1443,7 @@
 			<text>You jet toward the pirate with the fuel supplies and engage - hopefully you can leave the ship in one piece!</text>
 			<ship load="STORM_PIRATE_SUPPLY_FUEL" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1500,7 +1500,7 @@
 			<text>You jet toward the pirate with the ammunition and engage - hopefully you can leave the ship in one piece!</text>
 			<ship load="STORM_PIRATE_SUPPLY_AMMO" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1564,7 +1564,7 @@
 	<boarders min="3" max="4" class="energy"/>
 	<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1623,7 +1623,7 @@
 			<text>The Mantis can't get a teleporter lock and must surely be disappointed. They decide to try their chances anyway.</text>
 			<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1681,7 +1681,7 @@
 			<boarders min="2" max="3" class="mantis"/>
 			<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1739,7 +1739,7 @@
 		<text>You charge your weapons - not that this will take much.</text>
 		<ship load="ZOLTAN_PEACE_QUEST_ATTACK1" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1793,7 +1793,7 @@
 		<text>Just as you're preparing to attack you detect a nearby jump signature. A Zoltan defense ship comes to their aid!</text>
 		<ship load="ZOLTAN_PEACE_QUEST_ATTACK2" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1855,7 +1855,7 @@
 			<text>You power your weapons and prepare to fight.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1909,7 +1909,7 @@
 	<choice hidden="true">
 		<text>Attempt to hail them.</text>
 		<event>
-			<text>They open communications: "I can't imagine there's anything you could say that will save you. The rebellion must destroy those that are still loyal to the obsolete Federation."</text>
+			<text>They open communications: "I can't imagine there's anything you could say that will save you. The Rebellion must destroy those that are still loyal to the obsolete Federation."</text>
 			<choice hidden="true">
 				<text>"Perhaps there could be a reconciliation of our ideals without war?"</text>
 				<event>
@@ -1920,7 +1920,7 @@
 							<text>"No! We will not be consigned to the backwaters of space just because we don't fit into your 'Federation ideals'" They charge.</text>
 							<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1993,7 +1993,7 @@
 					<text>They shut off communications and immediately engage.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2050,7 +2050,7 @@
 					<text>"Humans are treated as 'equal' to aliens in the weak Federation. The sacrifice of BILLIONS of alien or human lives are justified if it means we reach our full potential!" They charge.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2120,7 +2120,7 @@
 		<text>You approach the planet and wait, but nothing happens. The Zoltan hail: "And in the coming times, when the monolith speaks not with a man he has no future and must be left wanting."</text>
 		<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2175,7 +2175,7 @@
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>As you approach, a kaleidoscope of colours fills the view-screen and one of your crew begins to age rapidly in reverse, eventually disappearing into nothingness. Let's hope they've transcended physical existence, and not just been forced out of it.</text>
+		<text>As you approach, a kaleidoscope of colors fills the view-screen and one of your crew begins to age rapidly in reverse, eventually disappearing into nothingness. Let's hope they've transcended physical existence, and not just been forced out of it.</text>
 		<crewMember amount="-1"/>
 	</event>
 </eventList>
@@ -2259,7 +2259,7 @@
 					<text>Your crew indeed expected you might handle things harsh like this. The mission is paramount after all, the Federation has to be reestablished!</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2316,7 +2316,7 @@
 					<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2373,7 +2373,7 @@
 					<text>Desperate times call for desperate measures. Your crew agrees that sometimes individual lives mean nothing. We need to get the Federation base at any cost.</text>
 					<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2435,13 +2435,13 @@
 </event>
 <textList name="C_EVENT_ZOLTAN_TRANSPORT_TEXT">
 	<text>You spot a civilian transport ship nearby. Passive scans indicate they are transporting locally produced goods.</text>
-	<text>An only lightly armed Zoltan transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTL's besides each other.</text>
+	<text>An only lightly armed Zoltan transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTLs besides each other.</text>
 	<text>An Zoltan transport hails: "In according to the merchant security legislation act we officially request that you remain in safety distance and keep you weapon targeting off line." The refuse any further communication.</text>
-	<text>A civilian Zoltan ship recharges it's FTL at this beacon. They hail you: "Greetings captain. It's a long time since we saw a Federation ship here. We transport goods for the Zoltan peace synod. Where are you heading?" After a little chat they prepare to jump.</text>
+	<text>A civilian Zoltan ship recharges its FTL at this beacon. They hail you: "Greetings, Captain. It's a long time since we saw a Federation ship here. We transport goods for the Zoltan peace synod. Where are you heading?" After a little chat they prepare to jump.</text>
 	<text>A Zoltan transport ship is performing maintenance at this beacon. They send a message: "Military vessel. We have no reason to think ill of you, but with the amount of pirates terrorizing our borders we expect you to keep your distance. In case of aggression we will make full use of our right to self defense according to GSL Paragraph 23412, Section VII, part D."</text>
 </textList>
 <textList name="C_ZOLTAN_SURRENDER_TEXT">
-	<text>The ship sends white flag codes. The Zolatan want to surrender.</text>
+	<text>The ship sends white flag codes. The Zoltan want to surrender.</text>
 	<text>They send surrender signals and hail: "We where only defending ourselves. Let us be reasonable. No more damage has to be caused. We agree to comply with any of your demands". They offer everything they have if you let them go.</text>
 	<text>The ship shows heavy damage. You receive a hail: "Stop shooting, we can't bear this violence. Take our goods and leave us."</text>
 	<text>"This disturbance of galactic harmony is unnecessary and has to end. Worldly possessions can never be as valuable as sentient lives, so we agree to give up our cargo." They offer to transfer a bounty.</text>
@@ -2546,7 +2546,7 @@
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN_RESULTS">
 	<event>
-		<text>The crew is unusually quite. A salvage team strips the ship of useful materials and checks it's cargo.</text>
+		<text>The crew is unusually quite. A salvage team strips the ship of useful materials and checks its cargo.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2571,7 +2571,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>So many individuals died by your hand during your mission, so the death of this civilians doesn't't matter, right? The crew seems to think otherwise. You are able to take the fuel out of the ships storage. You also take all the scrap you can manage.</text>
+		<text>So many individuals died by your hand during your mission, so the death of these civilians doesn't matter, right? The crew seems to think otherwise. You are able to take the fuel out of the ships storage. You also take all the scrap you can manage.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</event>
 	<event>
@@ -2588,14 +2588,14 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your crew much more silent during the salvage operation than usual, no one talks to you anymore unless given orders. They find a weapon system on their ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>Your crew are much more silent during the salvage operation than usual; no one talks to you anymore unless given orders. They find a weapon system on their ship. With all the civilians slaughtered, you can take it for your ship.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS">
 	<event>
-		<text>Your crew has no problems with resorting to piracy. A salvage team strips the ship of useful materials and checks it's cargo.</text>
+		<text>Your crew has no problems with resorting to piracy. A salvage team strips the ship of useful materials and checks its cargo.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2754,7 +2754,7 @@
 	<text load="BS_EVENT_ZOLTAN_TEXT"/>
 	<ship load="BS_ZOLTAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>Targeting Jammer) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>Targeting Jammer) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2824,10 +2824,10 @@
 	<choice req="ENERGY_SHIELD" hidden="true">
 		<text>(Zoltan Shield) Reconfigure the shield frequencies to scramble the enemy artillery targeting.</text>
 	<event>
-		<text>Your advanced shield technlogy prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
+		<text>Your advanced shield technology prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_ZOLTAN_BEAM_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2891,10 +2891,10 @@
 
 <eventList name="CE_PDS_ZOLTAN_LIST">
 	<event>
-		<text>A heavyly shielded Zoltan defender burst through the athmosphere of the planet and short jumps to you ship. Seems this Zoltan realy mean it.</text>
+		<text>A heavily shielded Zoltan defender burst through the atmosphere of the planet and short jumps to your ship. Seems this Zoltan relay mean it.</text>
 		<ship load="CE_SPOTTER_ZOLTAN_BEAM" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3026,7 +3026,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels ar valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -3217,9 +3217,9 @@
 </eventList>
 
 <textList name="STORE_ZOLTAN_BUY_TEXT">
-	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also also offers. Time passes.</text>
+	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
 </textList>
 
@@ -3281,7 +3281,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels ar valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<item_modify>

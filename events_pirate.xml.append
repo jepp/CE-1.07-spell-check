@@ -112,11 +112,11 @@
 </eventList>
 
 <textList name="PIRATE_FIGHT_DESTROYED">  
-	<text>Your efforts successfully convict these pirates of their terrible crimes, their destruction is their punishment, your payment is their remains.</text>
-	<text>No longer shall these merry men terrorise the space of this sector, your final volley confirming their demise. You pick up what looks useful from the debris before moving on.</text>
+	<text>Your efforts successfully convict these pirates of their terrible crimes. Their destruction is their punishment; your payment is their remains.</text>
+	<text>No longer shall these merry men terrorize the space of this sector; your final volley confirms their demise. You pick what looks useful from the debris before moving on.</text>
 	<text>One last explosion marks their fate as their ship is torn apart.</text>
 	<text>As judge, jury and executioner, your ending attack finishes these pirates off, earning them a sentence of fire. You collect their scorched components and charge the FTL drive.</text>
-	<text>The trachery and thievery of this crew are over as their ship explodes, the spoils of their career yours for the taking.</text>
+	<text>The treachery and thievery of this crew are over as their ship explodes, the spoils of their career yours for the taking.</text>
 </textList>
 
 <!-- CE MODIFIED VANILLA PIRATE EVENTS -->
@@ -164,7 +164,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -178,10 +178,10 @@
 </event>
 <textList name="START_BEACON_OUTLAW_TEXT">
 	<text>A few years ago this region was bustling with trade activity. Now it is overrun with bandits and marauders. You should tread lightly here.</text>
-	<text>This somewhat isolated region was thrown into chaos at the start of the rebellion. Even in peacetime it was always beset by pirates but now it houses a center of operations for countless pirate fleets.</text>
+	<text>This somewhat isolated region was thrown into chaos at the start of the Rebellion. Even in peacetime it was always beset by pirates but now it houses a center of operations for countless pirate fleets.</text>
 	<text>If the reports are true, this area has been under the control of pirates for quite some time. Some traders still attempt to trade with the few settlements that remain, but they do so at great risk.</text>
 	<text>A few Federation-friendly planets still exist in this sector, but they are constantly under attack by pirate raids. This is a dangerous sector, so be careful.</text>
-	<text>This sparsely populated production sector is of little strategic value. It is unlikely that you will run in a lot of trouble here. Maybe you can even strike a good deal and stock up for your jurney.</text>
+	<text>This sparsely populated production sector is of little strategic value. It is unlikely that you will run into a lot of trouble here. Maybe you can even strike a good deal and stock up for your journey.</text>
 </textList>
 
 <event name="NOTHING_OUTLAW">
@@ -227,7 +227,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines arround the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>Undisturbed as you are here, you can lay some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -240,18 +240,18 @@
 	</choice>
 </event>
 <textList name="NOTHING_OUTLAW_TEXT">
-	<text back="BG_WARNING_MINES">A loose minefield lingers a few clicks away from the beacon. The scanners can not determine if it has been layed recently by pirates or already lingers here for longer. You wonder how many lives it has taken.</text>
+	<text back="BG_WARNING_MINES">A loose minefield lingers a few clicks away from the beacon. The scanners can not determine if it has been laid recently by pirates or was here for longer. You wonder how many lives it has taken.</text>
 	<text>As soon as you arrive, a small ship de-cloaks behind yours. You immediately power up the shields and weapons, but they continue on their trajectory unimpressed. You try to calm your nerves.</text>
 	<text>A small pirate ship messages you, "That sure is a shiny ship you got there." You fire a warning shot across their bow and they respond, "Hey! No need for violence! It was just a comment..."</text>
 	<text>The only thing within scanning range is an old abandoned mining structure and a resupply station. They appear to have been picked clean by marauders.</text>
-	<text>You arrive to have a small fleet of Engi ships target you with a message, "Piracy results in negative societal impact. Not permitted." You assure them of your honest intentions and they allow you to pass.</text>
+	<text>You arrive to have a small fleet of Engi ships target you with a message: "Piracy results in negative societal impact. Not permitted." You assure them of your honest intentions and they allow you to pass.</text>
 </textList>
 
 <event name="PIRATE">
 	<text load="PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -308,7 +308,7 @@
 	<status type="limit" target="player" system="engines" amount="1"/>
 	<ship load="PIRATE_NO_ESCAPE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -368,7 +368,7 @@
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship load="PIRATE_CIVILIAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -444,7 +444,7 @@
 			<text>The pirate ship stops its pursuit and locks weapons onto your ship.</text> 
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -518,7 +518,7 @@
 			<text>"Too bad... You will regret this decision!"</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -591,7 +591,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -648,7 +648,7 @@
 		<text>You quickly fire up your engines and make a break for it. However, it seems to be in vain. They catch up to you effortlessly and power up their weapons.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -725,7 +725,7 @@
 		<text>Slavery can not be forgiven. Attack!</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -791,7 +791,7 @@
 		<crewMember amount="1"/>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -846,7 +846,7 @@
 		<crewMember amount="1"/>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -900,7 +900,7 @@
 		<text>You beam a team onto their ship. However, your estimations of the location of their prisoners was off. By the time they get their bearings the slavers spot them. You beam them back to the ship and prepare for a fight.</text>
 		<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -958,7 +958,7 @@
 	<environment type="sun"/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1015,7 +1015,7 @@
 	<text>A pirate ship was lying in wait inside this asteroid field. It immediately moves in to attack.</text>
 	<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1082,14 +1082,14 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) "Actually, we do mind."</text>
 		<event>
-			<text>"Oh, a disruption field. How quaint... You played your cards well, captain. I guess we are at your mercy now."</text>
+			<text>"Oh, a disruption field. How quaint... You played your cards well, Captain. I guess we are at your mercy now."</text>
 		<choice>
 			<text>Open fire.</text>
 			<event>
-				<text>The captain sends a last message: "Very well, thats what I would have done."</text>
+				<text>The captain sends a last message: "Very well, that's what I would have done."</text>
 				<ship load="PIRATE_CIVILIAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1143,7 +1143,7 @@
 		<choice>
 			<text>Leave them to their fate.</text>
 			<event>
-				<text>"Im sure we meet again" They cut communication.</text>
+				<text>"I'm sure we meet again." They cut communication.</text>
 			</event>
 		</choice>
 		</event>
@@ -1199,7 +1199,7 @@
 		<boarders min="2" max="4" class="human"/>
 		<ship load="JELLY_PIRATE_WITHBOARDERS" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1269,7 +1269,7 @@
 				<text>You fire on the crates, breaking them open and scattering the pirates into empty space. A pirate ship appears out of nowhere with a message, "You will pay for that!"</text>
 				<ship load="PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1352,7 +1352,7 @@
 		<text>The pirate's victim quickly jumps away before you have a chance to speak to them.</text>
 	</event>
 	<event>
-		<text>"Thank you for the aid! I'm an arms dealer that usually only works with rebels, but considering the circumstances I'll make an exception."</text>
+		<text>"Thank you for the aid! I'm an arms dealer that usually only works with Rebels, but considering the circumstances I'll make an exception."</text>
 		<choice>
 			<text>See what he has to offer.</text>
 			<event>
@@ -1380,7 +1380,7 @@
 	<text load="BS_EVENT_PIRATE_TEXT"/>
 	<ship load="BS_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1432,9 +1432,9 @@
 </event>
 <textList name="BS_EVENT_PIRATE_TEXT">
 	<text>As you jump into the system a you find yourself right in front of a small pirate station. They are refusing all hails. Prepare for a fight.</text>
-	<text>Immediatly after arriving in the system you are hailed by a station. "We know who you are and what you carry. You will have to get past us if you want to jump from this becon. Except you wont."</text>
+	<text>Immediately after arriving in the system you are hailed by a station: "We know who you are and what you carry. You will have to get past us if you want to jump from this beacon. Except you won't."</text>
 	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charg your FRL drive... According to the confused, apprently drug influenced com chatter you recieve the pirates seem quite amused by that.</text>
-	<text>A station at this beacon messages you: "Greatings assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here. But that wouldnt be so exiting, right?"</text>
+	<text>A station at this beacon messages you: "Greetings, assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here. But that wouldn't be so exciting, right?"</text>
 	<text>You barely have time to register jump completion before your ship warns you of the station with weapons locked that floats right in front of your nose.</text>
 	<text>You recieve hail from a small stations: "Thank god you are here. The last weeks where so boring. Come on, power your weapons. Lets do this!"</text>
 </textList>
@@ -1457,7 +1457,7 @@
 			<text>"Just as good... You will take what we need from your ships wreckage."</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1522,7 +1522,7 @@
 	<ship load="BS_PIRATE_SUICIDE" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1573,7 +1573,7 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_PIRATE_SUICIDE_TEXT">
-	<text>As you jump in you register a dreadful looking pirate station. It's hull is reinforced with parts from various ships and the corpses of various species are attached to it as well. They are refusing all hails. Better prepare for the worst.</text>
+	<text>As you jump in you register a dreadful looking pirate station. Its hull is reinforced with parts from various ships and the corpses of various species are attached to it as well. They are refusing all hails. Better prepare for the worst.</text>
 	<text>After arriving in the system you are hailed: "YOU! We've been... looking... for YOU. Yes, yes exactly for you. Lets get it on!" These guys seem seriously fucked up, but you will have to stay in their range if you want to jump from this beacon.</text>
 	<text>You receive confused com chatter from a small pirate station. Various individuals scream into the coms, the voices modified by overlay effects. Strange music plays in the background. You don't understand what they say but they definitely don't seem friendly. After a bit they power up their weapons.</text>
 	<text>A station at this beacon messages you: "Greetings! We hate you and will kill you now!"</text>
@@ -1848,7 +1848,7 @@
 <textList name="STORE_OUTLAW_BUY_TEXT">
 	<text>You transfer the scrap and they transfer the cargo. While your the freight is loaded you have your crew stand by as security personnel. The trade brought his own guards as well. The situation is tense, but all goes well. The trade even offers some ship equipment as well.</text>
 	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes it's time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>You hand over the crates with the scrap. Loading the cargo takes its time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
 </textList>
 
 <textList name="STORE_OUTLAW_SELL_TEXT">

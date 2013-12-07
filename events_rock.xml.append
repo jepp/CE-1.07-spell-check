@@ -130,7 +130,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -4 ]</text>
 		<event>
-			<text>You quickly lay some mines arround the beacon while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>You quickly lay some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
 				<item type="missiles" min="-4" max="-4"/>
 			</item_modify>
@@ -148,7 +148,7 @@
 	<text>You arrive and detect signs of battle. A few ships are taking passes at each other near a small station. You don't know if it's a territory issue, a contest or a rite of passage but you decide it's best to stay out of it.</text>
 	<text>There's not much at this beacon. Just a few abandoned depots, stripped clean.</text>
 	<text>A few freighters pass by but they refuse all communications. Must not want to sully their reputation by talking with foreigners.</text>
-	<text>You see a small trading post and ask about refuelling but they respond, "Go away! We don't serve your kind here."</text>
+	<text>You see a small trading post and ask about refueling but they respond, "Go away! We don't serve your kind here."</text>
 	<text>You see a Zoltan merchant and ask about his wares. He responds, "Sorry, but it took years to gain their trust. I can't be seen communicating with you. I hope you understand." He cuts communications.</text>
 </textList>
 
@@ -254,7 +254,7 @@
 			<text>You dispatch a barrage of weapons fire that crashes home into an unused quarry near to the installation. Weapons fire on the surface ceases for as long as it takes for the moon's defense force to be dispatched to your location!</text>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -439,7 +439,7 @@
 	<text>Fully aware that their victory was threatened by your arrival, the survivors immediately dispatch a ship to eliminate you!</text>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -500,7 +500,7 @@
 			<text>The... extreme nature of Rock faith is well-known; the Zoltan can hardly be blamed for trying to broaden their horizons. The pursuing Rock ship quickly assesses the situation and decides two captured alien ships are better than one.</text>
 			<ship load="ROCK_ZOLTAN_HELP_ROCK" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -557,7 +557,7 @@
 			<text>This is Rock territory, and therefore Rock law - the Zoltan should have known better than to interfere. You'll have to disable their engines and piloting to ensure their safe capture.</text>
 			<ship load="ROCK_ZOLTAN_HELP_ZOLTAN" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -655,7 +655,7 @@
 	<text load="ROCK_SHIP"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -710,7 +710,7 @@
 	<text load="ROCK_PIRATE"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -771,7 +771,7 @@
 		<autoReward level="low">standard</autoReward>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -833,7 +833,7 @@
 		<text>Before you have a chance to leave, a Rock patrol ship arrives and you intercept their comm chatter, "...appears we've finally found them. Their killing spree ends now!" Before you can plead your innocence they move in to attack.</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -887,7 +887,7 @@
 
 
 <event name="ROCK_MANTIS_HUNTER" unique="true">  <!-- JUSTIN TO DO - test the ship status effect-->
-	<text>A Mantis ship here is adorned with Rock body parts! It would be a gorier display if they had internal organs, but the message is clear enough: this is a hunter of a very specialised kind.</text>
+	<text>A Mantis ship here is adorned with Rock body parts! It would be a gorier display if they had internal organs, but the message is clear enough: this is a hunter of a very specialized kind.</text>
 	<ship load="MANTIS_FIGHT" hostile="false"/>
 	<choice hidden="true">
 		<text>Attack!</text>
@@ -895,7 +895,7 @@
 			<text>No species deserves a Mantis hunter on their back - time to make the galaxy a little safer. Engage!</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -959,7 +959,7 @@
 			<status type="limit" target="enemy" system="engines" amount="0"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1016,7 +1016,7 @@
 			<text>The two aliens face one another over the vidscreen. "Cave-dwelling pebble-man!" yells the furious Mantis captain. "See, I paint my ship with your companions! I paint my ship with you!"</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1102,7 +1102,7 @@
 			</item_modify>
 			<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1170,7 +1170,7 @@
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1224,7 +1224,7 @@
 		<text>The Mantis craft may have their differences, but when it comes to you they are of one mind. The smaller ship suffers a power failure as it moves to engage, but the larger one lets off a volley of fire and moves in to attack!</text>
 		<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1287,7 +1287,7 @@
 			<text load="ROCK_ATHIEST_BAD"/>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1356,7 +1356,7 @@
 	<text load="ROCK_FIGHT_ASTEROID"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1412,7 +1412,7 @@
 	<environment type="asteroid"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1468,7 +1468,7 @@
 	<text load="ROCK_PIRATE_SUN"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1540,7 +1540,7 @@
 					<crewMember amount="1" class="rock">Ariadne</crewMember>  
 					<ship load="ROCK_QUEST_MARRIAGE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1603,7 +1603,7 @@
 			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1661,7 +1661,7 @@
 			<boarders min="1" max="3" class="rock"/>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1727,7 +1727,7 @@
 			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1785,7 +1785,7 @@
 			<boarders min="1" max="2" class="rock"/>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1869,7 +1869,7 @@
 	<environment type="sun"/>
 	<ship load="ROCK_UNLOCK2" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1963,7 +1963,7 @@
 	<choice req="AE_ADV_THRUSTERS" hidden="true"> 
 		<text>(Advanced Proximity Navigation) Let the navigation AI take over.</text>
 		<event>
-			<text>Your navigation AI confuses the mine with a complex set of randomized meneuvers. Youe manage to get out of it's homing range and prepare to jump away.</text>
+			<text>Your navigation AI confuses the mine with a complex set of randomized meneuvers. Youe manage to get out of its homing range and prepare to jump away.</text>
 		</event>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -1981,7 +1981,7 @@
 	<text load="ROCK_PIRATE"/>
 	<ship load="ROCK_PIRATE_ESCAPE" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2041,7 +2041,7 @@
 			<text>This guys need to be taught a lesson! You charge weapons and hope that you have enough firepower to penetrate the thick hull of the Rock station.</text>
 			<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2130,7 +2130,7 @@
 			<environment type="asteroid"/>
 			<ship load="BS_ROCK_COLONY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2189,7 +2189,7 @@
 <textList name="BS_EVENT_ROCK_COLONY_TEXT">
 	<text>Identifying a Rock colony in a nearby asteroid field, you signal once more that you are friendly. They fire a few unarmed warning-missiles as a response.</text>
 	<text>Upon arrival, you realize that you jumped a few clicks off the mark. Better this way: At the far side of the beacon lies a asteroid patch harboring a small Rock colony. They send threatening messages and demand that you leave immediately.</text>
-	<text>As your ship slips into real-space you detect an small asteroid patch, almost completely depleted of it's natural resources. The Rock mining colony inside it refuses all hails. Passive scans show their stores are full of materials.</text>
+	<text>As your ship slips into real-space you detect an small asteroid patch, almost completely depleted of its natural resources. The Rock mining colony inside it refuses all hails. Passive scans show their stores are full of materials.</text>
 	<text>You receive hail from within a large asteroid field nearby. "This mining area and the adjectant habitats are off limits. Leave now, foreigners!"</text>
 </textList>
 
@@ -2197,7 +2197,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2258,7 +2258,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_ASTEROID_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2319,7 +2319,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_SUN_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2393,7 +2393,7 @@
 		<text>The ship computer rates the Rock vessel as "a significant threat". This will be a tough one.</text>
 		<ship load="CE_ROCK_MILITARY_CRUISER" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2447,7 +2447,7 @@
 		<text>The ship computer rates the Rock vessel as "a significant threat". This will be a tough one.</text>
 		<ship load="CE_ROCK_MILITARY_RAMSHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2504,11 +2504,11 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains compleatly unscaled.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains compleatly unscaled.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
 		<damage amount="3"/>
 	</event>
 </eventList>
@@ -2518,7 +2518,7 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains compleatly unscaled.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 </eventList>
@@ -2531,27 +2531,27 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains compleatly unscaled.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 </eventList>
 
 <eventList name="CE_ROCK_RAMSHIP_EVASION_1_REWARD">
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the completely wracked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
+		<text>You fire the engines but are unable to evade the completely wrecked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
 		<damage amount="4"/>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the completely wracked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
+		<text>You fire the engines but are unable to evade the completely wrecked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
 		<damage amount="5"/>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
@@ -2559,15 +2559,15 @@
 
 <eventList name="CE_ROCK_RAMSHIP_EVASION_2_REWARD">
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the completely wracked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
+		<text>You fire the engines but are unable to evade the completely wrecked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
 		<damage amount="4"/>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
@@ -2575,19 +2575,19 @@
 
 <eventList name="CE_ROCK_RAMSHIP_EVASION_3_REWARD">
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines and manage to evade the completely wracked Rock vessel. It's engines finally fail and it continues dead on it's trajectory. You head after it to salvage some of it's equipment.</text>
+		<text>You fire the engines and manage to evade the completely wrecked Rock vessel. Its engines finally fail and it continues dead on its trajectory. You head after it to salvage some of its equipment.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the completely wracked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
+		<text>You fire the engines but are unable to evade the completely wrecked Rock vessel. The ship smashes into yours, dealing heavy damage to your hull. You demand a full damage report and check what remains of your enemy.</text>
 		<damage amount="5"/>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
@@ -2605,7 +2605,7 @@
 		<text>Your advanced shield technlogy prevents the hostile artillery weapons from locking on to your vessel. The spotter ship will get no support fire.</text>
 		<ship load="CE_SPOTTER_ROCK_ARTILLERY_SUPERSHIELD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2672,7 +2672,7 @@
 		<text>Soon, a garrison ship races towards you. They Rock will likely target your ship with their long range planetary artillery if you dont get away in time.</text>
 		<ship load="CE_SPOTTER_ROCK_ARTILLERY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2732,10 +2732,10 @@
 	<choice req="AE_ADV_THRUSTERS" hidden="true"> 
 		<text>(Advanced Proximity Navigation) Plot a safe course through the field.</text>
 	<event>
-		<text>You navigation computer calculates a complex course the let's you avoid triggering any mines. But the minelayer class still comes after you.</text>
+		<text>You navigation computer calculates a complex course the lets you avoid triggering any mines. But the minelayer class still comes after you.</text>
 		<ship load="CE_MINELAYER_ROCK" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2792,7 +2792,7 @@
 		<text>You try to slowly maneuver out of the field, but the Rock minelayer intercepts you and you can not avoid triggering a few mines. Maybe you can escape before they home in on your ship?</text>
 		<ship load="CE_MINELAYER_ROCK_HAZARD" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3111,8 +3111,8 @@
 </eventList>
 
 <textList name="STORE_ROCK_BUY_TEXT">
-	<text>You transfer the scrap. The Rock dockworkers take their time carrying the crates into your ship. You have a look at the ship equipment the shop also also offers.</text>
-	<text>You write a scrap transfer order, but executing it takes it's time. Some nearby Rock stare at you a lot and you feel quite uncomfortable. As they start asking silly questions you decide to get busy checking the ship equipment catalog.</text>
+	<text>You transfer the scrap. The Rock dockworkers take their time carrying the crates into your ship. You have a look at the ship equipment the shop also offers.</text>
+	<text>You write a scrap transfer order, but executing it takes its time. Some nearby Rock stare at you a lot and you feel quite uncomfortable. As they start asking silly questions you decide to get busy checking the ship equipment catalog.</text>
 	<text>You hand over the crates with the scrap. The Rock cargo crew can't be persuaded to work faster. Most of them pretend they don't understand you. While waiting you get a chance to check the ship equipment they offer here.</text>
 </textList>
 
