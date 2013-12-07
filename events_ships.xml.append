@@ -2090,7 +2090,7 @@
 		<choice req="AE_ADV_THRUSTERS" hidden="true"> 
 			<text>(Advanced Proximity Navigation) Complex evasive maneuvers!</text>
 			<event>
-				<text>Your navigation AI easily outmaneuvers the completely wracked military vessel. You feel almost sorry for the Rock captain, but never the less you end him with a final volley.</text>
+				<text>Your navigation AI easily outmaneuvers the completely wrecked military vessel. You feel almost sorry for the Rock captain, but never the less you end him with a final volley.</text>
 			<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>

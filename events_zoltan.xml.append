@@ -1231,7 +1231,7 @@
 
 
 <event name="ZOLTAN_CREW_SCAN" unique="true">
-	<text>You arrive at a Zoltan security checkpoint set up in a perimeter around the beacon. "Travelling vessel, you will submit to crew profiling to identify fugitives of the empire."</text>
+	<text>You arrive at a Zoltan security checkpoint set up in a perimeter around the beacon. "Traveling vessel, you will submit to crew profiling to identify fugitives of the empire."</text>
 	<choice hidden="true">
 		<text>You don't have time for this nonsense. Attack!</text>
 		<event>
@@ -1554,13 +1554,13 @@
 	<choice hidden="true">
 		<text>Let them leave.</text>
 		<event>
-			<text>Sometimes discretion is the better part of valour. </text>
+			<text>Sometimes discretion is the better part of valor.</text>
 		</event>
 	</choice>
 </event>
 
 <event name="ZOLTAN_BOARDERS" unique="true">
-	<text>There are few more zealous in their customs checks than the Zoltan. A team of border police beam on board. There's just a little confusion over your weapons licences, but things escalate rapidly from heated discussion to gunfire!</text>
+	<text>There are few more zealous in their customs checks than the Zoltan. A team of border police beam on board. There's just a little confusion over your weapons licenses, but things escalate rapidly from heated discussion to gunfire!</text>
 	<boarders min="3" max="4" class="energy"/>
 	<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 

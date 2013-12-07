@@ -1283,7 +1283,7 @@
 IDEAS
 
 -reconect to command struture at start beacon
--fleet fights with two stages, always loosing, surrender events for flavour about battle continuity
+-fleet fights with two stages, always loosing, surrender events for flavor about battle continuity
 
 
 -->
@@ -2348,7 +2348,7 @@ IDEAS
 <textList name="C_EVENT_CIVILIAN_TRANSPORT_FED_TEXT">
 	<text>You spot a civilian transport ship nearby. They must be fleeing from the conflict.</text>
 	<text>An only lightly armed transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTL's besides each other.</text>
-	<text>A civilian transport hails: "You are the good guys right? Maybe you can guard as till we jump? So much battling and planet bombarding going on here, can't really tell anymore who represents what. We want to get out of this sector as fast as possible."</text>
+	<text>A civilian transport hails: "You are the good guys right? Maybe you can guard as until we jump? So much battling and planet bombarding going on here, can't really tell anymore who represents what. We want to get out of this sector as fast as possible."</text>
 	<text>A civilian recharges it's FTL at this beacon. They greet you: "Wow, nice cruiser you have there... We are an almost unarmed merchant vessel and we are no threat OK?" They seem to feel threatened.</text>
 </textList>
 
@@ -2616,7 +2616,7 @@ IDEAS
 	<choice req="WEAPONS_BEAMS_STRONG" hidden="true"> 
 		<text>(Advanced Beam Weapon) Perform an orbital beam-strike.</text>
 		<event>
-			<text>You order an accurate targeting calculation and prepare the beam weapon. On board, only a monotone de-charge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
+			<text>You order an accurate targeting calculation and prepare the beam weapon. On board, only a monotone discharge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
@@ -2661,7 +2661,7 @@ IDEAS
 	<choice req="artillery" hidden="true"> 
 		<text>(Artillery Beam) Perform an orbital beam-strike.</text>
 		<event>
-			<text>You order an accurate targeting calculation and prepare the Vindicator Beam. On board, only a monotone de-charge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
+			<text>You order an accurate targeting calculation and prepare the Vindicator Beam. On board, only a monotone discharge sound can be heard as it fires. The beam impacts into the Rebel forward command base, cutting deep into the structure and then starts melting the crust of the planet.</text>
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
@@ -3109,7 +3109,7 @@ IDEAS
 <textList name="STORE_FED_SELL_TEXT"> 
 	<text>Negotiations are interrupted when the station takes a hit. Lights flicker and everyone screams. Some fighters must have broken through the lines. Better deliver the cargo to the shop and get out of here quick. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>After receiving your advance you have problems finding the shop to unload the cargo. The stations floors are cramped with refugees from the entire system. Better unload the cargo at the shop and leave. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
-	<text>The station is full of aliens that hoped to be save here. It takes a while till you find a trustworthy trader. After agreeing on a price you now have to unload the cargo at the shop to receive full payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>The station is full of aliens that hoped to be save here. It takes a while until you find a trustworthy trader. After agreeing on a price you now have to unload the cargo at the shop to receive full payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>After time consuming negotiations you get an advance payment. "You get the rest after you unloaded the cargo at the shop." The shopkeeper seems stressed and worried. No way to tell what will happen to this place when the fleet arrives. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 </textList>
 

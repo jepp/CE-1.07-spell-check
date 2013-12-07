@@ -1162,7 +1162,7 @@
 	<text>You jump into a perilous asteroid field. Worse, sensors show a pirate stronghold has locked onto our ship and is activating a teleporter.</text>
 	<environment type="asteroid"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Activate the disrupter augment and program an escape course.</text>
+		<text>(Teleporter Disruptor) Activate the disruptor augment and program an escape course.</text>
 		<event>
 			<text>You detect a lot of encrypted com chatter after the activating the disruption field. The pirates must be calling in ships. Let's hope the FTL drive is charged before any arrive.</text>
 		</event>
@@ -1433,10 +1433,10 @@
 <textList name="BS_EVENT_PIRATE_TEXT">
 	<text>As you jump into the system a you find yourself right in front of a small pirate station. They are refusing all hails. Prepare for a fight.</text>
 	<text>Immediately after arriving in the system you are hailed by a station: "We know who you are and what you carry. You will have to get past us if you want to jump from this beacon. Except you won't."</text>
-	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charg your FRL drive... According to the confused, apprently drug influenced com chatter you recieve the pirates seem quite amused by that.</text>
+	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charge your FTL drive... According to the confused, apparently drug influenced com chatter you receive the pirates seem quite amused by that.</text>
 	<text>A station at this beacon messages you: "Greetings, assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here. But that wouldn't be so exciting, right?"</text>
 	<text>You barely have time to register jump completion before your ship warns you of the station with weapons locked that floats right in front of your nose.</text>
-	<text>You recieve hail from a small stations: "Thank god you are here. The last weeks where so boring. Come on, power your weapons. Lets do this!"</text>
+	<text>You receive hail from a small stations: "Thank god you are here. The last weeks were so boring. Come on, power your weapons. Let's do this!"</text>
 </textList>
 
 <event name="BS_EVENT_PIRATE_CHOICE" unique="false">
@@ -1510,10 +1510,10 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_PIRATE_CHOICE_TEXT">
-	<text>Upon completing your jump, you receive a message from a station on you starbord side. "Greetings and welcome to our pleasure dome! We can't find you on the list of our usual costomers. For a small registration fee, we'll let you continue on your way."</text>
-	<text>As you jump into the system you find yourself right in front of a small pirate station. They are refusing all hails, but constantly transmit a scrap transfer protocoll and also locked weapons. The message is pretty clear.</text>
-	<text>Immediatly after arriving in the system you are hailed by a station. "Pirate hold-up, tranfer-scrap-or-get-evaporated, you know the drill. Lets get this over with."</text>
-	<text>You recieve hail from a small stations: "Turn off your engines, this is a hold-up! Lets keep it nice and clean, no one has to get hurt here."</text>
+	<text>Upon completing your jump, you receive a message from a station on you starboard side. "Greetings and welcome to our pleasure dome! We can't find you on the list of our usual customers. For a small registration fee, we'll let you continue on your way."</text>
+	<text>As you jump into the system you find yourself right in front of a small pirate station. They are refusing all hails, but constantly transmit a scrap transfer protocol and also locked weapons. The message is pretty clear.</text>
+	<text>Immediately after arriving in the system you are hailed by a station. "Pirate hold-up, transfer-scrap-or-get-evaporated, you know the drill. Let's get this over with."</text>
+	<text>You receive hail from a small stations: "Turn off your engines, this is a hold-up! Let's keep it nice and clean; no one has to get hurt here."</text>
 </textList>
 
 
@@ -1574,7 +1574,7 @@
 </event>
 <textList name="BS_EVENT_PIRATE_SUICIDE_TEXT">
 	<text>As you jump in you register a dreadful looking pirate station. Its hull is reinforced with parts from various ships and the corpses of various species are attached to it as well. They are refusing all hails. Better prepare for the worst.</text>
-	<text>After arriving in the system you are hailed: "YOU! We've been... looking... for YOU. Yes, yes exactly for you. Lets get it on!" These guys seem seriously fucked up, but you will have to stay in their range if you want to jump from this beacon.</text>
+	<text>After arriving in the system you are hailed: "YOU! We've been... looking... for YOU. Yes, yes exactly for you. Let's get it on!" These guys seem seriously fucked up, but you will have to stay in their range if you want to jump from this beacon.</text>
 	<text>You receive confused com chatter from a small pirate station. Various individuals scream into the coms, the voices modified by overlay effects. Strange music plays in the background. You don't understand what they say but they definitely don't seem friendly. After a bit they power up their weapons.</text>
 	<text>A station at this beacon messages you: "Greetings! We hate you and will kill you now!"</text>
 	<text>After completing the jump your ships AI warns you of a station with considerable thread level and improvised FTL systems. Their weapons are hot and you will have to engage them to remain in beacon range.</text>
@@ -1635,7 +1635,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
 			<!-- best deal-->
-			<text>A jung slug contacts your ship: "Greetingss sssugar man. I ran out here and my little helperss tell me you got ssome ssstuff. Normally I don't do dealss with ssstrangers but..." [Sell Slug Hallucinogens for about 130 Scrap]</text>
+			<text>A young slug contacts your ship: "Greetingss sssugar man. I ran out here and my little helperss tell me you got ssome ssstuff. Normally I don't do dealss with ssstrangers but..." [Sell Slug Hallucinogens for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_OUTLAW_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -1886,7 +1886,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
 			<!-- best deal-->
-			<text>A jung slug contacts your ship: "Greetingss sssugar man. I ran out here and my little helperss tell me you got ssome ssstuff. Normally I don't do dealss with ssstrangers but..." [Sell Slug Hallucinogens for about 130 Scrap]</text>
+			<text>A young slug contacts your ship: "Greetingss sssugar man. I ran out here and my little helperss tell me you got ssome ssstuff. Normally I don't do dealss with ssstrangers but..." [Sell Slug Hallucinogens for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<item_modify>

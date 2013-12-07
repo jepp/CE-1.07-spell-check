@@ -613,7 +613,7 @@
 
 <event name="AUTO_REFUEL_STATION" unique="true">  
 	<img planet="PLANET_POPULATED_SMALL"/>
-	<text>You detect an automated Rebel scout attacking a small re-fueling outpost. </text>
+	<text>You detect an automated Rebel scout attacking a small refueling outpost. </text>
 	<ship load="REBEL_AUTO_REFUEL" hostile="false"/>
 	<choice>
 		<text>Intervene to defend the outpost.</text>
@@ -1107,9 +1107,9 @@
 	<environment type="nebula"/>
 	<text>There appears to be a number of small stations nearby.  Before you have time to scan them, warnings go off.  A Rebel teleporter activates in one of the stations.</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Activate your disrupter field.</text>
+		<text>(Teleporter Disruptor) Activate your disruptor field.</text>
 		<event>
-			<text>With the disrupter active the Rebels here can't do anything. They call in reinforcements on all channels but there seem to be no combat ready ships in the system. You charge your FTL with a grin on your face.</text>
+			<text>With the disruptor active the Rebels here can't do anything. They call in reinforcements on all channels but there seem to be no combat ready ships in the system. You charge your FTL with a grin on your face.</text>
 		</event>
 	</choice>
 	<choice>
@@ -1668,7 +1668,7 @@
 <textList name="BS_EVENT_AUTO_SUICIDE_TEXT">
 	<text>You discover one of the Rebels' autonomous satellite turrets. The ship's AI wastes no time in engaging your ship.</text>
 	<text>Your ship is hailed: "You have been identified as a high priority target and are in range of this units weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
-	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range till the FTL drive is charged or it is defeated.</text>
+	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
 	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>
 	<text>A computer generated voice speaks through the coms: "I am one of 5237 identical produced Rebel defense turrets (TM). Resistance is futile. Shut down your systems and accept annihilation."</text>
 	<text>An unmanned turrets waits at this beacon. It politely sends an automated message: "Target acquired."</text>
@@ -1737,7 +1737,7 @@
 <textList name="BS_EVENT_AUTO_TEXT">
 	<text>You discover one of the Rebels' autonomous satellite turrets. The ship's AI wastes no time in engaging your ship.</text>
 	<text>Your ship is hailed: "You have been identified as a high priority target and are in range of this units weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
-	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range till the FTL drive is charged or it is defeated.</text>
+	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
 	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>
 	<text>A computer generated voice speaks through the coms: "I am one of 5237 identically produced Rebel defense turrets (TM). Resistance is futile. Shut down your systems and accept annihilation."</text>
 	<text>An unmanned turrets waits at this beacon. It politely sends an automated message: "Target acquired."</text>
@@ -2414,7 +2414,7 @@
 <textList name="C_EVENT_CRUISER_REBEL_TEXT">
 	<text planet="PLANET_POPULATED">This planet is densely populated and orbited by several Rebel shipyards. It's hard to count all the cruisers that are manufactured here. A guard unit moves in to intercept and hails: "This is the RS 'Hell And Back'. We are surprised that you got here without anyone noticing you. Someone will get demoted for this. Anyway, we will deal with you now.".</text>
 	<text>Seems like your luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail: "This is the RS rapid response unit "Conflict Diamond". We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
-	<text>With the heavy Rebel presence in this sector it was only a matter of time till you would run into one of their cruisers. They send a short message. "This is the RS 'End Of Negotiations' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array.".</text>
+	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'End Of Negotiations' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array.".</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling on a supply-orbital near the beacon. You try to lay low but they passively scan you an immediately detach from the station to attack. A Rebel general is put on the coms: "This is the RS 'Traitor, But Still Cute' We have been ordered to terminate you. Be ready to take full fire from our weapon clusters.".</text>
 	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Aggressive Foreign Policy", breaks formation and moves in to intercept you..</text>
 	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then on of the cruisers changes course and gets into an attack vector. They identify as RS "Overkill"..</text>
@@ -2422,7 +2422,7 @@
 
 <text planet="PLANET_POPULATED">This planet is densely populated and orbited by several Rebel shipyards. It's hard to count all the cruisers that are manufactured here. A guard unit moves in to intercept and hails: "This is the RS 'Perplexity'. We are surprised that you got here without anyone noticing you. Someone will get demoted for this. Anyway, we will deal with you now.".</text>
 	<text>Seems like you luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail: "This is the RS rapid response unit "Severe Headache". We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
-	<text>With the heavy Rebel presence in this sector it was only a matter of time till you would run into one of their cruisers. They send a short message. "This is the RS 'You Never Loved Me Anyway' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array." Fleeing seems to be a suitable option here... still, taking out a cruiser would surly throw the Rebel fleet into disarray.</text>
+	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'You Never Loved Me Anyway' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array." Fleeing seems to be a suitable option here... still, taking out a cruiser would surly throw the Rebel fleet into disarray.</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling on a supply-orbital near the beacon. You try to lay low but they passively scan you an immediately detach from the station to attack. A Rebel general is put on the coms: "This is the RS 'Diplomatic Incident' We have been ordered to terminate you. Be ready to take full fire from our weapon clusters.".</text>
 	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Plywood Sniper", breaks formation and moves in to intercept you..</text>
 	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then on of the cruisers changes course and gets into an attack vector. They identify as RS "Space Worm"..</text>
@@ -2430,7 +2430,7 @@
 
 <text planet="PLANET_POPULATED">This planet is densely populated and orbited by several Rebel shipyards. It's hard to count all the cruisers that are manufactured here. A guard unit moves in to intercept and hails: "This is the RS 'Space Whales Death'. We are surprised that you got here without anyone noticing you. Someone will get demoted for this. Anyway, we will deal with you now.".</text>
 	<text>Seems like you luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail: "This is the RS rapid response unit "Debris Producer". We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
-	<text>With the heavy Rebel presence in this sector it was only a matter of time till you would run into one of their cruisers. They send a short message. "This is the RS 'Crush On You' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array.".</text>
+	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'Crush On You' Our logs show you as a threat level 20 Federation sympathizer. We will open fire with our full weapon array.".</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling on a supply-orbital near the beacon. You try to lay low but they passively scan you an immediately detach from the station to attack. A Rebel general is put on the coms: "This is the RS 'Peaceful Emissary' We have been ordered to terminate you. Be ready to take full fire from our weapon clusters.".</text>
 	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Hull Bender", breaks formation and moves in to intercept you..</text>
 	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then on of the cruisers changes course and gets into an attack vector. They identify as RS "Ringdown"..</text>
@@ -2575,7 +2575,7 @@
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You enter a system bustling with Rebel activity. A supply station is performing maintenance on docked auto ships. Your scanners identify a few fully powered defense weapons on the local planet. This is bad.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You penetrated deep into Rebel territory and find one of their newly established planetary bases. Your ship is being scanned multiple times and your sensors show reactors on the planets surface come life. Planetary defense weapons detected!</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">A friendly voice of the cruise control that is watching the orbital space of this Rebel planet addresses your ship: "Welcome to planet... oh, ehm... let me talk to my supervisor for a second." Communication is cut. Planetary scale defense guns are powered up. Seems coming here was not a good idea.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">While cruising around deep in Rebel space it was only a matter of time till you jump to a properly star system. The local planetary point defense artillery will shoot your ship to bits quickly if you give it enough time.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">While cruising around deep in Rebel space it was only a matter of time until you jump to a properly star system. The local planetary point defense artillery will shoot your ship to bits quickly if you give it enough time.</text>
 </textList>
 
 <eventList name="CE_PDS_REBEL_LIST">
@@ -2959,7 +2959,7 @@
 <textList name="STORE_REBEL_SELL_TEXT">
 	<text>Negotiations are interrupted when a Rebel inspector enters the shop. You are lucky that the trader lets you hide in an equipment closet. Later you take your advance. Better deliver the cargo to the shop and get out of here quick. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>You have to make up stuff as you go when the trader asks you about your ship and employer. He seems suspicious, but he agrees to pay some scrap as advance. You better unload the cargo at the shop and leave soon. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
-	<text>Rebel marines patrol the corridors, you are nervous and it takes a while till you find a trustworthy trader. After agreeing on a price you now have to unload the cargo at the shop to receive full payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
+	<text>Rebel marines patrol the corridors, you are nervous and it takes a while until you find a trustworthy trader. After agreeing on a price you now have to unload the cargo at the shop to receive full payment. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>After time consuming negotiations you get an advance payment. "You get the rest after you unloaded the cargo at the shop." You hope they don't realize who you are. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal. [Reminder: Not selling off the goods at the shop breaks the trade system and means you are cheating.]</text>
 </textList>

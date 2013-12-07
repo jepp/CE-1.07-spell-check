@@ -476,7 +476,7 @@
 
 <augBlueprint name="AE_ADV_EFFECTOR">   <!-- 10% fail -->
 	<title>Internal Effector</title>
-	<desc>Hacks into the enemy ships computer and disrupts a system of your choice. Combat augment.</desc>
+	<desc>Hacks into the enemy ship's computer and disrupts a system of your choice. Combat augment.</desc>
 	<cost>100</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
@@ -633,7 +633,7 @@
 
 <weaponBlueprint name="BA_BEAM_AUTO">
 	<type>BEAM</type>
-	<title>Auto Fokus Beam</title>
+	<title>Auto Focus Beam</title>
 	<short>Auto Beam</short>
 	<desc>Fast charging support beam designed to continually keep enemy ships under fire.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
@@ -5412,7 +5412,7 @@
 
 <droneBlueprint name="DE_DRONE_HEAVY_2_ENEMY">
 	<type>COMBAT</type>
-	<title>Heavy Anti-Ship Drone MarkII</title>
+	<title>Heavy Anti-Ship Drone Mk II</title>
 	<desc>Enemy drone. You shouldn't see this description.</desc>
 	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
 	<power>3</power>
@@ -6846,7 +6846,7 @@
 
 <droneBlueprint name="DE_DRONE_LIGHT_2">
 	<type>COMBAT</type>
-	<title>Light Anti-Crew Drone MarkII</title>
+	<title>Light Anti-Crew Drone Mk II</title>
 	<short>Light II</short>
 	<desc>Fast drone that attacks enemy crew with light lasers. Deals more damage than Mark I.</desc>
 	<power>2</power>
@@ -6926,7 +6926,7 @@
 
 <droneBlueprint name="DE_DRONE_HEAVY_2">
 	<type>COMBAT</type>
-	<title>Heavy Anti-Ship Drone MarkII</title>
+	<title>Heavy Anti-Ship Drone Mk II</title>
 	<short>Heavy II</short>
 	<desc>Powerful drone that wreaks havoc when it hits with its heavy lasers. Moves and shoots faster than Mark I.</desc>
 	<power>3</power>

@@ -162,7 +162,7 @@
 	<text>Nebulas were always dangerous places. Many electronics fail in these clouds. You will have to tread lightly.</text>
 	<text>You've entered a sector thick with nebulas. You'll have to navigate on instinct.</text>
 	<text>You've entered a nebula-rich sector. You may put a few light years on the fleet, but that's only useful if you make it out the other side.</text>
-	<text>Thanks to the high nebula density of this sector very little of it has been charted, and rumours of what lurks in the depths abound.</text>
+	<text>Thanks to the high nebula density of this sector very little of it has been charted, and rumors of what lurks in the depths abound.</text>
 	<text>The gases that make up the nebulas in this sector threaten to impair your systems; but you have to press on.</text>
 </textList>
 
@@ -845,7 +845,7 @@
 
 <eventList name="NEBULA_WEAPONS_TRADER_LIST">
 	<event>
-		<text>You transfer the scrap and receive a weapon in return. Lets hope it was worth it.</text>
+		<text>You transfer the scrap and receive a weapon in return. Let's hope it was worth it.</text>
 		<item_modify>
 			<item type="scrap" min="-65" max="-65"/>
 		</item_modify>
@@ -922,7 +922,7 @@
 
 
 <event name="NEBULA_ROCK_RACIST" unique="true">
-	<text>A rock armoured transport nearby looks to have lost its bearings, but when you hail they grow suspicious: "Whatever life-form you are, we find you repugnant. We seek no aid. Leave. Now."</text>
+	<text>A rock armored transport nearby looks to have lost its bearings, but when you hail they grow suspicious: "Whatever life-form you are, we find you repugnant. We seek no aid. Leave. Now."</text>
 	<ship load="ROCK_SHIP" hostile="false"/>
 	<environment type="storm"/>
 	<choice>
@@ -1131,7 +1131,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Get the disruption field online and charge the FTL.</text>
 		<event>
-			<text>The situation remains tense, but your disrupter seems to deter the intruders. You charge the FTL without an incident and hasten to leave.</text>
+			<text>The situation remains tense, but your disruptor seems to deter the intruders. You charge the FTL without an incident and hasten to leave.</text>
 		</event>
 	</choice>
 	<choice>
@@ -3039,9 +3039,9 @@ IDEAS
 	<text>You find two heavily damaged ships floating nearby, the remains of a battle. However, a teleporter nearby must be working, as you detect a weak incoming signal.</text> 
 	<environment type="storm"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Block the teleporter with your disrupter field.</text>
+		<text>(Teleporter Disruptor) Block the teleporter with your disruptor field.</text>
 		<event>
-			<text>Your disrupter works well, even within this disastrous storm. Whoever tries to come on board your ship will have no success with that.</text>
+			<text>Your disruptor works well, even within this disastrous storm. Whoever tries to come on board your ship will have no success with that.</text>
 		</event>
 	</choice>
 	<choice>
@@ -3803,10 +3803,10 @@ IDEAS
 </eventList>
 <textList name="PIRATE_ASTEROID_NEBULA_HAZARD_TEXT">
 	<text>The magnetic fields of an ion storm a few clicks are strong enough to disable your sensors even in this far away asteroid field. A pirate wanted to take advantage of this and was lying in wait here.</text>
-	<text>Ionized asteroid dust is impeding you sensors in this part of the field. Another space pirate seems to have made this beacon his favorite ambush spot.</text>
+	<text>Ionized asteroid dust is impeding your sensors in this part of the field. Another space pirate seems to have made this beacon his favorite ambush spot.</text>
 	<text>Some unknown space phenomena seems to interfere with your sensors in this part of the asteroid field. A pirate suddenly appears from a dead angle and begins a strafing run. Battle stations!</text>
-	<text>A pirate ship is receiving an asteroid beating here, but their crew is still bold enough to engage you. Hight concentration of ionized gases interfere with your sensors.</text>
-	<text>As arrive your shields reconfigure themselves to deflect micro asteroids and dust. You sensors are not working here. You still try to pinpoint the cause as a Pirate suddenly jumps in and begins targeting you.</text>
+	<text>A pirate ship is receiving an asteroid beating here, but their crew is still bold enough to engage you. The high concentration of ionized gases interfere with your sensors.</text>
+	<text>As arrive your shields reconfigure themselves to deflect micro asteroids and dust. Your sensors are not working here. You still try to pinpoint the cause as a Pirate suddenly jumps in and begins targeting you.</text>
 </textList>
 
 <event name="REBEL_AUTO_HAZARD_ASTEROID_NEBULA" unique="true">
@@ -3867,7 +3867,7 @@ IDEAS
 </event>
 <textList name="REBEL_AUTO_HAZARD_ASTEROID_NEBULA_TEXT">
 	<text>The magnetic fields of an ion storm a few clicks away are strong enough to disable your sensors even in this far away from the nebula. Your ship is hailed: "This is an automated message. Our auto-scouts are already swarming the asteroid fields and nebula in this sector. We will find you wherever you go."</text>
-	<text>Ionized asteroid dust is impeding you sensors in this part of the field. Another auto-scout is searching for you here.</text>
+	<text>Ionized asteroid dust is impeding your sensors in this part of the field. Another auto-scout is searching for you here.</text>
 </textList>
 
 <event name="REBEL_AUTO_HAZARD_ASTEROID">
@@ -4026,7 +4026,7 @@ IDEAS
 			<text>The scanners reveal that the wisps are actually micro teleporter drones. The try to beam AI Avatar on board. Their main AI must have went insane out here.</text>
 			<environment type="asteroid"/>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-				<text>(Teleporter Disruptor) Get the disrupter field up. Don't let this things on board.</text>
+				<text>(Teleporter Disruptor) Get the disruptor field up. Don't let this things on board.</text>
 				<event>
 					<text>As soon as the wisp drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
 				</event>
@@ -4068,7 +4068,7 @@ IDEAS
 				<event>
 					<text>The scanners reveal that the wisps are actually micro teleporter drones. The try to beam some AI Avatar on board. Their main AI must have went insane out here.</text>
 					<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-						<text>(Teleporter Disruptor) Get the disrupter field up. Don't let this things on board.</text>
+						<text>(Teleporter Disruptor) Get the disruptor field up. Don't let this things on board.</text>
 						<event>
 							<text>As soon as the wisp drones register your disruption field they immediately retreat into the asteroids. You put up one more hazard beacon to warn any bypasses.</text>
 						</event>

@@ -267,7 +267,7 @@
 		<reveal_map/>
 	</event>
 	<event>
-		<text>After a short time alone with the commando, you are told he wishes to join the crew. Although you are surprised at the commandos willingness to swap allegiances, you trust your crew members' judgement about him.</text>
+		<text>After a short time alone with the commando, you are told he wishes to join the crew. Although you are surprised at the commandos willingness to swap allegiances, you trust your crew members' judgment about him.</text>
 		<crewMember amount="1" class="mantis"/>  
 		<autoReward level="MED">stuff</autoReward>
 	</event>
@@ -1389,7 +1389,7 @@
 <textList name="CE_PDS_MANTIS_TEXT">
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You ventured deep into Mantis space and discover what must be one of the main hive clusters in this sector. The planetary hatcheries are so densely populated that the computer can not calculate how many of the aliens are actually bred here.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You arrive in close vicinity of yet another newly established Mantis colony. Hatcheries are build, warships are constructed in orbit and the insectoid beings have already set up planetary defenses. You wonder if these creatures might actually be a greater threat to the Galaxy than the Rebels.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You drop into realspace and have to mark another unlicensed Mantis colony on the star chart. This clearly violates the Post Federation-Mantis War treaty. If the Federation survives the Rebellion, it will have to bring down the hammer on these insectoid beings once more.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You drop into real-space and have to mark another unlicensed Mantis colony on the star chart. This clearly violates the Post Federation-Mantis War treaty. If the Federation survives the Rebellion, it will have to bring down the hammer on these insectoid beings once more.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">A major Mantis settlement hails you and a unformed officer in appears on your receiver.  "What is the meaning of this foolish transgression? You invaded our domain and will be punished!"</text>
 </textList>
 

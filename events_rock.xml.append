@@ -628,7 +628,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the ship's crew dead you salvage the ship before contacting the Zoltans.</text>
+		<text>With the ship's crew dead you salvage the ship before contacting the Zoltan.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1926,7 +1926,7 @@
 	<choice hidden="true">
 		<text>Attempt evasive maneuvers.</text>
 		<event>
-			<text>The ship's turning circle proves too wide and the mine bites down onto the hull. You can hear it now, chewing through the armour.</text>
+			<text>The ship's turning circle proves too wide and the mine bites down onto the hull. You can hear it now, chewing through the armor.</text>
 			<choice hidden="true">
 				<text>Send someone out there to defuse it.</text>
 				<event load="ROCK_STARSHIP_MINE_DEFUSE"/>
@@ -1963,7 +1963,7 @@
 	<choice req="AE_ADV_THRUSTERS" hidden="true"> 
 		<text>(Advanced Proximity Navigation) Let the navigation AI take over.</text>
 		<event>
-			<text>Your navigation AI confuses the mine with a complex set of randomized meneuvers. Youe manage to get out of its homing range and prepare to jump away.</text>
+			<text>Your navigation AI confuses the mine with a complex set of randomized maneuvers. You manage to get out of its homing range and prepare to jump away.</text>
 		</event>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -2190,7 +2190,7 @@
 	<text>Identifying a Rock colony in a nearby asteroid field, you signal once more that you are friendly. They fire a few unarmed warning-missiles as a response.</text>
 	<text>Upon arrival, you realize that you jumped a few clicks off the mark. Better this way: At the far side of the beacon lies a asteroid patch harboring a small Rock colony. They send threatening messages and demand that you leave immediately.</text>
 	<text>As your ship slips into real-space you detect an small asteroid patch, almost completely depleted of its natural resources. The Rock mining colony inside it refuses all hails. Passive scans show their stores are full of materials.</text>
-	<text>You receive hail from within a large asteroid field nearby. "This mining area and the adjectant habitats are off limits. Leave now, foreigners!"</text>
+	<text>You receive hail from within a large asteroid field nearby. "This mining area and the adjacent habitats are off-limits. Leave now, foreigners!"</text>
 </textList>
 
 <event name="BS_EVENT_ROCK_OUTPOST" unique="false">
@@ -2370,9 +2370,9 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_ROCK_OUTPOST_SUN_TEXT">
-	<text>A completely scorched Rock outpost orbits this late stage M star. It seemes to have lasted here for a while, your ships computer calculate that fleeing is a viable option here.</text>
+	<text>A completely scorched Rock outpost orbits this late stage M star. It seems to have lasted here for a while; your ship's computer calculates that fleeing is a viable option here.</text>
 	<text>You arrive to find yourself extremely close to a star and receive a message from a Rock outpost: "We drift into the gravitational well of our mother sun. We shall disable your ship and use it as a lifeboat." Weapon lock detected!</text>
-	<text>A Rock outpost is orbiting this late stage sun. They hail: "You interrupt our transcendence. We will fire upon you till you leave, so that we can melt with our mother in peace." They charge their weapons.</text>
+	<text>A Rock outpost is orbiting this late stage sun. They hail: "You interrupt our transcendence. We will fire upon you until you leave, so that we can melt with our mother in peace." They charge their weapons.</text>
 </textList>
  
 
@@ -2504,11 +2504,11 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collision while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collision while the Rock ship remains completely unscathed.</text>
 		<damage amount="3"/>
 	</event>
 </eventList>
@@ -2518,7 +2518,7 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collision while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 </eventList>
@@ -2531,7 +2531,7 @@
 		<text>You fire the engines and are lucky enough to actually evade a direct collision. That was close.</text>
 	</event>
 	<event>
-		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collison while the Rock ship remains completely unscathed.</text>
+		<text>You fire the engines but are unable to evade the mad Rock captain. The ship hull groans under the collision while the Rock ship remains completely unscathed.</text>
 		<damage amount="2"/>
 	</event>
 </eventList>
