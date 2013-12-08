@@ -7660,8 +7660,8 @@
 	<text>You overhear a conversation on the neighboring table "So... you lost your interceptor?" "Been drifting for two standard weeks in the escape pod" "What happened?" "Maul beam hit to the cockpit. Almost took my arms off." "Tough luck." "Tactics, they knew our maneuverability was our strongest advantage."</text>
 	<text>The canteen is pretty empty, but their sidewinder fang isn't that bad.</text>
 	<text>A refugee buys you a second drink. He escaped from a nearby pirate sector and is glad to have found a better life here. Pirates burned down his crops and his whole family was starving for months. Food rations must be in high demand there.</text>
-	<text>As you get your stuff you notice the bartenders tentacles are shaking. "Sorry Cap. Been working too long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At last I did not went insane like some of my friends."</text>
-	<text>As you get your stuff you notice the bartenders tentacles are shaking. "Sorry Cap. Been working to long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At last I did not went insane like some of my friends."</text>
+	<text>As you get your stuff you notice the bartender's tentacles are shaking. "Sorry, Cap. Been working too long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At least I did not go insane like some of my friends."</text>
+	<text>As you get your stuff you notice the bartender's tentacles are shaking. "Sorry, Cap. Been working to long in the nebula. The chief tried to get as much pharmaceuticals as possible to keep us safe from the magnetic sickness. But it was we never had enough. At least I did not go insane like some of my friends."</text>
 	<text>You are having a double nebula rake. Some union traders talk about the profit they made with exporting beacon parts to the expanding Mantis swarms.</text>
 	<text>You are having a slime cocktail. A young Slug compliments on your choice of beverage and you have a little chat. He claims that he is employed in ship construction in the home nebula. Work is slow, they never can get enough raw ore for hulls.</text>
 	<text>The bartender is happy to meet a Federation person. She tells you her story: After slaving away in a coreworld factory she later made a fortune by exporting luxury goods to the Slug nebula and bought this old station to settle down for good.</text>
@@ -11304,7 +11304,7 @@
 <!-- CE EVENTS -->
 
 <event name="CE_BOARDERS_TRAITOR" unique="true">
-	<text planet="NONE">Your jump leads to a remarkable binary star system. The view is beautiful, but there is nothing else around. As you wait for the FTL to charge, you suddenly feel the cold barrel of a blaster-gun pressed into your neck. "Sorry Captain, I was spying for the Rebels all along and I have already informed the fleet of your position. A patrol ship is on its way." Treason!</text>
+	<text planet="NONE">Your jump leads to a remarkable binary star system. The view is beautiful, but there is nothing else around. As you wait for the FTL to charge, you suddenly feel the cold barrel of a blaster-gun pressed into your neck. "Sorry, Captain, I was spying for the Rebels all along and I have already informed the fleet of your position. A patrol ship is on its way." Treason!</text>
 	<choice hidden="true">
 		<text>Security Alert!</text>
 		<event load="CE_BOARDERS_TRAITOR_FIGHT_LIST"/>

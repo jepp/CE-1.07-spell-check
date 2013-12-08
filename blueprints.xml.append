@@ -373,7 +373,7 @@
 
 <augBlueprint name="AE_REPAIR_KIT">
 	<title>Hull Repair Kit</title>
-	<desc>Enables en rout ship maintenance and hull repairs. Requires an empty beacon.</desc>
+	<desc>Enables en route ship maintenance and hull repairs. Requires an empty beacon.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
 	<rarity>2</rarity>
