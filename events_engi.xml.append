@@ -841,7 +841,7 @@
 	<choice req="SCRAP_COLLECTOR" hidden="true">
 		<text>(Scrap Recovery Arm) Use your dedicated equipment to gather as much useful scrap as possible.</text> 
 		<event>
-			<text>It appears the field has been picked through by many others before. You gather	everything you can and prepare to jump.</text>
+			<text>It appears the field has been picked through by many others before. You gather everything you can and prepare to jump.</text>
 			<autoReward level="MED">scrap_only</autoReward>
 		</event>
 	</choice>
