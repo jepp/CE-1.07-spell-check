@@ -1279,7 +1279,7 @@
 
 
 <event name="ROCK_ATHIEST" unique="true">
-	<text>You encounter a small craft with minimal propulsion; its Rock crew-member explains that the Rock home-world is run on lies and propaganda that keep the populace in check, and that they want no part of it.</text>
+	<text>You encounter a small craft with minimal propulsion; its Rock crew member explains that the Rock home-world is run on lies and propaganda that keep the populace in check, and that they want no part of it.</text>
 	<ship load="ROCK_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>Tell them their god sent them here to join your crew.</text>
@@ -2310,7 +2310,7 @@
 </event>
 <textList name="BS_EVENT_ROCK_OUTPOST_ASTEROID_TEXT">
 	<text>A heavily defended Rock station has drifted with this beacon into an massive asteroid field. The installment seems to have no problems with the constant barrage of stones and dirt. They kindly inform you: "This is the personal asteroid mine of the Grand Basilisk of Molten Nero VII. Trespassers will be shot." They load weapons.</text>
-	<text>Jumping in you have to pull to starboard hard to avoid a massive asteroid floating right in the middle of this field. Only then you realize that you just narrowly avoided colliding with a Rock outpost. You are instantly hailed "We accept your challenge, feeble Aliens. Load your weapons." Seems your maneuver provoked them.</text>
+	<text>Jumping in you have to pull to starboard hard to avoid a massive asteroid floating right in the middle of this field. Only then you realize that you just narrowly avoided colliding with a Rock outpost. You are instantly hailed: "We accept your challenge, feeble aliens. Load your weapons." Seems your maneuver provoked them.</text>
 	<text>You can tell from the look of its hull plating that the fully weaponized Rock outpost in this asteroid field has resisted the stone-barrage here for ages. You receive a hail: "These are our holy grounds. No infidels shall escape our wrath." Looks like you will have to battle it out with them.</text>
 </textList>
 
@@ -2384,7 +2384,7 @@
 	</choice>
 </event>
 <textList name="CE_ROCK_MILITARY_TEXT">
-	<text>Rock territory is full uf unexpected dangers. You jump right into a fleet scale military exercise. Luckily, the Rock admirals seem to view you only as a minor disturbance and just dispatch a single warship against you.</text>
+	<text>Rock territory is full of unexpected dangers. You jump right into a fleet scale military exercise. Luckily, the Rock admirals seem to view you only as a minor disturbance and just dispatch a single warship against you.</text>
 	<text>The jump completes and you find yourself alone in open space. But while you run the usual internal scans a huge Rock military ship escorted by a few support vessels jump in and hails: "Outlaw vessel, we have tolerated your incursion long enough. Your invasion of our domain ends here."</text>
 </textList>
 

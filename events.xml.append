@@ -1925,14 +1925,14 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew) Send your Rock crew-member to prevent a riot.</text>
+		<text>(Rock Crew) Send your Rock crew member to prevent a riot.</text>
 		<event>
 			<text>It's unlikely the Rock's impressive immune system is susceptible to a human virus so you send it in. It is able to intimidate the workers long enough for the colony forces to set up a quarantine. Their leaders offer a reward and assure you they will try to find a cure as soon as possible.</text>
 			<autoReward level="MED">stuff</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="ghost">
-		<text>(AI Avatar Crew) Send your AI crew-member to render some aid.</text>
+		<text>(AI Avatar Crew) Send your AI crew member to render some aid.</text>
 		<event>
 			<text>Holograms are immune to any disease. You upgrade the AI with an emergency medical program and send it in to help. After the miners verbally state the nature of the medical emergency the AI calculates the best course of action. The personal submits to quarantine and the colony leaders offer a reward.</text>
 			<autoReward level="MED">stuff</autoReward>
@@ -3588,7 +3588,7 @@
 	<choice hidden="true" req="engi">
 		<text>(Engi Crew) Remotely repair its targeting system.</text>
 		<event>
-			<text>Your crew-member is able to remotely fix the glitch in the defense AI, allowing the repair crew to close in and finish the job. The station gives you its thanks along with a reward.</text>	
+			<text>Your crew member is able to remotely fix the glitch in the defense AI, allowing the repair crew to close in and finish the job. The station gives you its thanks along with a reward.</text>	
 			<autoReward level="HIGH">standard</autoReward>
 		</event>
 	</choice>
@@ -3719,7 +3719,7 @@
 		</event>		
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew) Send your Rock crew-member in.</text>
+		<text>(Rock Crew) Send your Rock crew member in.</text>
 		<event>
 			<text>Your Rock soldier tears through the airlock directly into the fire. You've never seen someone that large move that fast. It disperses as much fire suppressant as possible into the heart of the blaze and eventually the fires start to die down.</text>
 			<choice hidden="true">
@@ -4303,7 +4303,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your new crew-member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard!</text>
+		<text>Your new crew member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard!</text>
 		<boarders min="2" max="2" class="human"/>
 		<damage amount="3"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4520,7 +4520,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew-member. Red Alert!</text>
+		<text>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew member. Red Alert!</text>
 		<boarders min="1" max="1" class="human"/>
 		<crewMember amount="-1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4633,7 +4633,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your new crew-member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard!</text>
+		<text>Your new crew member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard!</text>
 		<boarders min="2" max="2" class="human"/>
 		<damage amount="3"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4853,7 +4853,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew-member. Red Alert!</text>
+		<text>The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew member. Red Alert!</text>
 		<boarders min="1" max="1" class="human"/>
 		<crewMember amount="-1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -8687,7 +8687,7 @@
 		<choice>
 			<text>Spend more time to collect the additional materials.</text>
 			<event>
-				<text>You slowly circle around the beacon several times and have your crew keep track of all the drifting parts that seem valuable. The stuff you collect isn't bad, but you lost a lot of time and your Rebel pursuers will be catching up with you sooner now."</text>
+				<text>You slowly circle around the beacon several times and have your crew keep track of all the drifting parts that seem valuable. The stuff you collect isn't bad, but you lost a lot of time and your Rebel pursuers will be catching up with you sooner now.</text>
 				<modifyPursuit amount="1"/>
 				<autoReward level="RANDOM">standard</autoReward>
 			</event>
@@ -12588,7 +12588,7 @@
 	</choice>
 </event>
 <textList name="CE_STRAY_FLEET_TEXT">
-	<text planet="PLANET_UNPOPULATED">A devastated Federation cruiser squadron is recharging their jump drives in high orbit. They respond to your hails. "We are trying to get to the Federation base to make our last stand. We know about your mission, but all we can spare is some equipment. Good luck!"</text>
+	<text planet="PLANET_UNPOPULATED">A devastated Federation cruiser squadron is recharging their jump drives in high orbit. They respond to your hails: "We are trying to get to the Federation base to make our last stand. We know about your mission, but all we can spare is some equipment. Good luck!"</text>
 	<text>The smoking remains of a Federation battalion is limping towards this beacon. The ships all show heavy damage, some are losing oxygen through hull breaches, others can only power impulse drives. A bomber with weapon systems damaged beyond repair agrees to transfer its still intact equipment to you.</text>
 	<text>You run into a stray squadron of the Federation performing emergency repairs at this beacon. They are in fast retreat, but can spare some supplies to aid you in your mission.</text>
 	<text>A young commander of a stray Federation squadron hails you: "We advise you to evade the fleet at RA 14h03m05.83s. Make contact with fleet command once you reached the Federation Base. Staying with this squadron will make you easier to find. Be on your way now, and good luck!" They transfer some equipment to help.</text>
@@ -12678,7 +12678,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>"Nice try, Captain. We appreciate it. My crew and me come from a nearby colony... please tell our loved ones what happened here. Now save yourselves!" They transmit their black-box data and cut communication. You try to focus on getting your ship out of here.</text>
+				<text>"Nice try, Captain. We appreciate it. My crew and I come from a nearby colony. Please tell our loved ones what happened here. Now save yourselves!" They transmit their black-box data and cut communication. You try to focus on getting your ship out of here.</text>
 			<quest event="CE_DISTRESS_SUN_FAMILY_RETURN"/>
 			<status type="limit" target="enemy" system="shields" amount="0"/>
 			<status type="limit" target="enemy" system="engines" amount="0"/>
@@ -12701,7 +12701,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>"Nice try, Captain. We appreciate it. My crew and me come from a nearby colony... please tell our loved ones what happened here. Now save yourselves!" They transmit their black-box data and cut communication. You try to focus on getting your ship out of here.</text>
+				<text>"Nice try, Captain. We appreciate it. My crew and I come from a nearby colony. Please tell our loved ones what happened here. Now save yourselves!" They transmit their black-box data and cut communication. You try to focus on getting your ship out of here.</text>
 			<quest event="CE_DISTRESS_SUN_FAMILY_RETURN"/>
 			<status type="limit" target="enemy" system="shields" amount="0"/>
 			<status type="limit" target="enemy" system="engines" amount="0"/>
@@ -12731,10 +12731,10 @@
 </eventList>
 <eventList name="CE_DISTRESS_SUN_FAMILY_RETURN">
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
+		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened to their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened of their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank your for informing them and offer a compensation for your efforts.</text>
+		<text planet="PLANET_POPULATED_SMALL">The news you are supposed to deliver here are grim. After hearing what happened to their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank your for informing them and offer a compensation for your efforts.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 </eventList>
@@ -14642,7 +14642,7 @@ IDEAS
 <textList name="SE_START_BEACON_CIVILIAN_HOME_TEXT">
 	<text>Since the beginning of the Rebellion, Federation control has faded in the core worlds. Several main planets have declared independence and some local militia might even cooperate with the Rebels. You better lay low here.</text>
 	<text>You arrive in a bustling core sector. Hundreds of small trade ships dot the horizon and your scans show several planets with millions of inhabitants nearby. Let's hope the local militias let you pass their territories without problems.</text>
-	<text>Independent militia and local gangs have taken over this busy core sector after the Federation had to withdrew. Some individuals remain loyal to the old order, but you probably can't trust everyone here.</text>
+	<text>Independent militia and local gangs have taken over this busy core sector after the Federation had to withdraw. Some individuals remain loyal to the old order, but you probably can't trust everyone here.</text>
 	<text>You arrive in an independent sector that tries to remain neutral in the war. The individuals here mostly care about keeping their businesses running. Let's hope the Rebel fleet pursuing you does not disturb them too much.</text>
 </textList>
 
@@ -15388,7 +15388,7 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>A heated discussion among your crew concerning your moral integrity leads to one of your crewmen pulling a blaster on you. You draw faster and your crew-member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
+		<text>A heated discussion among your crew concerning your moral integrity leads to one of your crewmen pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<crewMember amount="-1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -16075,7 +16075,7 @@ IDEAS
 </event>
 <textList name="CE_PDS_CIV_TEXT">
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">Another busy core planet lies in front of you. The planetary government has outsourced its defense sector to private contractors. Seems these are more than on friendly terms with the Rebels.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">After jump completion, the dock control of this densely populated planet hails you. "The Rebel fleet has put a price on your head. You are a wanted criminal. We will bring you in, alive or dead". Seems you won't make many friends here.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">After jump completion, the dock control of this densely populated planet hails you: "The Rebel fleet has put a price on your head. You are a wanted criminal. We will bring you in, alive or dead". Seems you won't make many friends here.</text>
 </textList>
 
 <eventList name="CE_PDS_CIV_LIST">

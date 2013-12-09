@@ -1067,7 +1067,7 @@
 			<choice hidden="true">
 				<text>Leave your crew member behind.</text>
 				<event>
-					<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew-member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+					<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
 					<autoReward level="MED">fuel</autoReward>
 				</event>
 			</choice>
@@ -1136,7 +1136,7 @@
 					<choice hidden="true">
 						<text>Leave your crew member behind.</text>
 						<event>
-							<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew-member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+							<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
 							<autoReward level="HIGH">fuel</autoReward>
 						</event>
 					</choice>
@@ -1200,7 +1200,7 @@
 					<choice hidden="true">
 						<text>Wait.</text>
 						<event>
-							<text>Another cycle passes while the Rebel fleet draws ever nearer. You contact the captain again. "Alien Captain, your knowledge of our customs has most impressed us. Your crew-member is on their way back to you now, along with a token of our respect."</text>
+							<text>Another cycle passes while the Rebel fleet draws ever nearer. You contact the captain again. "Alien Captain, your knowledge of our customs has most impressed us. Your crew member is on their way back to you now, along with a token of our respect."</text>
 							<modifyPursuit amount="1"/>
 							<autoReward level="HIGH">augment</autoReward>
 							<weapon name="CRYSTAL_HEAVY_2"/>

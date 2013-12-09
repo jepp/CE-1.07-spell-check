@@ -1560,7 +1560,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewmen pulling a blaster on you. You draw faster and your crew-member slumps dead to the cold metal floor. No one on the bridge says a word, everyone is just returning to their stations. You go to your quarters and wonder how it has come to this.</text>
+		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewmen pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone is just returning to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<crewMember amount="-1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>

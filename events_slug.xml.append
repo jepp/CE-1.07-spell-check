@@ -3306,7 +3306,7 @@
 
 
 <event name="BS_EVENT_SLUG_HACK_NEBULA" unique="true">
-	<text>You are hailed by a well armed Slug station. "Coming here was a missstake. Nothing personal but we will scrap your ship for our own profit. We have a very neoliberal economy here you know?"</text>
+	<text>You are hailed by a well-armed Slug station. "Coming here was a misstake. Nothing perssonal but we will sscrap your sship for our own profit. We have a very neoliberal economy here you know?"</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
 		<text>Get in an attack vector.</text>

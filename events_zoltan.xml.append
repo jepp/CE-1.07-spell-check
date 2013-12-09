@@ -2562,12 +2562,12 @@
 		</choice>
 	</event>
 	<event>
-		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewmen pulling a blaster on you. You draw faster and your crew-member slumps dead to the cold metal floor. No one on the bridge says a word, everyone is just returning to their stations. You go to your quarters and wonder how it has come to this.</text>
+		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewmen pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone is just returning to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<crewMember amount="-1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You strip the ship of useful materials. Several crew-member file in formal complains on how you handle things. Do you feel guilty?</text>
+		<text>You strip the ship of useful materials. Several crew member file in formal complains on how you handle things. Do you feel guilty?</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
@@ -2885,7 +2885,7 @@
 </event>
 <textList name="CE_PDS_ZOLTAN_TEXT">
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You drop into real space near a Zoltan settled planet and receive a worrying message: "Our counsel has deducted that your arrival in our sector will bring only destruction. We ask you to leave and will empathizes our request with a defense ship and artillery beams. For deterrence only of course."</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The small zoltan garrison on this planet hails you as soon as you arrive: "Federation vessel. Several incidents in this sector during the last cycles suggest you came here with ill intentions. We will prevent you from bringing your filthy violence to our world at all cost." Seems they plan to do this via artillery beams.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The small Zoltan garrison on this planet hails you as soon as you arrive: "Federation vessel. Several incidents in this sector during the last cycles suggest you came here with ill intentions. We will prevent you from bringing your filthy violence to our world at all cost." Seems they plan to do this via artillery beams.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You arrive near another Zoltan planet and receive a automated hail: "This world has democratically decided to remain neutral in the current conflict. All arriving vessels, Rebel or Federation, will be deterred with equal force. We ask you politely to leave and send a ship against you to show that we mean it."</text>
 </textList>
 

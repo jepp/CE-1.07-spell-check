@@ -2677,7 +2677,7 @@
 	<title>Fire Bomb Mark I</title>
 	<short>Fire B. I</short>
 	<locked>1</locked>
-	<desc>Small self-teleporting explosive designed to damage crew-members and ignite fires. Can target your own ship.</desc>
+	<desc>Small self-teleporting explosive designed to damage crew members and ignite fires. Can target your own ship.</desc>
 	<tooltip>Bomb weapon; requires a missile; deals damage to crew and has a good chance to lights fires. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -2863,7 +2863,7 @@
 	<title>Fire Cluster Bomb</title>
 	<short>Fire C.B.</short>
 	<locked>1</locked>
-	<desc>Deploys 3 small self-teleporting explosives that are designed to damage crew-members and ignite fires.</desc>
+	<desc>Deploys 3 small self-teleporting explosives that are designed to damage crew members and ignite fires.</desc>
 	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that deal damage to crew and have a good chance to lights fires each.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -8284,7 +8284,7 @@
 	<title>Fire Bomb Mark II</title>
 	<short>Fire B. II</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive designed to damage crew-members and light fires. Can target your own ship.</desc>
+	<desc>Self-teleporting explosive designed to damage crew members and light fires. Can target your own ship.</desc>
 	<tooltip>Bomb weapon; requires a missile; does no damage but lights fires. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>

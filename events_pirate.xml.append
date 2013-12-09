@@ -573,10 +573,10 @@
 
 
 <event name="PIRATE_SLAVER" unique="false">
-	<text>An especially well-armed pirate ship approaches you. "Hand over one of your crew-members and the rest of you can go free unharmed"</text>
+	<text>An especially well-armed pirate ship approaches you. "Hand over one of your crew members and the rest of you can go free unharmed"</text>
 	<ship load="PIRATE_SLAVER" hostile="false"/>
 	<choice hidden="true">
-		<text>Draw straws and send a crew-member over to the slavers.</text>
+		<text>Draw straws and send a crew member over to the slavers.</text>
 		<event>
 			<crewMember amount="-1"/>
 		</event>
